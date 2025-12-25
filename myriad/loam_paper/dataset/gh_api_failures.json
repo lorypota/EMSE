@@ -1,0 +1,17 @@
+[
+ {
+  "name": "chromium/chromium",
+  "category": "GUI",
+  "exclusivity": null
+ },
+ {
+  "name": "tensorflow/tensorflow",
+  "category": "AI/ML",
+  "exclusivity": "dear-ai"
+ },
+ {
+  "name": "torvalds/linux",
+  "category": "other",
+  "exclusivity": null
+ }
+]

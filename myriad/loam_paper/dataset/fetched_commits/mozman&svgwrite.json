@@ -1,0 +1,6079 @@
+{
+  "repo": "mozman/svgwrite",
+  "commits": [
+    {
+      "sha": "cd10a7ed1982de77ba85ff4556e154187d7f14bc",
+      "date": "2022-07-14T13:59:39Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "2caf82012e7b7ae26046504bd39b4b6100b901a3",
+      "date": "2022-07-14T13:52:36Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/deploy_source.yml",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "fd77e9c94f78a3f063bb6888b73cdab879c0d2e5",
+      "date": "2022-07-14T13:49:04Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/deploy_source.yml"
+      ]
+    },
+    {
+      "sha": "c202162e33ce3072a866331223496d9ba36bd33f",
+      "date": "2022-07-14T13:43:04Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/deploy_source.yml"
+      ]
+    },
+    {
+      "sha": "6b36f0851173cfd4c1ec67aa6632388979c05978",
+      "date": "2022-07-14T13:36:03Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "README.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "e52d22013c1f7bd909b5230b0c9007946bb63016",
+      "date": "2022-07-14T13:34:26Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "f47f68ed1ba4466ce3f2c4c5d4022470f35c37f9",
+      "date": "2022-07-14T13:27:53Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/data/full11.py",
+        "svgwrite/shapes.py",
+        "tests/test_polyline.py"
+      ]
+    },
+    {
+      "sha": "c64a72859e01e10dfd986da5e9c3c343f30056cb",
+      "date": "2022-07-13T14:18:27Z",
+      "author_login": "normanrz",
+      "author_name": "Norman Rzepka",
+      "author_email": "code@normanrz.com",
+      "files": [
+        "svgwrite/data/full11.py",
+        "svgwrite/shapes.py",
+        "tests/test_polyline.py"
+      ]
+    },
+    {
+      "sha": "020de0fe62b136295df39a3813975df6a4ebeaa7",
+      "date": "2022-07-13T14:04:26Z",
+      "author_login": "normanrz",
+      "author_name": "Norman Rzepka",
+      "author_email": "code@normanrz.com",
+      "files": [
+        "tests/test_polyline.py"
+      ]
+    },
+    {
+      "sha": "0bc9f24e943cbd59017b4986d737f0c2e89abf6a",
+      "date": "2022-07-13T10:55:13Z",
+      "author_login": "normanrz",
+      "author_name": "Norman Rzepka",
+      "author_email": "code@normanrz.com",
+      "files": [
+        "tests/test_polyline.py"
+      ]
+    },
+    {
+      "sha": "cc938e018b828bdfa84a3911439bb55dd20651b5",
+      "date": "2022-07-12T20:17:41Z",
+      "author_login": "normanrz",
+      "author_name": "Norman Rzepka",
+      "author_email": "code@normanrz.com",
+      "files": [
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "a3c1832fa423438f4d0ab607b2d1039e6d47ac62",
+      "date": "2022-05-05T01:02:25Z",
+      "author_login": "dbready",
+      "author_name": "Damien Ready",
+      "author_email": "dbready@gmail.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "e2617741ab018956e638e18aa21827405bd8edd1",
+      "date": "2022-03-23T05:16:49Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst"
+      ]
+    },
+    {
+      "sha": "775081f571a21a59c3cb88a7b37477340dc00a7a",
+      "date": "2022-03-23T05:07:54Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "README.rst",
+        "setup.py",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "cd77506eb8535107a959a22d2c365f92085de749",
+      "date": "2022-03-23T04:56:42Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/data/svgparser.py",
+        "tests/test_animation_timing_parser.py"
+      ]
+    },
+    {
+      "sha": "ffcc9a3e82465fd8a9a23840def89830106b8b4b",
+      "date": "2022-03-23T04:51:37Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/testrunner.yml"
+      ]
+    },
+    {
+      "sha": "7db71d7198b0c59efbf6ddc38e1b7e77d768a529",
+      "date": "2022-03-23T04:48:00Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/testrunner.yml"
+      ]
+    },
+    {
+      "sha": "1eba915e5f7be8a4d78eb61d23171a7c1d36b4f9",
+      "date": "2022-03-22T10:59:35Z",
+      "author_login": "Natureshadow",
+      "author_name": "Dominik George",
+      "author_email": "nik@naturalnet.de",
+      "files": [
+        "svgwrite/data/svgparser.py",
+        "tests/test_animation_timing_parser.py"
+      ]
+    },
+    {
+      "sha": "c8cbf6f615910b3818ccf939fce0e407c9c789cb",
+      "date": "2021-01-15T09:37:52Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "85316b44099538d0f37c2c36e104036829f6e005",
+      "date": "2021-01-15T09:32:09Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "README.rst",
+        "doc/index.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "db39a307bb2cf3b330591b98952d39bd0db08b64",
+      "date": "2021-01-15T09:06:16Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "tests/test_pathdataparser.py"
+      ]
+    },
+    {
+      "sha": "15b92af506e4d2ff8b8e6ae32e9d2c9a138eb975",
+      "date": "2021-01-15T09:02:17Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "3cbe019df195e4fe4642da6bf8e29eca4ccbb79c",
+      "date": "2021-01-15T08:59:56Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "tests/test_pathdataparser.py"
+      ]
+    },
+    {
+      "sha": "60169831d8079ff9a05aced7978c92990ec67ac8",
+      "date": "2021-01-15T08:57:40Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/data/tiny12.py"
+      ]
+    },
+    {
+      "sha": "ea504ef8414103f6da33cafb1e15d3de53ff7f02",
+      "date": "2021-01-15T08:51:56Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "examples/LSystem.py",
+        "examples/koch_snowflake.py",
+        "examples/ltattrie/color_triangles_function.py",
+        "examples/ltattrie/tenticles.py",
+        "examples/ltattrie/tiling_part_1.py",
+        "examples/ltattrie/tiling_part_4.py",
+        "examples/ltattrie/tiling_part_5.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/mandelbrot.py",
+        "svgwrite/extensions/shapes.py",
+        "svgwrite/gradients.py",
+        "tests/test_full11_typechecker.py"
+      ]
+    },
+    {
+      "sha": "588a6d634a84cce1446d84e5519866b8220ed9de",
+      "date": "2021-01-15T08:49:52Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "examples/LSystem.py",
+        "examples/basic_shapes.py",
+        "examples/checkerboard.py",
+        "examples/fePointLight.py",
+        "examples/hyperlink.py",
+        "examples/koch_snowflake.py",
+        "examples/linearGradient.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/mandelbrot.py",
+        "examples/marker.py",
+        "examples/pattern.py",
+        "examples/radialGradient.py",
+        "examples/simple_text.py",
+        "examples/solidcolor.py",
+        "examples/use.py",
+        "setup.py",
+        "svgwrite/utils.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "2c2a04faafcd6f5e2b5de670c1c513aeaef5657d",
+      "date": "2021-01-14T18:35:19Z",
+      "author_login": "eumiro",
+      "author_name": "Miroslav \u0160ediv\u00fd",
+      "author_email": "6774676+eumiro@users.noreply.github.com",
+      "files": [
+        "examples/LSystem.py",
+        "examples/koch_snowflake.py",
+        "examples/ltattrie/color_triangles_function.py",
+        "examples/ltattrie/tenticles.py",
+        "examples/ltattrie/tiling_part_1.py",
+        "examples/ltattrie/tiling_part_4.py",
+        "examples/ltattrie/tiling_part_5.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/mandelbrot.py",
+        "svgwrite/extensions/shapes.py",
+        "svgwrite/gradients.py",
+        "tests/test_full11_typechecker.py"
+      ]
+    },
+    {
+      "sha": "49d2ed65fd91e30ea49be7ece25d8e65e9ade10e",
+      "date": "2021-01-14T18:08:32Z",
+      "author_login": "eumiro",
+      "author_name": "Miroslav \u0160ediv\u00fd",
+      "author_email": "6774676+eumiro@users.noreply.github.com",
+      "files": [
+        "examples/LSystem.py",
+        "examples/basic_shapes.py",
+        "examples/checkerboard.py",
+        "examples/fePointLight.py",
+        "examples/hyperlink.py",
+        "examples/koch_snowflake.py",
+        "examples/linearGradient.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/mandelbrot.py",
+        "examples/marker.py",
+        "examples/pattern.py",
+        "examples/radialGradient.py",
+        "examples/simple_text.py",
+        "examples/solidcolor.py",
+        "examples/use.py",
+        "setup.py",
+        "svgwrite/utils.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "3ad4126ae3b5c86739ed547b9a83cf143f5bdeeb",
+      "date": "2020-12-26T03:14:50Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "doc/classes/filters.rst",
+        "doc/classes/shapes.rst"
+      ]
+    },
+    {
+      "sha": "19176ee03885913afc807cb305a1930b8f666974",
+      "date": "2020-12-25T20:13:27Z",
+      "author_login": "resloved",
+      "author_name": "Ben Friesen",
+      "author_email": "bfriesenwork@gmail.com",
+      "files": [
+        "doc/classes/filters.rst",
+        "doc/classes/shapes.rst"
+      ]
+    },
+    {
+      "sha": "bd19d75f930a3b6e939aa3b4ae4a0b053f7b334f",
+      "date": "2020-12-18T16:26:34Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/testrunner.yml"
+      ]
+    },
+    {
+      "sha": "ada0e9d45cc2e811cd4083a51d2ed83ed25fa3c9",
+      "date": "2020-12-18T13:57:11Z",
+      "author_login": "PaulCordo",
+      "author_name": "Paul Cordonnier",
+      "author_email": "paul@paulcordonnier.com",
+      "files": [
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "6b73e45842cb67bc93ff18d35169a0a91ebce783",
+      "date": "2020-12-14T04:03:06Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/testrunner.yml"
+      ]
+    },
+    {
+      "sha": "5fbe1e7ec9964c531e6ff398759bc10ba0afaf55",
+      "date": "2020-12-14T03:56:49Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/python-package.yml"
+      ]
+    },
+    {
+      "sha": "b698713e516033fcdf79f4213ada1c9021bc0024",
+      "date": "2020-12-14T03:48:50Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/python-package.yml",
+        ".gitignore"
+      ]
+    },
+    {
+      "sha": "c6eed4a2fa374f7508a248131393d3dd8e1ca5d7",
+      "date": "2020-12-14T03:44:00Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/python-package.yml",
+        "setup.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "625acbfe9487ee68992df9c70e9bc8b351ee00ee",
+      "date": "2020-11-05T07:57:31Z",
+      "author_login": "Wlouiskroeger",
+      "author_name": "louis.kroeger",
+      "author_email": "louis.kroeger@wink.de",
+      "files": [
+        "svgwrite/data/tiny12.py"
+      ]
+    },
+    {
+      "sha": "95abb92204da36cc74577f315a84daaab3a9eba1",
+      "date": "2020-09-28T11:18:44Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/python-package.yml",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "ce36621eb7ced27bf5efdddebadd6eb33c12b830",
+      "date": "2020-09-28T11:08:34Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/python-package.yml"
+      ]
+    },
+    {
+      "sha": "24311494898256c7e3c3802d3578444368ff460d",
+      "date": "2020-09-28T11:05:38Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        ".github/workflows/python-package.yml"
+      ]
+    },
+    {
+      "sha": "41d3839ee204d5cd92896b1d0fddfba8eb268acc",
+      "date": "2020-09-27T15:57:59Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "examples/koch_snowflake.py",
+        "svgwrite/image.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "829ecb17fad2eda44d6bc43aca4c5666f2468fd1",
+      "date": "2020-09-27T15:44:43Z",
+      "author_login": "shlomif",
+      "author_name": "Shlomi Fish",
+      "author_email": "shlomif@shlomifish.org",
+      "files": [
+        "examples/koch_snowflake.py",
+        "svgwrite/image.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "1b4d0ffe48fb35742acafc08f254a37881ff0225",
+      "date": "2020-08-11T04:01:19Z",
+      "author_login": "nathan-muir",
+      "author_name": "Nathan Muir",
+      "author_email": "nathan.muir@3stack.com",
+      "files": [
+        "tests/test_pathdataparser.py"
+      ]
+    },
+    {
+      "sha": "9f66e4c13268d07ee15ab48a39e74a54b391c959",
+      "date": "2020-03-30T11:01:54Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "examples/hyperlink.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/simple_text.py",
+        "examples/using_shapes_extension.py",
+        "issues/2017-01-24 issue 1 text-decoration/test_issue_1.py",
+        "svgwrite/drawing.py",
+        "tests/test_drawing.py",
+        "tests/test_pretty_xml.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "1ca54ae528fd159d75788a1e66426dc7d992e110",
+      "date": "2020-03-30T11:00:34Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "examples/clickable_image.py",
+        "makedata/cache.py",
+        "makedata/maketiny12data.py"
+      ]
+    },
+    {
+      "sha": "abdda900b8281cd70bd757c5b99a8b3a2ebce401",
+      "date": "2020-03-30T10:04:18Z",
+      "author_login": null,
+      "author_name": "Bastien Vallet",
+      "author_email": "b.vallet@criteo.com",
+      "files": [
+        "examples/clickable_image.py",
+        "makedata/cache.py",
+        "makedata/maketiny12data.py"
+      ]
+    },
+    {
+      "sha": "c6f11feb88f8a3c121b82f7dd742f616f9a48923",
+      "date": "2020-03-30T07:41:15Z",
+      "author_login": null,
+      "author_name": "Bastien Vallet",
+      "author_email": "b.vallet@criteo.com",
+      "files": [
+        "examples/hyperlink.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/simple_text.py",
+        "examples/using_shapes_extension.py",
+        "issues/2017-01-24 issue 1 text-decoration/test_issue_1.py",
+        "svgwrite/drawing.py",
+        "tests/test_drawing.py",
+        "tests/test_pretty_xml.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "b7b6c6a319d8aff3034b3df9d3184f5d8c5c5f60",
+      "date": "2020-03-28T15:17:32Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "setup.cfg"
+      ]
+    },
+    {
+      "sha": "c95543ce5f296b5fbd0fd6fff4586ecce84d3d01",
+      "date": "2020-03-28T15:09:23Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "94c4765d4da7cbb9026b43ac485c353f2a73340d",
+      "date": "2020-03-22T08:48:45Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst"
+      ]
+    },
+    {
+      "sha": "60f407c7521b2be2a16e1b9fd170b37f133a1c78",
+      "date": "2020-03-22T08:46:51Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "doc/overview.rst"
+      ]
+    },
+    {
+      "sha": "6d624bc88fb805062035b3db9029fff9ba2710a0",
+      "date": "2020-03-22T04:17:19Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/path.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "tests/test_pretty_xml.py",
+        "tests/test_shapes_extension.py",
+        "tests/test_text.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "67a9d32991b888b1d69ee4f599e366d00a5f6a2d",
+      "date": "2020-03-22T04:03:52Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "examples/clickable_image.py",
+        "pytest.ini",
+        "release.bat",
+        "sdist.bat",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/version.py",
+        "test.bat",
+        "test27.bat",
+        "test35.bat",
+        "test36.bat",
+        "test37.bat",
+        "testpypy.bat",
+        "upload.bat"
+      ]
+    },
+    {
+      "sha": "670941a442bf54d20c9dba79deb46ac483fc6e23",
+      "date": "2020-03-22T03:46:11Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "MANIFEST.in",
+        "doc/reference.rst",
+        "requirements.txt",
+        "setup.py",
+        "svgwrite/data/svgparser.py",
+        "tests/test_clock_val_parser.py",
+        "tests/test_parsing_basic_types.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "e140d2196beb53c0add65a1d1094916568361dbf",
+      "date": "2020-03-21T15:19:45Z",
+      "author_login": "florianfesti",
+      "author_name": "Florian Festi",
+      "author_email": "florian@festi.info",
+      "files": [
+        "MANIFEST.in",
+        "doc/reference.rst",
+        "requirements.txt",
+        "setup.py",
+        "svgwrite/data/svgparser.py",
+        "tests/test_clock_val_parser.py",
+        "tests/test_parsing_basic_types.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "bdaa3632122eedeac797100da0a1a38a500d5225",
+      "date": "2020-03-14T04:19:45Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/version.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "ec81c74db7c13c010bbcd33ede54083d039bf7c0",
+      "date": "2020-03-14T03:52:23Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/data/svgparser.py",
+        "tests/test_pathdataparser.py"
+      ]
+    },
+    {
+      "sha": "ffb46da4386410c049268447ecb2ff39bbc6198d",
+      "date": "2020-03-13T17:34:09Z",
+      "author_login": "florianfesti",
+      "author_name": "Florian Festi",
+      "author_email": "florian@festi.info",
+      "files": [
+        "svgwrite/data/svgparser.py"
+      ]
+    },
+    {
+      "sha": "9a84079ae20f8098af477429d65ae19585f962ca",
+      "date": "2020-03-13T17:33:57Z",
+      "author_login": "florianfesti",
+      "author_name": "Florian Festi",
+      "author_email": "florian@festi.info",
+      "files": [
+        "tests/test_pathdataparser.py"
+      ]
+    },
+    {
+      "sha": "36ec11ccf3275c6ab9156625d322def9c324e090",
+      "date": "2019-11-06T04:24:45Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "tests/test_pretty_xml.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "a09ee988870cfdad62d08211b3a57f6d1c9377f9",
+      "date": "2019-09-25T02:12:24Z",
+      "author_login": "jamadagni",
+      "author_name": "Shriramana Sharma",
+      "author_email": "samjnaa@gmail.com",
+      "files": [
+        "doc/overview.rst"
+      ]
+    },
+    {
+      "sha": "b8e96b0155968b87385d8fb9a8f8d6c33b45e182",
+      "date": "2019-09-25T02:12:09Z",
+      "author_login": "jamadagni",
+      "author_name": "Shriramana Sharma",
+      "author_email": "samjnaa@gmail.com",
+      "files": [
+        "doc/overview.rst"
+      ]
+    },
+    {
+      "sha": "bb766b4ed73392154c5b8578fb317ffde1301167",
+      "date": "2019-06-28T12:01:49Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "13633ad13d7a4b3253d1304d31db8fc2c8d1dd9e",
+      "date": "2019-06-28T11:52:39Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "00074d34a80b7241ec0b12343c7af2eae98e0c09",
+      "date": "2019-06-28T11:44:52Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/container.py"
+      ]
+    },
+    {
+      "sha": "f2807c3cc4ef688da2139bd4419f9dd73bf40b4e",
+      "date": "2019-06-28T11:40:21Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "93ac662ea91481f9d5b650b61af0646383ec24de",
+      "date": "2019-06-24T08:51:37Z",
+      "author_login": "vojtechtrefny",
+      "author_name": "Vojtech Trefny",
+      "author_email": "vtrefny@redhat.com",
+      "files": [
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "2778ee6b23f14eaeaa8983eea84a58975a16e920",
+      "date": "2019-06-28T04:01:30Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "README.rst",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "524687b19a64cc7611c695cb986b717650f33f1f",
+      "date": "2019-06-23T03:52:20Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "9f883a977bced7396c902139e333bd22375c077c",
+      "date": "2019-06-23T03:44:33Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "d844507a622b22398da8e4f3c6e7705e78bec787",
+      "date": "2019-06-23T03:33:55Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "b7073cc8cbfcb409a5d08f3b670bccc1a9696d59",
+      "date": "2019-06-23T03:24:58Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "tests/test_gradients.py",
+        "tests/test_marker_class.py",
+        "tests/test_xlink.py"
+      ]
+    },
+    {
+      "sha": "79e45a64f89233fe02a5b5a02d4d3c1a1d95bd96",
+      "date": "2019-06-23T03:11:07Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/data/tiny12.py"
+      ]
+    },
+    {
+      "sha": "195749767c8bb336091f16b8b5bde84679a4dd2d",
+      "date": "2019-06-23T03:10:54Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/data/tiny12.py"
+      ]
+    },
+    {
+      "sha": "aaeda7aefd83086f49767247ed58296331dadf1d",
+      "date": "2019-06-23T03:10:48Z",
+      "author_login": "mozman",
+      "author_name": "mozman",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/__init__.py",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "144ea45cd18fbafec4cc33b98cdcb82ce7aa5a85",
+      "date": "2019-06-23T02:57:02Z",
+      "author_login": "mozman",
+      "author_name": "Manfred Moitzi",
+      "author_email": "me@mozman.at",
+      "files": [
+        "svgwrite/drawing.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "9dd5df9b02b8630a2d587b61da81650279451958",
+      "date": "2019-06-22T21:28:20Z",
+      "author_login": "mitar",
+      "author_name": "Mitar",
+      "author_email": "mitar.github@tnode.com",
+      "files": [
+        "svgwrite/data/tiny12.py"
+      ]
+    },
+    {
+      "sha": "f653ada36955a55f19d6248e1d9fecd3a116de91",
+      "date": "2019-06-22T20:11:10Z",
+      "author_login": "mitar",
+      "author_name": "Mitar",
+      "author_email": "mitar.github@tnode.com",
+      "files": [
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "ce980a09b688c62fddc4251ffc3bb166a07b86b4",
+      "date": "2019-06-22T20:08:12Z",
+      "author_login": "mitar",
+      "author_name": "Mitar",
+      "author_email": "mitar.github@tnode.com",
+      "files": [
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "f30568404f61b59e4a90de88b58a71f4802730cb",
+      "date": "2019-05-07T05:44:22Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "examples/using_shapes_extension.py",
+        "svgwrite/extensions/__init__.py",
+        "svgwrite/extensions/shapes.py"
+      ]
+    },
+    {
+      "sha": "6c678bbf79cc18bb780f7db8aa50b11c0aa2cf34",
+      "date": "2019-05-07T04:48:08Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/using_shapes_extension.py",
+        "svgwrite/extensions/shapes.py",
+        "tests/test_shapes_extension.py"
+      ]
+    },
+    {
+      "sha": "49d844bcfc0d63dab6a50ace3ffb74e603ed414a",
+      "date": "2019-05-06T14:38:10Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/using_shapes_extension.py",
+        "svgwrite/extensions/__init__.py",
+        "svgwrite/extensions/shapes.py",
+        "tests/test_shapes_extension.py"
+      ]
+    },
+    {
+      "sha": "1484fd8a2e266ee95a7988e2d5f939822a27fc9a",
+      "date": "2019-05-06T08:38:34Z",
+      "author_login": "cghanke",
+      "author_name": "Induhvidual",
+      "author_email": "github@induhviduals.de",
+      "files": [
+        "examples/regularPolygon.py",
+        "examples/using_shapes_extension.py",
+        "svgwrite/extensions/__init__.py",
+        "svgwrite/extensions/polygons.py",
+        "svgwrite/extensions/shapes.py",
+        "tests/test_polygons_extension.py",
+        "tests/test_shapes_extension.py"
+      ]
+    },
+    {
+      "sha": "241bfd9bfd91850d3948d10a319fd05be03c970a",
+      "date": "2019-05-02T05:24:28Z",
+      "author_login": "cghanke",
+      "author_name": "Induhvidual",
+      "author_email": "github@induhviduals.de",
+      "files": [
+        "examples/regularPolygon.py",
+        "svgwrite/extensions/__init__.py",
+        "svgwrite/extensions/polygons.py",
+        "tests/test_polygons_extension.py"
+      ]
+    },
+    {
+      "sha": "befbf723ec2adf1d45bce2c3d344ad7747dcf2b1",
+      "date": "2019-05-01T07:27:50Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/version.py"
+      ]
+    },
+    {
+      "sha": "580ff37c8c30ca617b828a8552289754db15df9b",
+      "date": "2019-05-01T07:09:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".gitignore",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "164809a5a164809dbd0a10fbc3bb41adf33e597c",
+      "date": "2019-05-01T06:52:22Z",
+      "author_login": "cghanke",
+      "author_name": "Induhvidual",
+      "author_email": "github@induhviduals.de",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "db6b5a83824ea774c49e180c71aa4e198da717a7",
+      "date": "2019-05-01T06:31:35Z",
+      "author_login": "cghanke",
+      "author_name": "Induhvidual",
+      "author_email": "github@induhviduals.de",
+      "files": [
+        ".gitignore"
+      ]
+    },
+    {
+      "sha": "225f264e3564ea8e7db7ec4a7d0f84614eb16467",
+      "date": "2019-03-23T04:53:33Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "d076be4b478546e3d96f4a1b296b7eb8d397cc8c",
+      "date": "2019-03-23T04:52:04Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst"
+      ]
+    },
+    {
+      "sha": "2f15988fb8da9996fdec9f2553941f62e0088dff",
+      "date": "2019-03-23T04:48:16Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "fbbc7198f4c5ba7f4750163a344d39587be91278",
+      "date": "2019-03-21T03:24:06Z",
+      "author_login": "nathanwoody",
+      "author_name": "jupyter-space",
+      "author_email": "nathan@nathanwoody.com",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "9d509fe1842e519b8d8475f83543a7589b7c1879",
+      "date": "2018-11-30T07:21:00Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/conf.py",
+        "release.bat",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/version.py",
+        "upload.bat"
+      ]
+    },
+    {
+      "sha": "83d51a0665157cf0e37139df1b5e10cffea563a5",
+      "date": "2018-11-29T06:47:10Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "README.rst",
+        "sdist.bat",
+        "setup.py",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "9f4d0845165985048c21a4849633b53a9f03e05d",
+      "date": "2018-11-28T05:34:39Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/svg.rst",
+        "svgwrite/container.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "62714d60994a682e7d080593dd3fd96f6d7bd2ef",
+      "date": "2018-11-28T05:18:07Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/container.py"
+      ]
+    },
+    {
+      "sha": "c29f8d1b86c486abda19204b0d1c1fbfcd53797f",
+      "date": "2018-11-27T08:26:53Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/overview.rst"
+      ]
+    },
+    {
+      "sha": "0062c3c72e053eacac86c3a6bb264169db24c01c",
+      "date": "2018-11-27T08:05:25Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/basic_shapes.svg",
+        "examples/using_fonts.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "7b7a57ee50c4ee12f436112b27ebda0e339add0e",
+      "date": "2018-11-27T07:51:49Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "examples/fonts/IndieFlower.ttf",
+        "examples/fonts/OFL.txt",
+        "examples/using_fonts.py",
+        "svgwrite/container.py",
+        "svgwrite/utils.py",
+        "tests/test_style.py"
+      ]
+    },
+    {
+      "sha": "ef45932ff8890be8090a302df7d102c76d99de6e",
+      "date": "2018-11-16T04:19:58Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "c00f640ee9a5a97bcd13576688c75a7260c85e5b",
+      "date": "2018-11-16T04:17:27Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst"
+      ]
+    },
+    {
+      "sha": "52b356175e6880bd0221bc56802fbe6f7a056793",
+      "date": "2018-11-16T04:09:49Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/utils.py",
+        "tests/test_pretty_xml.py"
+      ]
+    },
+    {
+      "sha": "07d9d898b12b7d0596a2b2effc1a4f865ba25a94",
+      "date": "2018-11-09T04:48:35Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "f317eb8c3fa713b90efd6a6ad05d08ecf1791ea0",
+      "date": "2018-11-07T06:26:02Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "clickable_image.py"
+      ]
+    },
+    {
+      "sha": "079ed2b677bf06e78a68e05252a9033cbb33cda5",
+      "date": "2018-11-07T06:10:08Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "clickable_image.py"
+      ]
+    },
+    {
+      "sha": "4f9be0106088c7f1b00cdf1e8a69e1171a48aec5",
+      "date": "2018-11-07T05:30:00Z",
+      "author_login": null,
+      "author_name": "cclauss",
+      "author_email": "cclauss@bluewin.ch",
+      "files": [
+        "clickable_image.py"
+      ]
+    },
+    {
+      "sha": "6689c5e2b7c9740b747fcfddc8d5680892bd8c87",
+      "date": "2018-10-28T09:14:19Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "67c9a9203678792e1dc39d21510e387c4c2bc323",
+      "date": "2018-10-27T13:40:02Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "97e09c9b5817adaabf6e550535393663023db81d",
+      "date": "2018-10-27T13:37:19Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/extensions/inkscape.rst",
+        "doc/index.rst",
+        "examples/using_inkscape_extension.py"
+      ]
+    },
+    {
+      "sha": "e67141460d1b7aba5538c7a9e93318601fdbbd0d",
+      "date": "2018-10-03T08:49:10Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "setup.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "bd177b480af344592ad9fae8f79a7e661f740647",
+      "date": "2018-10-03T08:41:43Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "tests/test_inkscape_extension.py"
+      ]
+    },
+    {
+      "sha": "10abffc45452d3529598a7424d30e9c8d5690853",
+      "date": "2018-10-03T08:05:06Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "test27.bat",
+        "test35.bat",
+        "test36.bat",
+        "test37.bat",
+        "testpypy.bat"
+      ]
+    },
+    {
+      "sha": "12de1df868848faf768b07b6d63b4042bdae2b67",
+      "date": "2018-10-03T07:54:07Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/data/typechecker.py",
+        "test.bat",
+        "test37.bat"
+      ]
+    },
+    {
+      "sha": "d8868451312461cace04d4444f8bd17698ceb04e",
+      "date": "2018-09-30T06:10:36Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/reference.rst"
+      ]
+    },
+    {
+      "sha": "8a24498af4734d837ffe7d44f89e0df89864098a",
+      "date": "2018-09-30T06:06:42Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "examples/using_inkscape_extension.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/extensions/__init__.py",
+        "svgwrite/extensions/inkscape.py",
+        "tests/test_inkscape_extension.py"
+      ]
+    },
+    {
+      "sha": "a7c1f2a34fb14e4da74c47c5b7c04ca15027d59c",
+      "date": "2018-08-06T04:55:54Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/using_bitmap_images.py"
+      ]
+    },
+    {
+      "sha": "e5d44d03119f8ad6dc83347ba012b2d3cc877f9b",
+      "date": "2018-08-06T04:00:11Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/using_bitmap_images.py"
+      ]
+    },
+    {
+      "sha": "6ffa065746fe82e9ff34d46598cb60cccdcaf395",
+      "date": "2018-08-06T03:44:58Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/inkscape_drawing.py"
+      ]
+    },
+    {
+      "sha": "5ce5ed51c094223043644bed7fd89e8d7ccdc91f",
+      "date": "2018-02-10T06:28:50Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.rst",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "c6dac6c185b63baacc2412e5e3bad80e48775dd0",
+      "date": "2017-12-27T07:01:36Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "setup.py",
+        "test.bat"
+      ]
+    },
+    {
+      "sha": "322b63fea163c63d8909cbe9c867ae381ddd57c6",
+      "date": "2017-12-27T06:55:36Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/__init__.py",
+        "svgwrite/data/typechecker.py",
+        "tests/test_animate.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "f8b80df3a71caabb704a273c875c2a8907eb991d",
+      "date": "2017-12-26T08:27:55Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/animate.py",
+        "tests/test_animate.py",
+        "tests/test_full11_typechecker.py"
+      ]
+    },
+    {
+      "sha": "0e95d1e15ab3e369f291cfe07bfaf340962a438b",
+      "date": "2017-12-26T08:06:01Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.rst",
+        "examples/basic_shapes.py",
+        "examples/basic_shapes.svg",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/data/types.py",
+        "svgwrite/validator2.py",
+        "tests/test_base_element.py",
+        "tests/test_circle.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "13a0f95e262a317b3e2d01b05fff02e5133134b9",
+      "date": "2017-05-31T03:20:53Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/typechecker.py",
+        "tests/test_text.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "bf7c02d0fcdcc4e68519b1919600ab5ba9629a43",
+      "date": "2017-05-05T10:53:52Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/hyperlink.py"
+      ]
+    },
+    {
+      "sha": "63ceb1dd052b028d6b8ca3516c921f279d87d315",
+      "date": "2017-04-06T05:50:16Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.rst",
+        "doc/classes/marker.rst",
+        "issues/2017-02-27 markers/marker.py",
+        "svgwrite/path.py"
+      ]
+    },
+    {
+      "sha": "0e65c57643c040e976e5f513cd83d6ce61d060e4",
+      "date": "2017-02-27T06:45:35Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "tests/test_markers_mixin.py"
+      ]
+    },
+    {
+      "sha": "f16bbf7e0353e6d48ae90608f4e52a4f116b374a",
+      "date": "2017-02-27T06:38:33Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "issues/2017-02-27 markers/marker.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/mixins.py",
+        "tests/test_markers_mixin.py"
+      ]
+    },
+    {
+      "sha": "83f9df7071a67913022f5227dca6ac931b925ad6",
+      "date": "2017-02-27T05:30:36Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "issues/2017-02-27 markers/marker.py",
+        "svgwrite/path.py"
+      ]
+    },
+    {
+      "sha": "e606a0c91d4f2e85aed4250aaccf4a05ea1b316f",
+      "date": "2017-01-28T09:14:55Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/utils.py",
+        "tests/__init__.py"
+      ]
+    },
+    {
+      "sha": "287b4b8ff971650730d1b06691455342cff4ed65",
+      "date": "2017-01-28T07:39:32Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "svgwrite/drawing.py",
+        "svgwrite/utils.py",
+        "tests/test_pretty_xml.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "0a2bff0247784f1099162633f910622845218907",
+      "date": "2017-01-28T06:26:22Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".gitignore",
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "ab24702e76e2feec31a98a8d2fff5946a24f984f",
+      "date": "2017-01-25T04:13:15Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/conf.py",
+        "doc/index.rst",
+        "examples/basic_shapes.py",
+        "examples/basic_shapes.svg",
+        "sdist.bat",
+        "setup.cfg",
+        "svgwrite/__init__.py",
+        "test.bat",
+        "test27.bat",
+        "test36.bat"
+      ]
+    },
+    {
+      "sha": "fd0d415503fc335fb9d2cc5b69b7ea1165ca7082",
+      "date": "2017-01-24T05:03:49Z",
+      "author_login": null,
+      "author_name": "mozman",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "issues/2016-12-30 issue 27 ignore profile/testcase.py",
+        "issues/2017-01-24 issue 1 text-decoration/test_issue_1.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "4e1dd59db566df510e55639fd87f2d4d6559594a",
+      "date": "2017-01-22T08:27:49Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "README.rst",
+        "issues/2016-12-30 issue 27 ignore profile/testcase.py",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "00054a1cd6ed31fe3eccd9b07ef0b28da071f763",
+      "date": "2016-12-08T10:05:00Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "setup.py",
+        "test.bat",
+        "test27.bat",
+        "test34.bat",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "d6f1ce8ec36c3dab6fcd7e1cf98c2c556ce25fcf",
+      "date": "2016-10-27T04:11:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "fd6665917ba22339a4041214a7b32d38f67cfc33",
+      "date": "2016-10-26T05:52:29Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "doc/classes/solidcolor.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "examples/solidcolor.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/solidcolor.py",
+        "tests/test_solid_color.py"
+      ]
+    },
+    {
+      "sha": "166c38140383b61413242633d1a4c6b2c0b92d9f",
+      "date": "2016-07-03T06:42:09Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/defs_test.py",
+        "examples/fePointLight.py",
+        "examples/ltattrie/circle_blur.py",
+        "examples/ltattrie/tiling_part_2.py",
+        "examples/ltattrie/tiling_part_3.py",
+        "examples/ltattrie/tiling_part_4.py",
+        "examples/ltattrie/tiling_part_5.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py"
+      ]
+    },
+    {
+      "sha": "a6e2c6112c2eb33735ddb5b8530e7548dd6ae4ce",
+      "date": "2016-05-31T05:15:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "847934e0c5e674afca000de00d4f6eba19568a1f",
+      "date": "2016-05-31T05:15:10Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.rst",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/gradients.py",
+        "svgwrite/image.py",
+        "svgwrite/masking.py",
+        "svgwrite/mixins.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py"
+      ]
+    },
+    {
+      "sha": "9fb424eca5db1dd6dc96548ac8a6e561ff96eff7",
+      "date": "2016-05-26T02:59:27Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "MANIFEST.in",
+        "NEWS.rst",
+        "README.rst",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "3a04e2f80bb4f75e28ea5f26494e818f9fc9a7c1",
+      "date": "2016-05-22T06:02:57Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "README.TXT",
+        "examples/basic_shapes.py",
+        "examples/marker.py",
+        "examples/simple_text.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/utils.py",
+        "test.bat",
+        "test32.bat",
+        "test35.bat",
+        "tests/test_full11_typechecker.py",
+        "tests/test_line.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "390cebb830cc15e76e326929aec2457e5d500070",
+      "date": "2016-05-22T06:02:13Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "test32.bat"
+      ]
+    },
+    {
+      "sha": "30e7cfd5d8a8cb17e788b531b32e7e1e512fa71c",
+      "date": "2016-05-22T05:56:42Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT"
+      ]
+    },
+    {
+      "sha": "2275e847fbe6c5ce0cb89618941d39da411666a2",
+      "date": "2016-05-22T05:52:27Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT",
+        "setup.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/utils.py",
+        "tests/test_full11_typechecker.py"
+      ]
+    },
+    {
+      "sha": "a1482490bf1150e05647801c202c154738d51a76",
+      "date": "2016-05-22T05:37:46Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "examples/basic_shapes.py",
+        "examples/marker.py",
+        "examples/simple_text.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/data/typechecker.py",
+        "test.bat",
+        "test35.bat",
+        "tests/test_line.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "3b90fef58352a126ebfd1353f6a6c65a1a61d8e7",
+      "date": "2015-07-09T11:49:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "c3cd65b44dd3f397f0528054bdb9ed0f30aab840",
+      "date": "2015-07-09T04:15:10Z",
+      "author_login": "suriya",
+      "author_name": "Suriya Subramanian",
+      "author_email": "suriya@users.noreply.github.com",
+      "files": [
+        ".hgignore",
+        "LICENSE.TXT",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "doc/Makefile",
+        "doc/_templates/layout.html",
+        "doc/attributes/animation_addition.rst",
+        "doc/attributes/animation_events.rst",
+        "doc/attributes/animation_target.rst",
+        "doc/attributes/animation_timing.rst",
+        "doc/attributes/animation_value.rst",
+        "doc/attributes/conditional_processing.rst",
+        "doc/attributes/core.rst",
+        "doc/attributes/document_event.rst",
+        "doc/attributes/graphical_event.rst",
+        "doc/attributes/presentation.rst",
+        "doc/attributes/xlink.rst",
+        "doc/classes/animate.rst",
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/fe_blend.rst",
+        "doc/classes/fe_color_matrix.rst",
+        "doc/classes/fe_component_transfer.rst",
+        "doc/classes/fe_composite.rst",
+        "doc/classes/fe_convolve_matrix.rst",
+        "doc/classes/fe_diffuse_lighting.rst",
+        "doc/classes/fe_displacement_map.rst",
+        "doc/classes/fe_flood.rst",
+        "doc/classes/fe_gaussian_blur.rst",
+        "doc/classes/fe_image.rst",
+        "doc/classes/fe_lights.rst",
+        "doc/classes/fe_merge.rst",
+        "doc/classes/fe_morphology.rst",
+        "doc/classes/fe_offset.rst",
+        "doc/classes/fe_specular_lighting.rst",
+        "doc/classes/fe_tile.rst",
+        "doc/classes/fe_turbulence.rst",
+        "doc/classes/filter_primitive.rst",
+        "doc/classes/filters.rst",
+        "doc/classes/gradients.rst",
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/marker.rst",
+        "doc/classes/masking.rst",
+        "doc/classes/mixins.rst",
+        "doc/classes/path.rst",
+        "doc/classes/pattern.rst",
+        "doc/classes/script.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/style.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/symbol.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "doc/make.bat",
+        "doc/overview.rst",
+        "doc/reference.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/utils.rst",
+        "examples/LSystem.py",
+        "examples/basic_shapes.py",
+        "examples/checkerboard.py",
+        "examples/defs_test.py",
+        "examples/fePointLight.py",
+        "examples/koch_snowflake.py",
+        "examples/linearGradient.py",
+        "examples/ltattrie/bezier.py",
+        "examples/ltattrie/circle_blur.py",
+        "examples/ltattrie/color_names.py",
+        "examples/ltattrie/color_triangles_function.py",
+        "examples/ltattrie/length_units.py",
+        "examples/ltattrie/line_cap_join.py",
+        "examples/ltattrie/rgb.txt",
+        "examples/ltattrie/runall.bat",
+        "examples/ltattrie/runall.sh",
+        "examples/ltattrie/runall3.bat",
+        "examples/ltattrie/tenticles.py",
+        "examples/ltattrie/text_font_generic_family.py",
+        "examples/ltattrie/text_font_size.py",
+        "examples/ltattrie/text_justify.py",
+        "examples/ltattrie/tiling_part_1.py",
+        "examples/ltattrie/tiling_part_2.py",
+        "examples/ltattrie/tiling_part_3.py",
+        "examples/ltattrie/tiling_part_4.py",
+        "examples/ltattrie/tiling_part_5.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/mandelbrot.py",
+        "examples/marker.py",
+        "examples/pattern.py",
+        "examples/radialGradient.py",
+        "examples/runall.bat",
+        "examples/runall.sh",
+        "examples/runall3.bat",
+        "examples/simple_text.py",
+        "examples/use.py",
+        "makedata/SVG11Full_propertyTable.html",
+        "makedata/SVG12Tiny_attributeTable.html",
+        "makedata/SVG12Tiny_elementTable.html",
+        "makedata/cache.py",
+        "makedata/full11attributes.py",
+        "makedata/full11elements.py",
+        "makedata/makefull11data.py",
+        "makedata/maketiny12data.py",
+        "makedata/oldfull11data.py",
+        "makedata/tiny12attributes.py",
+        "makedata/tiny12elements.py",
+        "makedata/tiny12typechecker.py",
+        "requirements.txt",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/__init__.py",
+        "svgwrite/data/colors.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/pattern.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/data/types.py",
+        "svgwrite/drawing.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/etree.py",
+        "svgwrite/filters.py",
+        "svgwrite/gradients.py",
+        "svgwrite/image.py",
+        "svgwrite/masking.py",
+        "svgwrite/mixins.py",
+        "svgwrite/params.py",
+        "svgwrite/path.py",
+        "svgwrite/pattern.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "test.bat",
+        "test27.bat",
+        "test32.bat",
+        "test34.bat",
+        "testpypy.bat",
+        "tests/__init__.py",
+        "tests/test_animate.py",
+        "tests/test_animation_timing_parser.py",
+        "tests/test_base_element.py",
+        "tests/test_circle.py",
+        "tests/test_clippath.py",
+        "tests/test_clipping.py",
+        "tests/test_clock_val_parser.py",
+        "tests/test_defs.py",
+        "tests/test_description.py",
+        "tests/test_drawing.py",
+        "tests/test_elementfactory.py",
+        "tests/test_ellipse.py",
+        "tests/test_filters.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_gradients.py",
+        "tests/test_group.py",
+        "tests/test_hyperlink.py",
+        "tests/test_image.py",
+        "tests/test_line.py",
+        "tests/test_marker_class.py",
+        "tests/test_markers_mixin.py",
+        "tests/test_mask.py",
+        "tests/test_mediagroup.py",
+        "tests/test_parameter.py",
+        "tests/test_parsing_basic_types.py",
+        "tests/test_path.py",
+        "tests/test_pathdataparser.py",
+        "tests/test_pattern.py",
+        "tests/test_polyline.py",
+        "tests/test_presentation.py",
+        "tests/test_rect.py",
+        "tests/test_script.py",
+        "tests/test_style.py",
+        "tests/test_svg.py",
+        "tests/test_svgattributes.py",
+        "tests/test_symbol.py",
+        "tests/test_text.py",
+        "tests/test_textarea.py",
+        "tests/test_tiny12_typechecker.py",
+        "tests/test_transform.py",
+        "tests/test_transformlistparser.py",
+        "tests/test_use.py",
+        "tests/test_utils.py",
+        "tests/test_validator2.py",
+        "tests/test_viewbox.py",
+        "tests/test_xlink.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "3154160e9a33a0c1356ac0a109e92c4f2521c269",
+      "date": "2014-05-30T05:13:41Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "4f62ddebf849b7a6551c38a0d920514a8eaa0417",
+      "date": "2014-05-30T05:13:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/data/svgparser.py",
+        "test.bat",
+        "test33.bat",
+        "test34.bat",
+        "tests/test_animate.py",
+        "tests/test_animation_timing_parser.py"
+      ]
+    },
+    {
+      "sha": "90ac949c2fea9343db5eb12d76c0ec98f8b87ef7",
+      "date": "2014-04-18T15:40:06Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "setup.py",
+        "svgwrite/container.py",
+        "svgwrite/filters.py",
+        "svgwrite/utils.py",
+        "test.bat",
+        "tests/test_filters.py"
+      ]
+    },
+    {
+      "sha": "b432322187c9adaf9be48d9d9c5d97b3bcc1e7d7",
+      "date": "2014-03-26T18:03:10Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "b2ae65226968ae54a744d088561ec4150284701d",
+      "date": "2014-03-26T18:02:58Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/etree.py",
+        "tests/test_base_element.py"
+      ]
+    },
+    {
+      "sha": "b574f833ca804a076be111965c846b9043812511",
+      "date": "2014-03-16T07:18:15Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "c325c83cb23b160b6cde5a6d492380e993c4ff0d",
+      "date": "2014-03-16T07:18:07Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "setup.py",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "5519ada9d73828a0085d9a511e17d3f9d32c2968",
+      "date": "2014-03-16T06:32:29Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "requirements.txt",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "8cd7b2f6c92a409f228da5faf4482ff868ee4411",
+      "date": "2014-03-13T23:07:38Z",
+      "author_login": null,
+      "author_name": "Julien Enselme",
+      "author_email": "jujens+github@jujens.eu",
+      "files": [
+        "tests/test_clock_val_parser.py",
+        "tests/test_parsing_basic_types.py"
+      ]
+    },
+    {
+      "sha": "963c954a3ada0eec00ff4b13cb9d628275c7b2d8",
+      "date": "2014-03-13T15:10:15Z",
+      "author_login": null,
+      "author_name": "Julien Enselme",
+      "author_email": "jujens+github@jujens.eu",
+      "files": [
+        "setup.py",
+        "svgwrite/data/pyparsing_py2.py",
+        "svgwrite/data/pyparsing_py3.py",
+        "svgwrite/data/svgparser.py"
+      ]
+    },
+    {
+      "sha": "b7e3044d2f86774f2d4ff05516e1bafa2035b0bc",
+      "date": "2014-01-24T04:51:12Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/marker.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/validator2.py",
+        "tests/test_textarea.py"
+      ]
+    },
+    {
+      "sha": "be6b6e3937288de569dcafc91756ebd048b43f0f",
+      "date": "2014-01-23T04:47:27Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/text.py"
+      ]
+    },
+    {
+      "sha": "bbdd38fa2f9ec7248a164d367caf4a635f5d7a42",
+      "date": "2014-01-17T08:10:41Z",
+      "author_login": "qbilius",
+      "author_name": "Jonas Kubilius",
+      "author_email": "qbilius@gmail.com",
+      "files": [
+        "svgwrite/text.py"
+      ]
+    },
+    {
+      "sha": "a31ca364b454e3ed7f3f5a5b0c670b654a7a7940",
+      "date": "2013-10-30T10:09:43Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "9aacfdf3449c299aa97bdc5f495407bad09f3281",
+      "date": "2013-10-30T10:09:33Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT"
+      ]
+    },
+    {
+      "sha": "c2d943b282c880b43302464b324f37440cb6e19e",
+      "date": "2013-10-29T07:08:28Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "svgwrite/__init__.py",
+        "svgwrite/data/pyparsing_py3.py",
+        "svgwrite/utils.py",
+        "tests/test_base_element.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "7f3e2d3141db2fbddbf3747603411a8d68146dd2",
+      "date": "2013-10-29T06:27:27Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/linearGradient.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/drawing.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/params.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "test.bat",
+        "testpypy.bat",
+        "tests/test_base_element.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_parameter.py",
+        "tests/test_parsing_basic_types.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "ee5378747cc0f6aa376a815f2f671af2d2736b97",
+      "date": "2013-07-08T03:46:29Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".idea/scopes/scope_settings.xml",
+        "examples/runall.bat",
+        "examples/runall3.bat",
+        "svgwrite/data/svgparser.py",
+        "test.bat",
+        "test27.bat",
+        "test32.bat",
+        "test33.bat",
+        "tests/test_clock_val_parser.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "49fa052d186b6c877c0fb4c0a9901c321884cfec",
+      "date": "2013-03-03T05:40:10Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "runtests.bat",
+        "svgwrite/data/typechecker.py",
+        "test27.bat",
+        "test32.bat",
+        "test33.bat",
+        "testpypy.bat",
+        "tests/__init__.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "4e3810bbe28e9981508dc81a9968edd032b8852e",
+      "date": "2013-03-03T04:56:41Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/typechecker.py",
+        "tests/test_animation_timing_parser.py",
+        "tests/test_pathdataparser.py",
+        "tests/test_transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "57d49af0175107aa2e1eb3bf5109952d5f907556",
+      "date": "2013-03-01T04:27:42Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/types.py",
+        "tests/test_animation_timing_parser.py"
+      ]
+    },
+    {
+      "sha": "2d81c686f5df49e34c81c1856cb82f0257c912d5",
+      "date": "2013-01-30T04:57:46Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11.py"
+      ]
+    },
+    {
+      "sha": "e9a1d2e429d8e688b1cbadf83d8b48ae4aaf8e65",
+      "date": "2013-01-08T16:57:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "20e9342a99ab10cf4be4d7d731e1caa3c7f49eb8",
+      "date": "2013-01-08T16:27:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "5952c36e2d91ca3c7aa17d65890f0e7731bbd2ea",
+      "date": "2013-01-08T16:26:22Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "4d4b3b2c8ab88d9bdabea10323a34030665fb75a",
+      "date": "2013-01-08T05:41:49Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/index.rst",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/data/types.py"
+      ]
+    },
+    {
+      "sha": "6cb79fc2d96eb9ea8dec8a7910dec04c9817dbab",
+      "date": "2012-08-15T07:47:30Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "24531d1ef37d24b30fec02f0ec12c4bf8eadd475",
+      "date": "2012-08-15T07:47:22Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "4c8e16662bb6c7143cdfe4c93f4d859235ba9d82",
+      "date": "2012-08-15T07:45:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "examples/checkerboard.py",
+        "examples/linearGradient.py",
+        "examples/marker.py",
+        "examples/pattern.py",
+        "examples/radialGradient.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "3c61ca3ab054e32261460dd97084e4fcb0f3c5a6",
+      "date": "2012-08-15T07:39:31Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "6d76dd06f6cf0d83c3b2a328bfc31f06e61f6012",
+      "date": "2012-08-15T07:39:05Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        ".idea/scopes/scope_settings.xml",
+        "LICENSE.TXT",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "doc/Makefile",
+        "doc/_templates/layout.html",
+        "doc/attributes/animation_addition.rst",
+        "doc/attributes/animation_events.rst",
+        "doc/attributes/animation_target.rst",
+        "doc/attributes/animation_timing.rst",
+        "doc/attributes/animation_value.rst",
+        "doc/attributes/conditional_processing.rst",
+        "doc/attributes/core.rst",
+        "doc/attributes/document_event.rst",
+        "doc/attributes/graphical_event.rst",
+        "doc/attributes/presentation.rst",
+        "doc/attributes/xlink.rst",
+        "doc/classes/animate.rst",
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/fe_blend.rst",
+        "doc/classes/fe_color_matrix.rst",
+        "doc/classes/fe_component_transfer.rst",
+        "doc/classes/fe_composite.rst",
+        "doc/classes/fe_convolve_matrix.rst",
+        "doc/classes/fe_diffuse_lighting.rst",
+        "doc/classes/fe_displacement_map.rst",
+        "doc/classes/fe_flood.rst",
+        "doc/classes/fe_gaussian_blur.rst",
+        "doc/classes/fe_image.rst",
+        "doc/classes/fe_lights.rst",
+        "doc/classes/fe_merge.rst",
+        "doc/classes/fe_morphology.rst",
+        "doc/classes/fe_offset.rst",
+        "doc/classes/fe_specular_lighting.rst",
+        "doc/classes/fe_tile.rst",
+        "doc/classes/fe_turbulence.rst",
+        "doc/classes/filter_primitive.rst",
+        "doc/classes/filters.rst",
+        "doc/classes/gradients.rst",
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/marker.rst",
+        "doc/classes/masking.rst",
+        "doc/classes/mixins.rst",
+        "doc/classes/path.rst",
+        "doc/classes/pattern.rst",
+        "doc/classes/script.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/style.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/symbol.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "doc/make.bat",
+        "doc/overview.rst",
+        "doc/reference.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/utils.rst",
+        "examples/LSystem.py",
+        "examples/basic_shapes.py",
+        "examples/checkerboard.py",
+        "examples/defs_test.py",
+        "examples/fePointLight.py",
+        "examples/koch_snowflake.py",
+        "examples/linearGradient.py",
+        "examples/ltattrie/bezier.py",
+        "examples/ltattrie/circle_blur.py",
+        "examples/ltattrie/color_names.py",
+        "examples/ltattrie/color_triangles_function.py",
+        "examples/ltattrie/length_units.py",
+        "examples/ltattrie/line_cap_join.py",
+        "examples/ltattrie/rgb.txt",
+        "examples/ltattrie/runall.bat",
+        "examples/ltattrie/runall.sh",
+        "examples/ltattrie/runall3.bat",
+        "examples/ltattrie/tenticles.py",
+        "examples/ltattrie/text_font_generic_family.py",
+        "examples/ltattrie/text_font_size.py",
+        "examples/ltattrie/text_justify.py",
+        "examples/ltattrie/tiling_part_1.py",
+        "examples/ltattrie/tiling_part_2.py",
+        "examples/ltattrie/tiling_part_3.py",
+        "examples/ltattrie/tiling_part_4.py",
+        "examples/ltattrie/tiling_part_5.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/mandelbrot.py",
+        "examples/marker.py",
+        "examples/pattern.py",
+        "examples/radialGradient.py",
+        "examples/runall.bat",
+        "examples/runall.sh",
+        "examples/runall3.bat",
+        "examples/simple_text.py",
+        "examples/use.py",
+        "makedata/SVG11Full_propertyTable.html",
+        "makedata/SVG12Tiny_attributeTable.html",
+        "makedata/SVG12Tiny_elementTable.html",
+        "makedata/cache.py",
+        "makedata/full11attributes.py",
+        "makedata/full11elements.py",
+        "makedata/makefull11data.py",
+        "makedata/maketiny12data.py",
+        "makedata/oldfull11data.py",
+        "makedata/tiny12attributes.py",
+        "makedata/tiny12elements.py",
+        "makedata/tiny12typechecker.py",
+        "runtests.bat",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/__init__.py",
+        "svgwrite/data/colors.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/pattern.py",
+        "svgwrite/data/pyparsing_py2.py",
+        "svgwrite/data/pyparsing_py3.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/data/types.py",
+        "svgwrite/drawing.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/etree.py",
+        "svgwrite/filters.py",
+        "svgwrite/gradients.py",
+        "svgwrite/image.py",
+        "svgwrite/masking.py",
+        "svgwrite/mixins.py",
+        "svgwrite/params.py",
+        "svgwrite/path.py",
+        "svgwrite/pattern.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "tests/test_animate.py",
+        "tests/test_animation_timing_parser.py",
+        "tests/test_base_element.py",
+        "tests/test_circle.py",
+        "tests/test_clippath.py",
+        "tests/test_clipping.py",
+        "tests/test_clock_val_parser.py",
+        "tests/test_defs.py",
+        "tests/test_description.py",
+        "tests/test_drawing.py",
+        "tests/test_elementfactory.py",
+        "tests/test_ellipse.py",
+        "tests/test_filters.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_gradients.py",
+        "tests/test_group.py",
+        "tests/test_hyperlink.py",
+        "tests/test_image.py",
+        "tests/test_line.py",
+        "tests/test_marker_class.py",
+        "tests/test_markers_mixin.py",
+        "tests/test_mask.py",
+        "tests/test_mediagroup.py",
+        "tests/test_parameter.py",
+        "tests/test_parsing_basic_types.py",
+        "tests/test_path.py",
+        "tests/test_pathdataparser.py",
+        "tests/test_pattern.py",
+        "tests/test_polyline.py",
+        "tests/test_presentation.py",
+        "tests/test_rect.py",
+        "tests/test_script.py",
+        "tests/test_style.py",
+        "tests/test_svg.py",
+        "tests/test_svgattributes.py",
+        "tests/test_symbol.py",
+        "tests/test_text.py",
+        "tests/test_textarea.py",
+        "tests/test_tiny12_typechecker.py",
+        "tests/test_transform.py",
+        "tests/test_transformlistparser.py",
+        "tests/test_use.py",
+        "tests/test_utils.py",
+        "tests/test_validator2.py",
+        "tests/test_viewbox.py",
+        "tests/test_xlink.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "84eed053b622026012c4f4bf6f0af94ac2775177",
+      "date": "2012-06-10T16:18:33Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT"
+      ]
+    },
+    {
+      "sha": "f255e89a1e949e6e2240d6ec26b1d109b4daee90",
+      "date": "2012-06-10T16:07:37Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/linearGradient.py",
+        "examples/marker.py",
+        "examples/pattern.py",
+        "examples/radialGradient.py",
+        "examples/runall.sh"
+      ]
+    },
+    {
+      "sha": "84b41c888b819e46735bc17c6ae9edd0ca1494b1",
+      "date": "2012-06-09T18:26:33Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/checkerboard.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "370c22db2e1d65d33673f6ea1fc2bf08f26cbacf",
+      "date": "2012-06-09T13:53:36Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/index.rst",
+        "doc/reference.rst",
+        "examples/checkerboard.py",
+        "svgwrite/__init__.py",
+        "svgwrite/elementfactory.py"
+      ]
+    },
+    {
+      "sha": "43d51bae0a6dca1cbbe85b498c6757bb8f276c9e",
+      "date": "2012-06-08T06:37:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "8a1546aa30dfd094b58e03a0704d17dc19241c5e",
+      "date": "2012-06-08T06:37:26Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py"
+      ]
+    },
+    {
+      "sha": "9911fad6a883231f8ce7c74707180e16c6029a1a",
+      "date": "2012-06-06T09:59:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/ltattrie/bezier.py",
+        "examples/ltattrie/circle_blur.py",
+        "examples/ltattrie/color_names.py",
+        "examples/ltattrie/length_units.py",
+        "examples/ltattrie/line_cap_join.py",
+        "examples/ltattrie/text_font_generic_family.py",
+        "examples/ltattrie/text_font_size.py",
+        "examples/ltattrie/text_justify.py"
+      ]
+    },
+    {
+      "sha": "9399c5a4984414a6c09538671f039ebee2fab7b0",
+      "date": "2012-06-06T09:11:31Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/ltattrie/circle_blur.py",
+        "examples/ltattrie/color_triangles_function.py",
+        "examples/ltattrie/example_bezier.py",
+        "examples/ltattrie/example_color_names.py",
+        "examples/ltattrie/example_length_units.py",
+        "examples/ltattrie/example_line_cap_join.py",
+        "examples/ltattrie/example_text_font_generic_family.py",
+        "examples/ltattrie/example_text_font_size.py",
+        "examples/ltattrie/example_text_justify.py",
+        "examples/ltattrie/tenticles.py",
+        "examples/ltattrie/tiling_part_1.py",
+        "examples/ltattrie/tiling_part_2.py",
+        "examples/ltattrie/tiling_part_3.py",
+        "examples/ltattrie/tiling_part_4.py",
+        "examples/ltattrie/tiling_part_5.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py"
+      ]
+    },
+    {
+      "sha": "2a336149ce7cffa010cd7ba5e439068023846df6",
+      "date": "2012-06-01T18:50:09Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/defs_test.py",
+        "examples/ltattrie/color_triangles_function.py",
+        "examples/ltattrie/example_bezier.py",
+        "examples/ltattrie/example_color_names.py",
+        "examples/ltattrie/example_length_units.py",
+        "examples/ltattrie/example_line_cap_join.py",
+        "examples/ltattrie/example_text_font_generic_family.py",
+        "examples/ltattrie/example_text_font_size.py",
+        "examples/ltattrie/example_text_justify.py",
+        "examples/ltattrie/rgb.txt",
+        "examples/ltattrie/runall.bat",
+        "examples/ltattrie/runall.sh",
+        "examples/ltattrie/runall3.bat",
+        "examples/ltattrie/tenticles.py",
+        "examples/ltattrie/xkcd_colour_data_svgwrite_3.py",
+        "examples/runall3.bat",
+        "examples/runall31.bat"
+      ]
+    },
+    {
+      "sha": "d65e2348d8aa5c2e5abf2b7de4a4a6d6749a440f",
+      "date": "2012-05-31T14:43:47Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11.py",
+        "svgwrite/data/tiny12.py"
+      ]
+    },
+    {
+      "sha": "08cf192b7573cedd3de6e816068c090dc1e69b95",
+      "date": "2012-05-30T07:48:24Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/__init__.py",
+        "svgwrite/mixins.py"
+      ]
+    },
+    {
+      "sha": "b5c0c85751b98c4490cf83961b89d57a934fc5d1",
+      "date": "2012-05-28T15:20:38Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/elementfactory.py"
+      ]
+    },
+    {
+      "sha": "f8098146d2a15aab7260cb97673def34d3bf7065",
+      "date": "2012-05-28T10:36:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/__init__.py",
+        "svgwrite/elementfactory.py"
+      ]
+    },
+    {
+      "sha": "4d2ad2715e5957d9177db70498f36e70e38ab943",
+      "date": "2012-05-28T10:18:59Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/drawing.rst",
+        "doc/classes/script.rst",
+        "doc/classes/style.rst",
+        "doc/index.rst",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "d7a9850e6982b5a827ec48c94c7d9ab737e3f2de",
+      "date": "2012-05-27T16:16:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/defs_test.py"
+      ]
+    },
+    {
+      "sha": "a28bbfd8635ba627aea3f706d1fffbd12e47237e",
+      "date": "2012-05-27T16:05:55Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/elementfactory.py",
+        "tests/test_script.py",
+        "tests/test_style.py"
+      ]
+    },
+    {
+      "sha": "be6b3c8de387976437ace29e4f33efc0a008612e",
+      "date": "2012-05-27T10:56:15Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT"
+      ]
+    },
+    {
+      "sha": "240418cc47e858a28d46ca7341a0c70200594bdf",
+      "date": "2012-05-27T07:05:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/etree.py",
+        "svgwrite/text.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "98b33de4d68d2a628d1f128cd633360cd1cfd007",
+      "date": "2012-05-27T07:04:22Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "3d9a245e269e626569c3992cf8a05b5c7c17f849",
+      "date": "2012-05-26T18:31:05Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/etree.py",
+        "tests/test_script.py"
+      ]
+    },
+    {
+      "sha": "c1a7b735467014a227a648517f70f195681afab2",
+      "date": "2012-05-26T07:41:14Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "README.TXT",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "tests/test_script.py"
+      ]
+    },
+    {
+      "sha": "37c61f0b79652c18addfd16355e39cd18211ccd8",
+      "date": "2012-05-25T19:13:05Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/script.rst",
+        "doc/index.rst",
+        "svgwrite/container.py",
+        "svgwrite/shapes.py",
+        "tests/test_script.py"
+      ]
+    },
+    {
+      "sha": "05173a47c936f1ed078fab9515e1da1ce941b660",
+      "date": "2012-05-14T08:30:58Z",
+      "author_login": "jmahmood",
+      "author_name": "Jawaad Mahmood",
+      "author_email": "ideas@jawaadmahmood.com",
+      "files": [
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/elementfactory.py",
+        "tests/test_drawing.py",
+        "tests/test_script.py"
+      ]
+    },
+    {
+      "sha": "57cd5e24051fd4e402f02fe73770243d6b5c2e24",
+      "date": "2012-05-14T06:58:43Z",
+      "author_login": "jmahmood",
+      "author_name": "Jawaad Mahmood",
+      "author_email": "ideas@jawaadmahmood.com",
+      "files": [
+        "svgwrite/drawing.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "fa8674fd439d60a7005a261e873660bf28b70587",
+      "date": "2011-12-31T07:31:37Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/simple_text.py"
+      ]
+    },
+    {
+      "sha": "126815c48ad1a22d4ae07e3c4fdbd3a7ba0c01dc",
+      "date": "2011-12-30T18:29:51Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "0751b7a95045151412ece6269a48bb88bfab1166",
+      "date": "2011-12-30T18:29:45Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".idea/scopes/scope_settings.xml",
+        "doc/attributes/core.rst",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "0400302a7c9e265a1f2d427792d2de88d7f4a634",
+      "date": "2011-12-30T10:13:01Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "TODO.TXT",
+        "doc/index.rst",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/drawing.py",
+        "svgwrite/utils.py",
+        "tests/test_drawing.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_text.py",
+        "tests/test_validator2.py",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "72e2b79851d3e0aa112b49e505499e62a2f2c0ff",
+      "date": "2011-12-30T03:45:32Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "tox.ini"
+      ]
+    },
+    {
+      "sha": "670ad734119b4e6985f5f50f2ea2d0a4c9e88803",
+      "date": "2011-02-07T06:38:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/conf.py",
+        "doc/index.rst"
+      ]
+    },
+    {
+      "sha": "654f2fc95b502dcf28ed7a4958ba66fffe8207ca",
+      "date": "2010-11-15T06:36:14Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/drawing.rst",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "7e502e4dba6317af11a420ce33ffc294c3bab88f",
+      "date": "2010-11-13T08:09:57Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "348b3296f5f66a0d30c68adebf98c2708b738280",
+      "date": "2010-11-13T08:09:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "TODO.TXT",
+        "examples/basic_shapes.py",
+        "tests/runall31.bat"
+      ]
+    },
+    {
+      "sha": "13f6b58f7b1f1f4b562c79312087411e34bd5bf1",
+      "date": "2010-11-10T19:53:00Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "TODO.TXT",
+        "tests/runall31.bat"
+      ]
+    },
+    {
+      "sha": "d38dcdc8456a67b20c95e92a93f2a0d2fefea368",
+      "date": "2010-11-10T12:35:54Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "tests/test_drawing.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "8062622f25576bc2b8056012da327f6d6339493f",
+      "date": "2010-11-10T10:50:32Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/simple_text.py",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "097a9b25ccbb28eabdbca2bf66d371a00346c2c2",
+      "date": "2010-11-10T06:05:11Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/drawing.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "648568d2431d18f583f6024fa8c2ee88e9d1c9ca",
+      "date": "2010-11-10T05:38:09Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "TODO.TXT",
+        "svgwrite/drawing.py",
+        "svgwrite/utils.py",
+        "tests/test_drawing.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "3df070eff63e2d42aaf0ad003495067136e5ccf7",
+      "date": "2010-11-09T23:15:12Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "setup.py",
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/path.py",
+        "svgwrite/text.py",
+        "tests/test_base_element.py",
+        "tests/test_clock_val_parser.py",
+        "tests/test_drawing.py",
+        "tests/test_polyline.py",
+        "tests/test_svgattributes.py"
+      ]
+    },
+    {
+      "sha": "319c4060dbae4556789da76909aea2c8b373e334",
+      "date": "2010-11-09T22:14:00Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/filters.py",
+        "svgwrite/gradients.py",
+        "svgwrite/mixins.py",
+        "svgwrite/pattern.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "908d8855cd3564766c84a57c1e69c556eba0cd6d",
+      "date": "2010-11-09T21:34:53Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples/runall31.bat"
+      ]
+    },
+    {
+      "sha": "113cd9113a88da3b55919e1ebf73212dc130f816",
+      "date": "2010-11-09T21:33:54Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "TODO.TXT",
+        "makedata/makefull11data.py",
+        "makedata/oldfull11data.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/pyparsing_py2.py",
+        "svgwrite/data/pyparsing_py3.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/data/types.py",
+        "svgwrite/drawing.py",
+        "svgwrite/mixins.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "tests/test_clock_val_parser.py",
+        "tests/test_parsing_basic_types.py",
+        "tests/test_polyline.py"
+      ]
+    },
+    {
+      "sha": "dc75ec1e51fe08cf7744c9884d8e4bb9d0e87af4",
+      "date": "2010-11-08T20:35:41Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "runtests.bat"
+      ]
+    },
+    {
+      "sha": "ea6b7f766ec555e7b94976feef41ae46570a32f9",
+      "date": "2010-11-08T20:19:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/shapes.rst",
+        "doc/conf.py",
+        "examples/basic_shapes.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/metadata.py"
+      ]
+    },
+    {
+      "sha": "c7b63caf2da666cc0e15c8a37d7e33dc4401761e",
+      "date": "2010-11-08T15:02:26Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/shapes.rst",
+        "examples/basic_shapes.py"
+      ]
+    },
+    {
+      "sha": "13a699157eaa0972427e30d1287a1ac111da0726",
+      "date": "2010-11-07T14:44:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "examples/runall.sh"
+      ]
+    },
+    {
+      "sha": "3b59c56327a99569751545a00d184cee0843a2ae",
+      "date": "2010-11-07T07:29:00Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "doc/classes/filters.rst",
+        "examples.py",
+        "examples/LSystem.py",
+        "examples/basic_shapes.py",
+        "examples/fePointLight.py",
+        "examples/koch_snowflake.py",
+        "examples/linearGradient.py",
+        "examples/mandelbrot.py",
+        "examples/marker.py",
+        "examples/pattern.py",
+        "examples/radialGradient.py",
+        "examples/runall.bat",
+        "examples/simple_text.py",
+        "examples/use.py",
+        "svgwrite/metadata.py"
+      ]
+    },
+    {
+      "sha": "cae5741e8f109fde1d144c0d28756974efd0815a",
+      "date": "2010-11-06T05:17:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/filters.rst",
+        "doc/index.rst",
+        "doc/overview.rst"
+      ]
+    },
+    {
+      "sha": "92780d08534a7067ae3a5e52aaa036d2fc149b9e",
+      "date": "2010-11-06T04:42:10Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/fe_composite.rst"
+      ]
+    },
+    {
+      "sha": "a0d65fb3e9225f1764b4fa7c429a401c0afc09d7",
+      "date": "2010-11-05T19:38:19Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "0215724c662fd6f06f05645c3115379844a62c0b",
+      "date": "2010-11-05T19:37:57Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT",
+        "examples.py"
+      ]
+    },
+    {
+      "sha": "bd9486cf8f24dcfc9f6c509345a11c05072154ab",
+      "date": "2010-11-05T16:58:19Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/animate.rst",
+        "doc/classes/filters.rst",
+        "doc/classes/gradients.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/marker.rst",
+        "doc/classes/masking.rst",
+        "doc/classes/pattern.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "runtests.bat"
+      ]
+    },
+    {
+      "sha": "63d4f2dbfea37797257d0a7630dd07af1ba14b62",
+      "date": "2010-11-05T15:46:47Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/animate.rst",
+        "doc/classes/fe_Composite.rst",
+        "doc/classes/fe_blend.rst",
+        "doc/classes/fe_convolve_matrix.rst",
+        "doc/classes/fe_diffuse_lighting.rst",
+        "doc/classes/fe_displacement_map.rst",
+        "doc/classes/fe_gaussian_blur.rst",
+        "doc/classes/fe_lights.rst",
+        "doc/classes/fe_specular_lighting.rst",
+        "doc/classes/fe_turbulence.rst",
+        "doc/classes/filter_primitive.rst",
+        "doc/classes/filters.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "examples/fePointLight.py",
+        "svgwrite/animate.py",
+        "svgwrite/filters.py",
+        "tests/test_animate.py",
+        "tests/test_filters.py"
+      ]
+    },
+    {
+      "sha": "568e6c14fc7072cd5adc613f03d8ab88b8031e12",
+      "date": "2010-11-05T10:29:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/interface.rst",
+        "doc/classes/mixins.rst",
+        "doc/index.rst",
+        "doc/overview.rst"
+      ]
+    },
+    {
+      "sha": "93e8da8ab1869464ec6935fd3b53672e41cab792",
+      "date": "2010-11-05T10:07:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/animate.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/filters.rst",
+        "doc/classes/gradients.rst",
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/interface.rst",
+        "doc/classes/marker.rst",
+        "doc/classes/masking.rst",
+        "doc/classes/path.rst",
+        "doc/classes/pattern.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/symbol.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "tests/test_transform.py",
+        "tests/test_viewbox.py",
+        "tests/test_xlink.py"
+      ]
+    },
+    {
+      "sha": "d52dbfab84b98e2ff90c1b3c9af7f820a2034f64",
+      "date": "2010-11-05T09:49:37Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/animate.py",
+        "svgwrite/container.py",
+        "svgwrite/filters.py",
+        "svgwrite/gradients.py",
+        "svgwrite/image.py",
+        "svgwrite/interface.py",
+        "svgwrite/masking.py",
+        "svgwrite/mixins.py",
+        "svgwrite/path.py",
+        "svgwrite/pattern.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "tests/test_defs.py",
+        "tests/test_group.py",
+        "tests/test_itransform.py",
+        "tests/test_iviewbox.py",
+        "tests/test_ixlink.py",
+        "tests/test_symbol.py",
+        "tests/test_use.py"
+      ]
+    },
+    {
+      "sha": "743ce60cf970d3c59103833c72abbc97afe6e622",
+      "date": "2010-11-05T09:25:36Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "MANIFEST.in",
+        "doc/_templates/layout.html",
+        "doc/classes/drawing.rst",
+        "doc/classes/fe_Composite.rst",
+        "doc/classes/fe_convolve_matrix.rst",
+        "doc/classes/fe_diffuse_lighting.rst",
+        "doc/classes/fe_displacement_map.rst",
+        "doc/classes/fe_flood.rst",
+        "doc/classes/fe_gaussian_blur.rst",
+        "doc/classes/fe_image.rst",
+        "doc/classes/fe_merge.rst",
+        "doc/classes/fe_morphology.rst",
+        "doc/classes/fe_offset.rst",
+        "doc/classes/fe_specular_lighting.rst",
+        "doc/classes/fe_tile.rst",
+        "doc/classes/fe_turbulence.rst",
+        "doc/classes/mixins.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "runtests.bat",
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/mixins.py"
+      ]
+    },
+    {
+      "sha": "ad8816bf8899ef6acef6a50ef30181aedf9c58f6",
+      "date": "2010-11-05T04:07:04Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "runtests.bat",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/drawing.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/filters.py",
+        "svgwrite/gradients.py",
+        "svgwrite/image.py",
+        "svgwrite/interface.py",
+        "svgwrite/masking.py",
+        "svgwrite/mixins.py",
+        "svgwrite/params.py",
+        "svgwrite/path.py",
+        "svgwrite/pattern.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py"
+      ]
+    },
+    {
+      "sha": "40db87e2d376dd39eda802b8a9d87de5ddbf6c22",
+      "date": "2010-11-04T20:36:28Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/fe_blend.rst",
+        "doc/classes/fe_color_matrix.rst",
+        "doc/classes/fe_component_transfer.rst",
+        "doc/classes/filter_primitive.rst",
+        "doc/classes/filters.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "svgwrite/filters.py"
+      ]
+    },
+    {
+      "sha": "694d4764b31e3157a675ba38d62b35cad5fdfd5c",
+      "date": "2010-11-04T18:15:15Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT",
+        "runtests.bat"
+      ]
+    },
+    {
+      "sha": "77fe4d12cf9cd6d436672ea8ff8a207a2e688f05",
+      "date": "2010-11-04T17:20:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "37f440e60cb794a2d6631a84ef322b077d01b1c1",
+      "date": "2010-11-04T16:07:17Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11.py",
+        "svgwrite/filters.py",
+        "tests/test_filters.py"
+      ]
+    },
+    {
+      "sha": "3430de7692c031a8181f1637c30f29dc1d5fc6eb",
+      "date": "2010-11-04T10:59:59Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/filters.py",
+        "tests/test_filters.py"
+      ]
+    },
+    {
+      "sha": "e3232d9f4ca795e653707b7f5b9a00b2fea455c0",
+      "date": "2010-11-04T08:32:29Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/base.rst",
+        "doc/classes/interface.rst",
+        "doc/classes/mixins.rst",
+        "svgwrite/base.py",
+        "svgwrite/interface.py",
+        "svgwrite/mixins.py",
+        "tests/test_animate.py",
+        "tests/test_description.py",
+        "tests/test_ixlink.py",
+        "tests/test_presentation.py"
+      ]
+    },
+    {
+      "sha": "adf00cb60f36b876cb28c980487506e19e5408aa",
+      "date": "2010-11-03T20:59:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/interface.rst",
+        "svgwrite/elementfactory.py",
+        "svgwrite/filter.py",
+        "svgwrite/filters.py",
+        "svgwrite/interface.py"
+      ]
+    },
+    {
+      "sha": "3ecc8593cf844d45446683a379bed9c925c03728",
+      "date": "2010-11-03T19:50:54Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "svgwrite/elementfactory.py",
+        "svgwrite/filter.py"
+      ]
+    },
+    {
+      "sha": "fc79d0e9693b1fa9ef0122faea44c019200a377e",
+      "date": "2010-11-03T18:05:16Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/svgparser.py",
+        "tests/test_animation_timing_parser.py",
+        "tests/test_clock_val_parser.py"
+      ]
+    },
+    {
+      "sha": "5aa204912f9ce126b286414036cc774dc7764d5d",
+      "date": "2010-11-03T15:09:25Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/svgparser.py"
+      ]
+    },
+    {
+      "sha": "a2853589a9daa05b9778e2c788e21fb84a6123f8",
+      "date": "2010-11-03T15:07:31Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/attributes/animation_timing.rst",
+        "svgwrite/animate.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/interface.py",
+        "tests/test_animate.py",
+        "tests/test_clock_val_parser.py"
+      ]
+    },
+    {
+      "sha": "1bfa8f4dd412bb175167f016c8b3e09afa7030f0",
+      "date": "2010-11-03T05:31:14Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/base.rst",
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "8af5cf358fad5ea532431783d71c7604ff41faaa",
+      "date": "2010-11-03T05:08:47Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT"
+      ]
+    },
+    {
+      "sha": "492e92d35594ff79609768f649dc411f18d1146e",
+      "date": "2010-11-03T05:04:53Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/base.rst",
+        "svgwrite/animate.py",
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "839fec5b1f55981bc47d42cf78b2638ec9d402f1",
+      "date": "2010-11-03T04:39:59Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/gradients.py",
+        "svgwrite/image.py",
+        "svgwrite/masking.py",
+        "svgwrite/path.py",
+        "svgwrite/pattern.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "tests/test_base_element.py"
+      ]
+    },
+    {
+      "sha": "d1937fc5073503da4ba5dbdf2dd0f698d287cabb",
+      "date": "2010-11-02T19:31:51Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/attributes/animation_events.rst",
+        "doc/attributes/animation_target.rst",
+        "doc/attributes/animation_timing.rst",
+        "doc/attributes/animation_value.rst",
+        "doc/classes/animate.rst",
+        "doc/classes/path.rst",
+        "svgwrite/animate.py",
+        "svgwrite/elementfactory.py"
+      ]
+    },
+    {
+      "sha": "6e63a5585def5f97573fa18dcebbfc45356f6bc3",
+      "date": "2010-11-02T06:32:54Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/animate.py"
+      ]
+    },
+    {
+      "sha": "308d666ec5049be5ee154863ac38b268a8b17e43",
+      "date": "2010-11-01T18:17:45Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/attributes/animation_addition.rst",
+        "doc/attributes/animation_events.rst",
+        "doc/attributes/animation_target.rst",
+        "doc/attributes/animation_timing.rst",
+        "doc/attributes/animation_value.rst",
+        "doc/classes/animate.rst",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "6f7e77d60cafe1631e7f89c962cc211c920c8d26",
+      "date": "2010-11-01T11:00:04Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/shapes.rst"
+      ]
+    },
+    {
+      "sha": "29b408dad7a4585625cec71fbae2658580cffac1",
+      "date": "2010-11-01T10:54:59Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/shapes.rst",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "fdc534c2a48a1e8f3abd59e0751ca43f857b722c",
+      "date": "2010-10-31T20:19:31Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/animate.rst",
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/gradients.rst",
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/interface.rst",
+        "doc/classes/marker.rst",
+        "doc/classes/masking.rst",
+        "doc/classes/mixins.rst",
+        "doc/classes/path.rst",
+        "doc/classes/pattern.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/symbol.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/utils.rst",
+        "svgwrite/animate.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/gradients.py",
+        "svgwrite/image.py",
+        "svgwrite/interface.py",
+        "svgwrite/masking.py",
+        "svgwrite/metadata.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "tests/test_animate.py"
+      ]
+    },
+    {
+      "sha": "423d9d455a358d0f9a7b7d8db7c09a1f8c37ac7f",
+      "date": "2010-10-31T09:44:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "24f6d32fe1c44d75310a18c080e5766439ac7c4f",
+      "date": "2010-10-31T09:44:06Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "tests/test_clipping.py",
+        "tests/test_mask.py"
+      ]
+    },
+    {
+      "sha": "4e4c8ff07cb2e86adc1b780cdf7b64850bfc8cd5",
+      "date": "2010-10-31T08:11:05Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "tests/test_clippath.py"
+      ]
+    },
+    {
+      "sha": "8995c2080b762a0b6566dd03cc383f4dba16c521",
+      "date": "2010-10-30T19:38:26Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/gradients.rst",
+        "svgwrite/__init__.py",
+        "svgwrite/gradients.py"
+      ]
+    },
+    {
+      "sha": "bda9c740ab04fdfb16dc6cb18100d3374199960a",
+      "date": "2010-10-30T19:14:09Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/gradients.rst",
+        "doc/classes/masking.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "examples.py",
+        "svgwrite/container.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/image.py",
+        "svgwrite/masking.py",
+        "svgwrite/mixins.py",
+        "svgwrite/pattern.py",
+        "tests/test_base_element.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_pattern.py"
+      ]
+    },
+    {
+      "sha": "8032be9bba949def066129819c432592b434b1c1",
+      "date": "2010-10-29T19:14:53Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/pattern.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "examples.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/gradients.py",
+        "svgwrite/pattern.py",
+        "tests/test_pattern.py"
+      ]
+    },
+    {
+      "sha": "d792000063163cdd6e5ddd43496a1cc13b284b52",
+      "date": "2010-10-28T19:55:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/drawing.rst",
+        "doc/classes/path.rst",
+        "examples.py",
+        "svgwrite/base.py",
+        "svgwrite/gradients.py",
+        "svgwrite/path.py",
+        "tests/test_gradients.py"
+      ]
+    },
+    {
+      "sha": "0d050cea9917d9cafa558343f0cb8ad99d3659ea",
+      "date": "2010-10-26T18:08:02Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/gradients.rst",
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/marker.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/symbol.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/index.rst",
+        "examples.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/gradients.py",
+        "svgwrite/interface.py",
+        "svgwrite/mixins.py",
+        "svgwrite/utils.py",
+        "tests/test_gradients.py",
+        "tests/test_itransform.py",
+        "tests/test_ixlink.py",
+        "tests/test_text.py",
+        "tests/test_use.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "b51781c5fd1e542fe1f77895a790cf9f1a8540fd",
+      "date": "2010-10-26T09:20:39Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py"
+      ]
+    },
+    {
+      "sha": "4908992e95968a4781a59590b0ee2a745175ab17",
+      "date": "2010-10-25T19:24:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/base.rst",
+        "doc/classes/marker.rst",
+        "examples.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/metadata.py",
+        "svgwrite/mixins.py",
+        "tests/test_base_element.py",
+        "tests/test_marker_class.py"
+      ]
+    },
+    {
+      "sha": "bb13d2e89ab9c9178370956c1dd82a7416e3ea92",
+      "date": "2010-10-25T13:09:40Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "tests/test_marker_class.py"
+      ]
+    },
+    {
+      "sha": "cf99a7915092f20529bd133054371b56bf2c064b",
+      "date": "2010-10-24T18:11:23Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/marker.rst",
+        "doc/classes/mixins.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/symbol.rst",
+        "svgwrite/container.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/mixins.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "tests/test_marker_class.py",
+        "tests/test_markers_mixin.py"
+      ]
+    },
+    {
+      "sha": "bffc409231549595dc4370e0c4952affbd6968cd",
+      "date": "2010-10-24T15:14:28Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/Marker.rst"
+      ]
+    },
+    {
+      "sha": "e41344d2e4fa7a5d077ea2fa8efbe448f2374288",
+      "date": "2010-10-24T15:12:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/Marker.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "svgwrite/container.py",
+        "svgwrite/data/full11.py"
+      ]
+    },
+    {
+      "sha": "ea01fa7323a8d3c540b98f82ad516bc2a4f9ee1e",
+      "date": "2010-10-24T09:58:18Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT"
+      ]
+    },
+    {
+      "sha": "07130252e4c1c01d7e9441b773b0264fdc9ea6f7",
+      "date": "2010-10-24T09:45:19Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "c907f1d6f4c1d7f84965b66884037ee5729cb74d",
+      "date": "2010-10-24T09:45:02Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/defs.rst",
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/mixins.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/symbol.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/overview.rst",
+        "examples.py",
+        "svgwrite/container.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/metadata.py",
+        "svgwrite/mixins.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "tests/test_mediagroup.py",
+        "tests/test_presentation.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "1f341ff467f9b2cc24ec924f6b9849e0101365e4",
+      "date": "2010-10-20T19:24:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/typechecker.py",
+        "svgwrite/utils.py",
+        "tests/test_base_element.py",
+        "tests/test_drawing.py",
+        "tests/test_elementfactory.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_image.py",
+        "tests/test_polyline.py",
+        "tests/test_svg.py",
+        "tests/test_svgattributes.py",
+        "tests/test_textarea.py",
+        "tests/test_transformlistparser.py",
+        "tests/test_use.py",
+        "tests/test_utils.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "a27101b9aa9e299046827bd9021b8d81485830c2",
+      "date": "2010-10-19T21:07:16Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/drawing.rst",
+        "doc/classes/mixins.rst",
+        "doc/index.rst",
+        "svgwrite/interface.py",
+        "svgwrite/mixins.py"
+      ]
+    },
+    {
+      "sha": "48b14ef9c537648bd12cbe6102180b04efdd5e04",
+      "date": "2010-10-19T19:50:18Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/interface.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/symbol.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "doc/reference.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/validator.rst",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/image.py",
+        "svgwrite/interface.py",
+        "svgwrite/params.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py"
+      ]
+    },
+    {
+      "sha": "6ad4122d19e3fe70bc2d27535b6cfb904c853076",
+      "date": "2010-10-17T07:49:38Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/svgparser.py"
+      ]
+    },
+    {
+      "sha": "555b4c0da5e560667b71bd9b8a42291e4f551f56",
+      "date": "2010-10-17T07:11:01Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/spark.py",
+        "svgwrite/data/svgparser.py",
+        "tests/test_parsing_basic_types.py",
+        "tests/test_pathdataparser.py",
+        "tests/test_transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "c15388d533b1c3ce24b06b2c1e8c5a7120878fdc",
+      "date": "2010-10-16T20:56:01Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/reference.rst",
+        "svgwrite/data/pathdataparser.py",
+        "svgwrite/data/pyparsing.py",
+        "svgwrite/data/svgparser.py",
+        "svgwrite/data/transformlistparser.py",
+        "svgwrite/data/typechecker.py",
+        "tests/test_pathdataparser.py",
+        "tests/test_transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "2f5ad45189a1dddfdee0bd73782d509d179acf19",
+      "date": "2010-10-15T20:07:11Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/elementfactory.py"
+      ]
+    },
+    {
+      "sha": "ee5ed09075c00d5ef9d8bc949de3c29899a1f548",
+      "date": "2010-10-15T19:55:00Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/data/tiny12typechecker.py"
+      ]
+    },
+    {
+      "sha": "316bd7e8a8eb21a892d611faf367237f7c852419",
+      "date": "2010-10-15T19:51:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/data/full11.py",
+        "svgwrite/data/tiny12.py",
+        "svgwrite/data/typechecker.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_text.py",
+        "tests/test_tiny12_typechecker.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "2182d037d121fcdd16fcca2bb54464279dc3a90d",
+      "date": "2010-10-15T15:45:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/group.rst",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "examples.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/text.py",
+        "tests/test_defs.py",
+        "tests/test_drawing.py",
+        "tests/test_group.py",
+        "tests/test_symbol.py",
+        "tests/test_text.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "046db4938b85911f7bbcfe8085749cbfc3579433",
+      "date": "2010-10-15T11:43:07Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/elementfactory.py",
+        "tests/test_elementfactory.py"
+      ]
+    },
+    {
+      "sha": "d012dc2c00917b97aac99850532becd34e94f006",
+      "date": "2010-10-15T10:30:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "README.TXT",
+        "doc/overview.rst",
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "tests/test_circle.py",
+        "tests/test_defs.py",
+        "tests/test_drawing.py",
+        "tests/test_ellipse.py",
+        "tests/test_group.py",
+        "tests/test_hyperlink.py",
+        "tests/test_image.py",
+        "tests/test_ixlink.py",
+        "tests/test_line.py",
+        "tests/test_polyline.py",
+        "tests/test_rect.py",
+        "tests/test_svg.py",
+        "tests/test_symbol.py",
+        "tests/test_text.py",
+        "tests/test_textarea.py",
+        "tests/test_use.py"
+      ]
+    },
+    {
+      "sha": "2078e1f5a5cc94a1a3525e10054c2040c40b1a19",
+      "date": "2010-10-15T09:44:32Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/elementfactory.py",
+        "svgwrite/params.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "tests/test_base_element.py",
+        "tests/test_circle.py",
+        "tests/test_defs.py",
+        "tests/test_drawing.py",
+        "tests/test_elementfactory.py",
+        "tests/test_ellipse.py",
+        "tests/test_group.py",
+        "tests/test_hyperlink.py",
+        "tests/test_image.py",
+        "tests/test_itransform.py",
+        "tests/test_iviewbox.py",
+        "tests/test_ixlink.py",
+        "tests/test_line.py",
+        "tests/test_parameter.py",
+        "tests/test_path.py",
+        "tests/test_polyline.py",
+        "tests/test_rect.py",
+        "tests/test_svg.py",
+        "tests/test_symbol.py",
+        "tests/test_text.py",
+        "tests/test_textarea.py",
+        "tests/test_use.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "a1d45ab6632141539e68fd059a179c2afdbe99cb",
+      "date": "2010-10-15T05:42:45Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/image.py",
+        "svgwrite/interface.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "tests/test_base_element.py",
+        "tests/test_ixlink.py",
+        "tests/test_polyline.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "06e922ae013fbbec0909b575a86f0867757853e4",
+      "date": "2010-10-15T03:57:29Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/params.py",
+        "tests/test_parameter.py",
+        "tests/test_svg.py",
+        "tests/test_text.py",
+        "tests/test_use.py"
+      ]
+    },
+    {
+      "sha": "29fd87dbae9bbf8bffdd57a58af222374b6e86cd",
+      "date": "2010-10-14T15:17:07Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "svgwrite/interface.py"
+      ]
+    },
+    {
+      "sha": "42b6bfb0131962e7daceb51f846b6168ad6c3963",
+      "date": "2010-10-14T09:48:28Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/__init__.py",
+        "svgwrite/text.py",
+        "tests/test_textarea.py"
+      ]
+    },
+    {
+      "sha": "b42863c28d830667f81e2ddd85d1ef4382f1133c",
+      "date": "2010-10-13T21:25:19Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/container.py",
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/image.py",
+        "svgwrite/interface.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "tests/test_full11_typechecker.py"
+      ]
+    },
+    {
+      "sha": "fd697602a015ad1f8544015a5619e9385a150de5",
+      "date": "2010-10-13T19:43:40Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "ca8ab1ca799b561bc050e04978e41a2924e1b9ed",
+      "date": "2010-10-13T13:38:47Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/tiny12attributes.py",
+        "tests/test_path.py",
+        "tests/test_pathdataparser.py"
+      ]
+    },
+    {
+      "sha": "ecb37e010f19c2c50f01ee828a3ff98c295bf05b",
+      "date": "2010-10-13T13:38:11Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/path.py"
+      ]
+    },
+    {
+      "sha": "3d036b61f57c9ea041727dc324f08eccd213fceb",
+      "date": "2010-10-13T06:04:10Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py"
+      ]
+    },
+    {
+      "sha": "3533516717285e9f243750a069f7fa168298a615",
+      "date": "2010-10-13T05:23:21Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/data/types.py"
+      ]
+    },
+    {
+      "sha": "432a86f6430aba827805592f96fe26f02f369207",
+      "date": "2010-10-12T18:08:29Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/tiny12attributes.py",
+        "tests/test_path.py"
+      ]
+    },
+    {
+      "sha": "361e8f8faaaca3d0ab8f14ac4f0be6144b9b71b8",
+      "date": "2010-10-12T15:32:24Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/types.py",
+        "svgwrite/params.py",
+        "svgwrite/validator2.py",
+        "tests/test_pathdataparser.py",
+        "tests/test_svgattributes.py",
+        "tests/test_transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "3e847a5a195232d747f47a54b79c6768171ab1bd",
+      "date": "2010-10-12T09:21:52Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/types.py"
+      ]
+    },
+    {
+      "sha": "af9f1a8f42dabba118397cfa57c9fe4fd54de4a5",
+      "date": "2010-10-12T06:14:12Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/types.py",
+        "svgwrite/validator2.py"
+      ]
+    },
+    {
+      "sha": "fd1ab8b93d88e92271dbc1a7602a5fc5e7456c75",
+      "date": "2010-10-11T20:34:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/pathdataparser.py",
+        "svgwrite/data/spark.py",
+        "svgwrite/data/transformlistparser.py",
+        "tests/test_pathdataparser.py",
+        "tests/test_transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "a6b990fd94d4ce40490bd1773a7be9e45da6f423",
+      "date": "2010-10-11T15:58:14Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11typechecker.py",
+        "tests/test_transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "14ff0976288e02af2ef840b38a6eb94f4f4d064a",
+      "date": "2010-10-11T05:28:57Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "186288a7626f38cdb70a4a5f9a0672f4219634e4",
+      "date": "2010-10-11T04:56:59Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "tests/test_transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "e76bb54b14c72ecc4beed6f4ff6767512ff48258",
+      "date": "2010-10-10T20:04:30Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "ab0577a582bde3df4f1f67f7e8b2c30136ee467e",
+      "date": "2010-10-10T18:09:38Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/reference.rst",
+        "svgwrite/data/spark.py",
+        "svgwrite/data/transformlistparser.py"
+      ]
+    },
+    {
+      "sha": "9b8e5213bf50d8a3236e3f61570b353304f32004",
+      "date": "2010-10-10T09:47:42Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/pattern.py"
+      ]
+    },
+    {
+      "sha": "2fc316c2bfd24b240e2abee9dc40a8c6ade75ba6",
+      "date": "2010-10-09T19:47:10Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/reference.rst",
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/drawing.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "0a35aa867ccc1bebde90574ea9a5b64c5b2c3ee3",
+      "date": "2010-10-09T15:25:05Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "doc/classes/hyperlink.rst",
+        "doc/classes/image.rst",
+        "doc/index.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/validator.rst",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/image.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_hyperlink.py",
+        "tests/test_image.py"
+      ]
+    },
+    {
+      "sha": "6bb604abaed7e3092a03a2c8b395297d44b42fe5",
+      "date": "2010-10-08T19:13:04Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/colors.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/tiny12typechecker.py",
+        "svgwrite/interface.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_itransform.py",
+        "tests/test_tiny12_typechecker.py"
+      ]
+    },
+    {
+      "sha": "ff49b1402a8f09e5d04f070151e04ab9fb9e88c3",
+      "date": "2010-10-06T18:54:23Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/colors.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/validator2.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_path.py"
+      ]
+    },
+    {
+      "sha": "f88e4ebb0da67e052b1f664aac5e575e3a3d4c08",
+      "date": "2010-10-06T18:53:00Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/colors.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/validator2.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_path.py"
+      ]
+    },
+    {
+      "sha": "f772d62e0c83e56d6cfa47a74e08231ecc3ec825",
+      "date": "2010-10-06T04:46:05Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "tests/test_base_element.py",
+        "tests/test_svg.py"
+      ]
+    },
+    {
+      "sha": "f9817eaa2bf350a4efd6b2ca155b6ade5a03f67a",
+      "date": "2010-10-06T02:07:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "LICENSE.TXT",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "doc/Makefile",
+        "doc/attributes/conditional_processing.rst",
+        "doc/attributes/core.rst",
+        "doc/attributes/document_event.rst",
+        "doc/attributes/graphical_event.rst",
+        "doc/attributes/presentation.rst",
+        "doc/attributes/xlink.rst",
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/group.rst",
+        "doc/classes/interface.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "doc/make.bat",
+        "doc/overview.rst",
+        "doc/reference.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/utils.rst",
+        "doc/utils/validator.rst",
+        "examples.py",
+        "makedata/SVG11Full_propertyTable.html",
+        "makedata/SVG12Tiny_attributeTable.html",
+        "makedata/SVG12Tiny_elementTable.html",
+        "makedata/cache.py",
+        "makedata/full11attributes.py",
+        "makedata/full11elements.py",
+        "makedata/makefull11data.py",
+        "makedata/maketiny12data.py",
+        "makedata/oldfull11data.py",
+        "makedata/tiny12attributes.py",
+        "makedata/tiny12elements.py",
+        "makedata/tiny12typechecker.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/__init__.py",
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/pattern.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/data/tiny12typechecker.py",
+        "svgwrite/data/types.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/metadata.py",
+        "svgwrite/params.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "tests/test_base_element.py",
+        "tests/test_circle.py",
+        "tests/test_defs.py",
+        "tests/test_drawing.py",
+        "tests/test_ellipse.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_group.py",
+        "tests/test_itransform.py",
+        "tests/test_iviewbox.py",
+        "tests/test_ixlink.py",
+        "tests/test_line.py",
+        "tests/test_parameter.py",
+        "tests/test_path.py",
+        "tests/test_polyline.py",
+        "tests/test_rect.py",
+        "tests/test_svg.py",
+        "tests/test_symbol.py",
+        "tests/test_text.py",
+        "tests/test_use.py",
+        "tests/test_utils.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "2d0e9099b80d173a828d4b6a023be76e729e699f",
+      "date": "2010-10-05T19:43:08Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11typechecker.py",
+        "tests/test_full11_typechecker.py"
+      ]
+    },
+    {
+      "sha": "e04e8d9a249b8597c37aa9d7715afcbb6fc7c80e",
+      "date": "2010-10-04T19:42:44Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/container.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/validator2.py",
+        "tests/test_full11_typechecker.py",
+        "tests/test_use.py"
+      ]
+    },
+    {
+      "sha": "1b99213ad816c89805cb66c3e17c7e3fad99e169",
+      "date": "2010-10-04T16:10:18Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/full11data.py",
+        "svgwrite/validator.py",
+        "svgwrite/validator2.py",
+        "tests/test_validator.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "696e25fb1f6e55394b8639c28db8340663e5f704",
+      "date": "2010-10-04T15:27:14Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/text.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "b8c3fe540c45db797ab1009107ff604632fc192c",
+      "date": "2010-10-04T15:17:03Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/pattern.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/data/tiny12typechecker.py",
+        "svgwrite/data/types.py",
+        "svgwrite/full11data.py",
+        "svgwrite/parameter.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "svgwrite/validator2.py"
+      ]
+    },
+    {
+      "sha": "5570688800aa9dc310b1846d16dd16b8b22d5a50",
+      "date": "2010-10-03T20:03:28Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/data/tiny12typechecker.py",
+        "svgwrite/full11data.py",
+        "svgwrite/interface.py",
+        "svgwrite/parameter.py",
+        "svgwrite/pattern.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator2.py",
+        "tests/test_itransform.py",
+        "tests/test_iviewbox.py",
+        "tests/test_polyline.py",
+        "tests/test_utils.py",
+        "tests/test_validator.py",
+        "tests/test_validator2.py"
+      ]
+    },
+    {
+      "sha": "0c19a96aa7de362db6601a3d1b0cca4f806e5b44",
+      "date": "2010-10-03T15:14:26Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/data/tiny12typechecker.py"
+      ]
+    },
+    {
+      "sha": "6778f353482cd8e1f77c5aef945378eb08f82d19",
+      "date": "2010-10-03T11:04:34Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "setup.py",
+        "svgwrite/data/__init__.py",
+        "svgwrite/data/full11attributes.py",
+        "svgwrite/data/full11elements.py",
+        "svgwrite/data/full11typechecker.py",
+        "svgwrite/data/tiny12attributes.py",
+        "svgwrite/data/tiny12elements.py",
+        "svgwrite/data/tiny12typechecker.py",
+        "svgwrite/validator2.py"
+      ]
+    },
+    {
+      "sha": "4bdf45b8000ce1e2d098133562a2dd4e40da33aa",
+      "date": "2010-10-02T19:40:55Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "makedata/cache.py",
+        "makedata/full11attributes.py",
+        "makedata/full11elements.py",
+        "makedata/makefull11data.py",
+        "makedata/maketiny12data.py",
+        "makedata/oldfull11data.py",
+        "makedata/tiny12attributes.py",
+        "makedata/tiny12elements.py",
+        "svgwrite/full11elements.py",
+        "svgwrite/tiny12attributes.py",
+        "svgwrite/tiny12elements.py"
+      ]
+    },
+    {
+      "sha": "74a9e384946130e72d7227b782659f752ec756cd",
+      "date": "2010-10-01T21:01:30Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "makedata/maketinydata.py",
+        "makedata/tiny12attributes.py",
+        "makedata/tiny12data.py",
+        "makedata/tiny12elements.py",
+        "makedata/tiny12typechecker.py",
+        "makedata/tinydata.py",
+        "makedata/typechecker.py",
+        "svgwrite/properties.py",
+        "svgwrite/tiny12attributes.py",
+        "svgwrite/tiny12elements.py",
+        "svgwrite/tiny12typechecker.py",
+        "svgwrite/types.py",
+        "svgwrite/validator2.py"
+      ]
+    },
+    {
+      "sha": "cb7fe87e21624614dc16fd7944326bad4df33aa9",
+      "date": "2010-10-01T17:43:37Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "makedata/tinydata.py",
+        "svgwrite/properties.py"
+      ]
+    },
+    {
+      "sha": "be7ca2375979f143072f4f8ca392358491dabaeb",
+      "date": "2010-09-30T21:04:15Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "makedata/SVG12Tiny_elementTable.html",
+        "makedata/tiny12data.py",
+        "makedata/tinydata.py",
+        "makedata/typechecker.py",
+        "svgwrite/properties.py"
+      ]
+    },
+    {
+      "sha": "4ca859acd84889cc37a4f60fb7c989c49c2df5ae",
+      "date": "2010-09-29T19:20:03Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/text.rst",
+        "doc/index.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/parameter.rst",
+        "examples.py",
+        "makedata/SVG12Tiny_attributeTable.html",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/parameter.py",
+        "svgwrite/path.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "tests/test_base_element.py",
+        "tests/test_drawing.py",
+        "tests/test_ixlink.py",
+        "tests/test_parameter.py",
+        "tests/test_path.py",
+        "tests/test_use.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "283683d162f108c64afcc3ced12f149d73e52bab",
+      "date": "2010-09-29T04:59:13Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "makedata/SVG11Full_propertyTable.html",
+        "makedata/SVG11Tiny_elementTable.html",
+        "makedata/SVG12Tiny_attributeTable.html",
+        "svgwrite/metadata.py"
+      ]
+    },
+    {
+      "sha": "7f1957eb8b6f5ef68e0aa7a5f428805f190d5c3f",
+      "date": "2010-09-28T20:09:22Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/full11data.py",
+        "svgwrite/pattern.py",
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "c53bd315a37ca7f39e1d56d4a5be8f15df19a283",
+      "date": "2010-09-27T20:32:23Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/parameter.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "tests/test_parameter.py",
+        "tests/test_validator.py"
+      ]
+    },
+    {
+      "sha": "b180f20ab822781787b0db14560f2dc4788591a1",
+      "date": "2010-09-27T05:58:14Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/parameter.py",
+        "svgwrite/pattern.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "e0e66f042e5e8e0e31b5856fb3b95ded625d9e53",
+      "date": "2010-09-26T18:36:44Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT",
+        "svgwrite/text.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "0c2b9ee0d66325f8f47fc6ddaaa2e99914592954",
+      "date": "2010-09-26T12:22:42Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT"
+      ]
+    },
+    {
+      "sha": "0953e3685b14bb36808a2f6edb7e85b3a1b18c57",
+      "date": "2010-09-26T12:08:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": []
+    },
+    {
+      "sha": "47ff57511a3788f4322abd6550e3e1f86b6fadd6",
+      "date": "2010-09-26T12:08:18Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "README.TXT",
+        "examples.py",
+        "setup.py",
+        "svgwrite/text.py",
+        "tests/test_iviewbox.py",
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "13da3daa1351b26bb756b120555973c8c40fa7e9",
+      "date": "2010-09-26T09:46:34Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "tests/test_text.py"
+      ]
+    },
+    {
+      "sha": "75d72235599320a1a3e299d3e6f611e0039ef9a2",
+      "date": "2010-09-26T09:46:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "NEWS.TXT",
+        "README.TXT",
+        "examples.py"
+      ]
+    },
+    {
+      "sha": "ae1265a1a6faed5aa9c0655815eaf4aed6b17ac4",
+      "date": "2010-09-26T09:44:31Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/base.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "df63a33f5590a69438177f4825018ce0e455bf4c",
+      "date": "2010-09-26T09:43:29Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "LICENSE.TXT",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "doc/Makefile",
+        "doc/attributes/conditional_processing.rst",
+        "doc/attributes/core.rst",
+        "doc/attributes/document_event.rst",
+        "doc/attributes/graphical_event.rst",
+        "doc/attributes/presentation.rst",
+        "doc/attributes/xlink.rst",
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/group.rst",
+        "doc/classes/interface.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "doc/make.bat",
+        "doc/overview.rst",
+        "doc/reference.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/parameter.rst",
+        "doc/utils/utils.rst",
+        "doc/utils/validator.rst",
+        "examples.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/metadata.py",
+        "svgwrite/parameter.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "tests/test_base_element.py",
+        "tests/test_circle.py",
+        "tests/test_defs.py",
+        "tests/test_drawing.py",
+        "tests/test_ellipse.py",
+        "tests/test_group.py",
+        "tests/test_itransform.py",
+        "tests/test_iviewbox.py",
+        "tests/test_ixlink.py",
+        "tests/test_line.py",
+        "tests/test_parameter.py",
+        "tests/test_path.py",
+        "tests/test_polyline.py",
+        "tests/test_rect.py",
+        "tests/test_svg.py",
+        "tests/test_symbol.py",
+        "tests/test_text.py",
+        "tests/test_use.py",
+        "tests/test_utils.py",
+        "tests/test_validator.py",
+        "tmp.py"
+      ]
+    },
+    {
+      "sha": "84ceaf2f245d4fddee6cf71c4caa611ad56d9614",
+      "date": "2010-09-26T07:44:26Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "LICENSE.TXT",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "doc/Makefile",
+        "doc/attributes/conditional_processing.rst",
+        "doc/attributes/core.rst",
+        "doc/attributes/document_event.rst",
+        "doc/attributes/graphical_event.rst",
+        "doc/attributes/presentation.rst",
+        "doc/attributes/xlink.rst",
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/group.rst",
+        "doc/classes/interface.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/text.rst",
+        "doc/classes/use.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "doc/make.bat",
+        "doc/overview.rst",
+        "doc/reference.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/parameter.rst",
+        "doc/utils/utils.rst",
+        "doc/utils/validator.rst",
+        "examples.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/animate.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/metadata.py",
+        "svgwrite/parameter.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "tests/test_base_element.py",
+        "tests/test_circle.py",
+        "tests/test_defs.py",
+        "tests/test_drawing.py",
+        "tests/test_ellipse.py",
+        "tests/test_group.py",
+        "tests/test_itransform.py",
+        "tests/test_iviewbox.py",
+        "tests/test_ixlink.py",
+        "tests/test_line.py",
+        "tests/test_parameter.py",
+        "tests/test_path.py",
+        "tests/test_polyline.py",
+        "tests/test_rect.py",
+        "tests/test_svg.py",
+        "tests/test_symbol.py",
+        "tests/test_use.py",
+        "tests/test_utils.py",
+        "tests/test_validator.py"
+      ]
+    },
+    {
+      "sha": "2eb478a182afd0fb78675fed70a43d02ae3d1854",
+      "date": "2010-09-26T05:53:42Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/base.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "819be0ffd37e519798a6ce8a84d87c661cdfed0e",
+      "date": "2010-09-25T19:28:18Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/shapes.rst",
+        "svgwrite/base.py",
+        "svgwrite/interface.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "svgwrite/validator.py",
+        "tests/test_circle.py",
+        "tests/test_ellipse.py",
+        "tests/test_line.py",
+        "tests/test_polyline.py",
+        "tests/test_rect.py"
+      ]
+    },
+    {
+      "sha": "e995deeb7bdcfbef3fa6fff32ca104e9b14cd909",
+      "date": "2010-09-25T16:18:34Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/interface.py",
+        "tests/test_itransform.py",
+        "tests/test_iviewbox.py",
+        "tests/test_ixlink.py"
+      ]
+    },
+    {
+      "sha": "03e2bd80751c237a31d599ebad83969c9197ea47",
+      "date": "2010-09-25T14:56:01Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/interface.rst",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/utils.py",
+        "tests/test_base_element.py",
+        "tests/test_defs.py",
+        "tests/test_group.py",
+        "tests/test_parameter.py",
+        "tests/test_svg.py",
+        "tests/test_symbol.py",
+        "tests/test_use.py"
+      ]
+    },
+    {
+      "sha": "13747c3e6b8d37d7680feed9047b1c5e436d25f0",
+      "date": "2010-09-24T04:03:45Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/interface.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "625997f654543ec13085f810f3a68987b8fc021a",
+      "date": "2010-09-24T04:02:28Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/animate.py"
+      ]
+    },
+    {
+      "sha": "fb6f6d2e6d8a4c6ecf382fb633d4c328727054c0",
+      "date": "2010-09-24T03:29:28Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/interface.py",
+        "svgwrite/path.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "4ab01d02c00e3c99c21ec9fa5bb021946ddcced8",
+      "date": "2010-09-23T03:26:43Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/container.py",
+        "svgwrite/interface.py",
+        "svgwrite/text.py"
+      ]
+    },
+    {
+      "sha": "1c0c35e760ceff115845e6ff14440a319912e81b",
+      "date": "2010-09-22T18:31:37Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/parameter.py",
+        "svgwrite/text.py",
+        "svgwrite/utils.py",
+        "tests/test_base_element.py",
+        "tests/test_drawing.py",
+        "tests/test_parameter.py",
+        "tests/test_path.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "415f88b820c1f4d677449a44b7b2397a8df5c4f0",
+      "date": "2010-09-21T20:03:11Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/text.py",
+        "tests/test_path.py"
+      ]
+    },
+    {
+      "sha": "33633e8860979ae501ee58486b5744d1f376c34f",
+      "date": "2010-09-20T20:33:43Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/text.rst",
+        "doc/index.rst",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/text.py",
+        "tests/test_base_element.py"
+      ]
+    },
+    {
+      "sha": "2ced78a761dfefc7a9250d28f6db3f162bff5c6a",
+      "date": "2010-09-20T03:57:37Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/base.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "doc/reference.rst",
+        "doc/svgwrite.rst",
+        "doc/utils/utils.rst",
+        "doc/utils/validator.rst",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "9784c01b7f05fda743c395bd8c3e854103806b40",
+      "date": "2010-09-19T18:18:56Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/interface.rst",
+        "doc/classes/shapes.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "svgwrite/container.py",
+        "svgwrite/interface.py",
+        "svgwrite/parameter.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "227b56c4420c6a5ef67a675e2c7266e6d0df9232",
+      "date": "2010-09-19T15:54:01Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/base.rst",
+        "doc/classes/defs.rst",
+        "doc/classes/drawing.rst",
+        "doc/classes/group.rst",
+        "doc/classes/path.rst",
+        "doc/classes/shapes.rst",
+        "doc/classes/svg.rst",
+        "doc/classes/use.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "doc/utils/parameter.rst",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/parameter.py",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "3c85176867fe5a8edae056aa46afefe2d6de6045",
+      "date": "2010-09-19T09:00:41Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/attributes/xlink.rst",
+        "doc/classes/base.rst",
+        "doc/classes/drawing.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "ff98723ab7e79261ef3f9c4cfcedf7211edd04d3",
+      "date": "2010-09-19T06:46:40Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/classes/drawing.rst",
+        "doc/classes/group.rst",
+        "doc/classes/path.rst",
+        "doc/classes/svg.rst",
+        "doc/index.rst",
+        "doc/utils/utils.rst",
+        "doc/utils/validator.rst"
+      ]
+    },
+    {
+      "sha": "bd2157dfb9aa7cf058245280f6f74a347481dd2b",
+      "date": "2010-09-19T06:41:39Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "doc/attributes/conditional_processing.rst",
+        "doc/attributes/core.rst",
+        "doc/attributes/document_event.rst",
+        "doc/attributes/graphical_event.rst",
+        "doc/attributes/presentation.rst",
+        "doc/basic_data_types.rst",
+        "doc/drawing.rst",
+        "doc/group.rst",
+        "doc/index.rst",
+        "doc/overview.rst",
+        "doc/path.rst",
+        "doc/svg.rst",
+        "doc/utils.rst",
+        "doc/validator.rst",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "a4ce401b31a4c04a37a349aa085752fe378ac431",
+      "date": "2010-09-19T04:21:05Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/metadata.py"
+      ]
+    },
+    {
+      "sha": "70ea6eaeeb08e5aff4c3ab81e900f5b1b7dea1d9",
+      "date": "2010-09-19T04:12:44Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT",
+        "doc/basic_data_types.rst",
+        "doc/conf.py",
+        "doc/index.rst",
+        "props.txt",
+        "setup.py",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "555abe73a61fa0a29335563f3561c820743fc1dc",
+      "date": "2010-09-18T20:03:27Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "doc/Makefile",
+        "doc/conf.py",
+        "doc/drawing.rst",
+        "doc/index.rst",
+        "doc/make.bat",
+        "doc/validator.rst",
+        "props.txt",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/parameter.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "3f4cf4b93bdc77d78be58d969651327f5a356251",
+      "date": "2010-09-18T17:11:31Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "36b579101a061d61924c11ed6d1f98bb1c096ae1",
+      "date": "2010-09-18T16:37:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "tests/test_base_element.py",
+        "tests/test_path.py"
+      ]
+    },
+    {
+      "sha": "6f2f70c206f61594aec158422b8c06470fa42112",
+      "date": "2010-09-17T21:46:19Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/path.py"
+      ]
+    },
+    {
+      "sha": "a45ca4d4f6861207232deb4a2b8d1a00247bc555",
+      "date": "2010-09-17T20:36:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "330a165f74aec8f461718a4a190d4f2dbcab7c6d",
+      "date": "2010-09-16T20:46:02Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py"
+      ]
+    },
+    {
+      "sha": "8dd571e136c23e34f84f1fd8e341a5a5a648d393",
+      "date": "2010-09-16T20:31:47Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/container.py",
+        "svgwrite/interface.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "tests/test_drawing.py",
+        "tests/test_utils.py",
+        "tests/test_validator.py"
+      ]
+    },
+    {
+      "sha": "3b8bcf25ac8000178ef3b68ceea9872d035857c2",
+      "date": "2010-09-16T16:24:30Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "9e3c878c2c5c28e353ac39319905bd12c2e4422e",
+      "date": "2010-09-16T05:25:12Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "22950bdce37a4d3b59e2d546be01f8aab8f4eeef",
+      "date": "2010-09-16T04:43:45Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/interface.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "19ce4b566f0903e928a7bce0845e1efb5ec640b2",
+      "date": "2010-09-15T20:44:35Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/container.py",
+        "svgwrite/drawing.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "148969b8eb55885d4f8a91a60a4a9d7f95b924cf",
+      "date": "2010-09-15T19:54:58Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/drawing.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "8ff5a047a8cdd4c0aa81d45cf95e1dcb9b245b44",
+      "date": "2010-09-15T03:30:02Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py"
+      ]
+    },
+    {
+      "sha": "759d780b802373113a824300a82caccb7e9435d4",
+      "date": "2010-09-14T19:13:48Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/shapes.py"
+      ]
+    },
+    {
+      "sha": "0cd21def94150afcfd9ca43ee95455f12e360e11",
+      "date": "2010-09-14T17:56:03Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "tmp.py"
+      ]
+    },
+    {
+      "sha": "c58ba6ae54e06a48b6336ee96b1f1b54ad8c8d7a",
+      "date": "2010-09-13T19:43:45Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "cf8b57e8da131c68f64ea71da8e26d53f314a2a2",
+      "date": "2010-09-13T16:48:20Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "b1d55782f42c1d17157930d5be280f7737c3524f",
+      "date": "2010-09-13T10:43:22Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "d67d27c49b517fae2f3b3bc480b95c89b5f84889",
+      "date": "2010-09-13T08:40:52Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "184b390ddb9009bd70a703a81e6b4150d7134525",
+      "date": "2010-09-12T18:49:16Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "5996526a8491731d26b6e1671d3e61b91f165e5d",
+      "date": "2010-09-12T17:50:51Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/drawing.py"
+      ]
+    },
+    {
+      "sha": "9719e05ea30a80a6a2caf4e8480551bdfbe06979",
+      "date": "2010-09-12T14:29:46Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/validator.py"
+      ]
+    },
+    {
+      "sha": "d6f3714204801eafc9293e6b131b48685c83a3f4",
+      "date": "2010-09-12T10:35:52Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/parameter.py",
+        "tests/test_drawing.py",
+        "tests/test_parameter.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "dea1db4e44ce6036e0095f1fc3d4e82793cf287f",
+      "date": "2010-09-12T09:05:43Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "tests/test_utils.py",
+        "tests/test_validator.py"
+      ]
+    },
+    {
+      "sha": "b54c1e6645703369dcf719158c6b043de22e5ada",
+      "date": "2010-09-11T20:27:50Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/parameter.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "svgwrite/validator.py",
+        "tests/test_drawing.py"
+      ]
+    },
+    {
+      "sha": "36545df0289e40303c525a1e0feb888ff651ac57",
+      "date": "2010-09-11T09:19:06Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "examples.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/parameter.py",
+        "svgwrite/utils.py",
+        "tests/test_drawing.py",
+        "tests/test_parameter.py",
+        "tests/test_rgb.py",
+        "tests/test_utils.py"
+      ]
+    },
+    {
+      "sha": "e57fcd9a2d6b20b1be22668447870962e142bd6d",
+      "date": "2010-09-10T21:36:36Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT",
+        "svgwrite/utils.py",
+        "tests/test_rgb.py"
+      ]
+    },
+    {
+      "sha": "7dd47645457a7b5c21c6dcc9acad92b418948e7c",
+      "date": "2010-09-10T21:29:31Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "LICENSE.TXT",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "examples.py",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/base.py",
+        "svgwrite/drawing.py",
+        "svgwrite/parameter.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py",
+        "tests/test_parameter.py"
+      ]
+    },
+    {
+      "sha": "f01fc20fa33067692ab80cb50e55f0ac89b48592",
+      "date": "2010-09-10T11:34:06Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "README.TXT",
+        "svgwrite/utils.py",
+        "tests/test_rgb.py"
+      ]
+    },
+    {
+      "sha": "b535b15d1298b78e8fd1479767914b783b7e1788",
+      "date": "2010-09-09T08:38:01Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "setup.py",
+        "svgwrite/base.py"
+      ]
+    },
+    {
+      "sha": "2c9d6b152c64ae84aff188fe257321c8fc2f68c3",
+      "date": "2010-09-08T20:37:33Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        "svgwrite/base.py",
+        "svgwrite/path.py",
+        "svgwrite/shapes.py",
+        "svgwrite/utils.py"
+      ]
+    },
+    {
+      "sha": "d81202bf64b0bcceac3abe338fa45cdda1ede021",
+      "date": "2010-09-08T18:51:38Z",
+      "author_login": null,
+      "author_name": "Manfred Moitzi",
+      "author_email": "mozman@gmx.at",
+      "files": [
+        ".hgignore",
+        "LICENSE.TXT",
+        "MANIFEST.in",
+        "NEWS.TXT",
+        "README.TXT",
+        "setup.py",
+        "svgwrite/__init__.py",
+        "svgwrite/utils.py"
+      ]
+    }
+  ]
+}

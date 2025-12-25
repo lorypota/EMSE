@@ -1,0 +1,2260 @@
+{
+  "repo": "btel/svg_utils",
+  "commits": [
+    {
+      "sha": "5b3e09008181965e3b8b168f4dcda39e8722c568",
+      "date": "2025-10-15T07:43:10Z",
+      "author_login": "thawn",
+      "author_name": "Till Korten",
+      "author_email": "webmaster@korten.at",
+      "files": [
+        "src/svgutils/common.py"
+      ]
+    },
+    {
+      "sha": "1cc5b888f265407d2ea3b1f93c95b2efd29c611c",
+      "date": "2022-09-28T21:37:47Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".pre-commit-config.yaml"
+      ]
+    },
+    {
+      "sha": "48b078a729aeb6b1160142ab65157474c95a61b6",
+      "date": "2022-09-28T21:37:25Z",
+      "author_login": null,
+      "author_name": "isort",
+      "author_email": "isort@tools.invalid",
+      "files": [
+        "docs/source/conf.py",
+        "docs/source/tutorials/scripts/fig_final.py",
+        "docs/source/tutorials/scripts/sigmoid_fit.py",
+        "examples/stack_plots.py",
+        "examples/stack_svg.py",
+        "src/svgutils/__init__.py",
+        "src/svgutils/templates.py",
+        "src/svgutils/transform.py",
+        "tests/test_compose.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "55d5ec7306831f5eaf37dc51c800ff8327c9de48",
+      "date": "2022-09-28T21:24:37Z",
+      "author_login": "dependabot[bot]",
+      "author_name": "dependabot[bot]",
+      "author_email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "files": [
+        ".github/workflows/pre-commit-detect-outdated.yml",
+        ".github/workflows/pre-commit-run.yml",
+        ".github/workflows/python-publish.yml",
+        ".github/workflows/run-tests.yml"
+      ]
+    },
+    {
+      "sha": "421dd960e16c331c79465ebf1b82b873f9722902",
+      "date": "2022-09-28T21:18:48Z",
+      "author_login": "dependabot[bot]",
+      "author_name": "dependabot[bot]",
+      "author_email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "files": [
+        ".github/workflows/pre-commit-detect-outdated.yml",
+        ".github/workflows/pre-commit-run.yml",
+        ".github/workflows/python-publish.yml",
+        ".github/workflows/run-tests.yml"
+      ]
+    },
+    {
+      "sha": "c4b2868c0eec1f6c14b372931f30d6292ec0b9f6",
+      "date": "2022-09-28T13:28:57Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/pre-commit-run.yml"
+      ]
+    },
+    {
+      "sha": "f05bed003d27f3311581097f6db10fca9da6fcfa",
+      "date": "2022-09-28T14:29:54Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/black.yml"
+      ]
+    },
+    {
+      "sha": "4316a2b64f2f1067896f530e03417bac2c825a8b",
+      "date": "2022-09-28T14:25:31Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/black.yml"
+      ]
+    },
+    {
+      "sha": "fc3fc6694c202805e57edc7b815bbcd157a2eba7",
+      "date": "2022-09-28T14:23:43Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/black.yml"
+      ]
+    },
+    {
+      "sha": "53aba0791be4c65ed70a9653a9bbff3b2f34a560",
+      "date": "2022-09-28T20:18:08Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        ".pre-commit-config.yaml",
+        "src/svgutils/common.py",
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "4abf7fb18cea0da04b6b2a0bcacbec5daded1662",
+      "date": "2021-02-12T11:18:51Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/black.yml",
+        ".github/workflows/pre-commit-detect-outdated.yml",
+        ".github/workflows/pre-commit-run.yml",
+        ".pre-commit-config.yaml"
+      ]
+    },
+    {
+      "sha": "2b2a87030877b4463325a1890d0cd46bbdb315ac",
+      "date": "2021-02-12T11:14:49Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/run-tests.yml"
+      ]
+    },
+    {
+      "sha": "c2d95e90f31c580ffe40528ddc5bab30764c36bd",
+      "date": "2021-02-11T13:53:08Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/black.yml",
+        ".github/workflows/run-tests.yml",
+        ".pre-commit-config.yaml",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "cec450c6025b48602c18d99f467df6fe56bd4554",
+      "date": "2021-02-11T13:52:44Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/python-publish.yml",
+        ".github/workflows/run-tests.yml",
+        "CONTRIBUTING.rst",
+        "README.rst",
+        "docs/source/getting_started.rst",
+        "docs/source/tutorials/figures/Makefile",
+        "docs/source/tutorials/scripts/anscombe.py",
+        "docs/source/tutorials/scripts/composing_multipanel_figures_examples.py",
+        "docs/source/tutorials/scripts/fig_compose.py",
+        "examples/compose_example.py",
+        "examples/stack_plots.py",
+        "examples/stack_svg.py",
+        "setup.py",
+        "src/svgutils/compose.py",
+        "src/svgutils/templates.py",
+        "tests/letter_spacing.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "0408398b72aaf5df82c483a1ce5b74d5d1cd6854",
+      "date": "2021-02-11T17:16:17Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/black.yml",
+        ".github/workflows/python-publish.yml"
+      ]
+    },
+    {
+      "sha": "568514cab31d3f36227faf13872b8742eceeda92",
+      "date": "2021-02-11T09:33:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "5918bf327fe15080a4fd4fa9742a472448af13df",
+      "date": "2021-02-11T09:31:37Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        ".github/workflows/run-tests.yml",
+        ".travis.yml",
+        "README.rst",
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "decb6b75f9a4e005915bb60cbdb1f077388e7ec5",
+      "date": "2021-02-10T23:09:32Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".travis.yml"
+      ]
+    },
+    {
+      "sha": "45ca424e0dec8b9161bfcf080a735e1cced4f468",
+      "date": "2021-02-10T23:09:04Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/run-tests.yml",
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "666a89b7200f298a10f23be3186bffee8f090823",
+      "date": "2021-02-10T23:14:36Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "8945d56c4c17745d5683e47bc7d80a46ee86b4f0",
+      "date": "2021-02-10T23:05:18Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "3027a1c987afc929de6616a155b06050683be558",
+      "date": "2021-02-10T21:29:10Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        ".github/dependabot.yml"
+      ]
+    },
+    {
+      "sha": "7b3c9ef33b916173209ba23252c35d7cd7128bdd",
+      "date": "2021-02-10T21:23:49Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "10a082008a40a387cd80ef044c3efe6a8aa79bd6",
+      "date": "2021-02-10T21:18:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        ".github/workflows/run-tests.yml",
+        "src/svgutils/transform.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "df7966e1da08300458a9012f7b62c1165e402545",
+      "date": "2021-02-10T20:07:21Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/dependabot.yml"
+      ]
+    },
+    {
+      "sha": "0c1d861b73d879c771b0ee43133ec0ab68ea0622",
+      "date": "2021-02-10T19:58:42Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        ".github/workflows/run-tests.yml"
+      ]
+    },
+    {
+      "sha": "c0fa8bda9c0966eb8723fcd0a91d69ec35f5aef7",
+      "date": "2021-02-10T19:52:57Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "8c1696a3a995c2517b632df961fe08a14e0bb7ca",
+      "date": "2021-02-10T19:49:18Z",
+      "author_login": "hartwork",
+      "author_name": "Sebastian Pipping",
+      "author_email": "sebastian@pipping.org",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "4b7720391336de6a868fcb1d28eddf9a4759616d",
+      "date": "2021-02-09T22:47:16Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "examples/compose_example.py",
+        "examples/stack_plots.py",
+        "examples/stack_svg.py"
+      ]
+    },
+    {
+      "sha": "c393503ac3438193b7a2051ed837c685c6991ef6",
+      "date": "2021-02-09T22:25:03Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "a1aa0030a805fd4b133ba3063b9b0aa7e4dac499",
+      "date": "2021-01-10T22:09:07Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "3e1bb3e72d51464b86d0ed00f3a1dfd71c548c44",
+      "date": "2021-01-10T22:06:13Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "6f5d10fa5cb21f7fb72ee256d0371ba9d5943627",
+      "date": "2021-01-10T22:04:57Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "25744774f88ac86a977b0c7f91cba6ce6bb0de65",
+      "date": "2021-01-07T09:40:40Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "3a9a550c76a342c81742552a79c140b67af7e286",
+      "date": "2021-01-04T11:21:05Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "RELEASE.rst"
+      ]
+    },
+    {
+      "sha": "c455c92be4952d98c4cd461b6188b632594c9473",
+      "date": "2021-01-04T11:13:48Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "7a639f58a79421cbf500c74f8656038b24fc6f76",
+      "date": "2021-01-04T10:55:11Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        ".github/workflows/python-publish.yml"
+      ]
+    },
+    {
+      "sha": "33411e7cae28a31b35d3cf76d2eecf9191fe412c",
+      "date": "2020-11-22T22:03:19Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        ".github/workflows/black.yml",
+        ".pre-commit-config.yaml",
+        "CONTRIBUTING.rst",
+        "docs/source/conf.py",
+        "docs/source/tutorials/scripts/anscombe.py",
+        "docs/source/tutorials/scripts/composing_multipanel_figures_examples.py",
+        "docs/source/tutorials/scripts/fig_compose.py",
+        "docs/source/tutorials/scripts/fig_final.py",
+        "docs/source/tutorials/scripts/sigmoid_fit.py",
+        "examples/compose_example.py",
+        "examples/compose_scaling.py",
+        "examples/stack_plots.py",
+        "examples/stack_svg.py",
+        "setup.py",
+        "src/svgutils/compose.py",
+        "src/svgutils/templates.py",
+        "src/svgutils/transform.py",
+        "tests/letter_spacing.py",
+        "tests/test_compose.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "200f0ad25081889de5b8ba8c5091a23aeb30a690",
+      "date": "2020-11-22T21:58:09Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "CONTRIBUTING.rst"
+      ]
+    },
+    {
+      "sha": "774e5cbcd7a8a3f3e4c15efd9810dd53171c27eb",
+      "date": "2020-11-22T21:56:18Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        ".pre-commit-config.yaml"
+      ]
+    },
+    {
+      "sha": "f65f9aa2a394d233ff24265a3378ca24fb0b66d3",
+      "date": "2020-11-22T21:50:49Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        ".github/workflows/black.yml"
+      ]
+    },
+    {
+      "sha": "d61b391baf13ad59fc817157a0c3e93d81498f9a",
+      "date": "2020-11-22T21:49:56Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "docs/source/conf.py",
+        "docs/source/tutorials/scripts/anscombe.py",
+        "docs/source/tutorials/scripts/composing_multipanel_figures_examples.py",
+        "docs/source/tutorials/scripts/fig_compose.py",
+        "docs/source/tutorials/scripts/fig_final.py",
+        "docs/source/tutorials/scripts/sigmoid_fit.py",
+        "examples/compose_example.py",
+        "examples/compose_scaling.py",
+        "examples/stack_plots.py",
+        "examples/stack_svg.py",
+        "setup.py",
+        "src/svgutils/compose.py",
+        "src/svgutils/templates.py",
+        "src/svgutils/transform.py",
+        "tests/letter_spacing.py",
+        "tests/test_compose.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "3222558da3cdee62d210e25a22319b5d3dad5215",
+      "date": "2020-11-22T21:43:53Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "examples/compose_scaling.py",
+        "examples/files/example.svg",
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "e6e67f2742bf4b657d55c6894b3e7a35b14e9074",
+      "date": "2020-11-22T21:01:41Z",
+      "author_login": "shervinsahba",
+      "author_name": "Shervin",
+      "author_email": "shervin@tuta.io",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "98f2c5a954a1a2bb11c0b6ca5ee52b49aa9e348e",
+      "date": "2020-11-22T20:32:24Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py",
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "e19a192f2980e3d3e776f55272c2b8c18e6ea518",
+      "date": "2020-11-22T20:30:46Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "1236d7720413de24bd5289e83be40d2fead22dbc",
+      "date": "2020-11-22T19:56:58Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "src/svgutils/compose.py",
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "b9847b71a098aeadae030f1659df15a3265a643d",
+      "date": "2020-11-21T04:47:57Z",
+      "author_login": "shervinsahba",
+      "author_name": "Shervin Sahba",
+      "author_email": "shervin@tuta.io",
+      "files": [
+        "examples/compose_scaling.py",
+        "examples/files/example.svg"
+      ]
+    },
+    {
+      "sha": "7f2940a842a09dc219b69577bc13052323eda41c",
+      "date": "2020-11-21T04:35:22Z",
+      "author_login": "shervinsahba",
+      "author_name": "Shervin Sahba",
+      "author_email": "shervin@tuta.io",
+      "files": [
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "7ca9a5c2b83b7f1dd55741a35ddfadd79e3dc549",
+      "date": "2020-11-21T04:33:25Z",
+      "author_login": "shervinsahba",
+      "author_name": "Shervin Sahba",
+      "author_email": "shervin@tuta.io",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "eb9f0919b766b5ed3ca674ba3a86baca293f50d1",
+      "date": "2020-11-21T04:32:45Z",
+      "author_login": "shervinsahba",
+      "author_name": "Shervin Sahba",
+      "author_email": "shervin@tuta.io",
+      "files": [
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "c083347961db1d080859bcdb86365ff532020bc5",
+      "date": "2020-11-18T08:11:13Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "b8516bd90f716c9fc87dc1af6b699c46dc95ee69",
+      "date": "2020-10-05T07:21:04Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "CODE_OF_CONDUCT.rst"
+      ]
+    },
+    {
+      "sha": "0a55b5157d18620da8ebb0a22de7e34ab20b4d75",
+      "date": "2020-10-02T20:30:04Z",
+      "author_login": "Jam-Iko",
+      "author_name": "LucyIkonnikova-Skutsenia",
+      "author_email": "jamie.ikonnikova@gmail.com",
+      "files": [
+        "CODE_OF_CONDUCT.rst"
+      ]
+    },
+    {
+      "sha": "a2fea657bb9e1516cda98c5b2c11d281a87e3fc8",
+      "date": "2020-10-02T13:02:55Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "README.rst",
+        "docs/source/getting_started.rst",
+        "docs/source/index.rst"
+      ]
+    },
+    {
+      "sha": "9d2f39fea8c836ec69ef32982d5d167c3798cec3",
+      "date": "2020-10-02T12:34:02Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials/getting_started.rst"
+      ]
+    },
+    {
+      "sha": "f446cac61764ea9f743c558e7b6ec059ebf8bd2d",
+      "date": "2020-10-02T12:33:38Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/getting_started.rst"
+      ]
+    },
+    {
+      "sha": "2db0a04fc6fdf15858c7e56c0bbd1326b95ff754",
+      "date": "2020-10-02T11:07:08Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials/getting_started.rst"
+      ]
+    },
+    {
+      "sha": "1a7ec642bc56f95c63d2f5733f9eca52aa3e85ca",
+      "date": "2020-10-02T11:05:33Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials.rst"
+      ]
+    },
+    {
+      "sha": "b45a858f9d1b3e2a54c07018e82abbfead66afe3",
+      "date": "2020-10-02T11:04:51Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/index.rst"
+      ]
+    },
+    {
+      "sha": "5a4ccd0395c80f2361e3937f8639d9daccd3dd79",
+      "date": "2020-10-02T10:53:41Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "676abdaafbb3d1c011836035d8c0acaef064149f",
+      "date": "2020-10-02T10:52:42Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "c14cfd461d6ec57d0894d8902c0db7700dd7f7ff",
+      "date": "2020-10-02T09:52:10Z",
+      "author_login": "Jam-Iko",
+      "author_name": "LucyIkonnikova-Skutsenia",
+      "author_email": "jamie.ikonnikova@gmail.com",
+      "files": [
+        "CODE_OF_CONDUCT.rst"
+      ]
+    },
+    {
+      "sha": "a3671ac09023acb359d87ad45cff4e01fa345c02",
+      "date": "2020-10-02T09:28:50Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials/getting_started.rst"
+      ]
+    },
+    {
+      "sha": "dc7f8ea724edc0d4348b4fa21af270aa973fc89d",
+      "date": "2020-10-02T09:28:20Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "f3bb32e32148c7d8e68b334b167bb37c43330de0",
+      "date": "2020-10-02T09:26:41Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials.rst"
+      ]
+    },
+    {
+      "sha": "2aba131c5a7b0307b335754462f5788855c88a89",
+      "date": "2020-10-02T09:14:21Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "f36d19c8cde962bc21c7bfe97f8063078309f3aa",
+      "date": "2020-10-02T08:42:59Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials/getting_started.rst"
+      ]
+    },
+    {
+      "sha": "5bcde355fe63af7006a26cdaa9ceb89bbc77d609",
+      "date": "2020-10-02T08:22:02Z",
+      "author_login": "khushishikhu",
+      "author_name": "Khushi Gautam",
+      "author_email": "65439761+khushishikhu@users.noreply.github.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "0bac859e5121cbd5a040bd590b329e917bec6ee6",
+      "date": "2020-10-01T15:23:30Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/publication_quality_figures.rst"
+      ]
+    },
+    {
+      "sha": "1758f5546de37134e8a46323c76ba69410a9bbdc",
+      "date": "2020-10-01T15:20:52Z",
+      "author_login": "abhisht51",
+      "author_name": "Abhisht Singh",
+      "author_email": "39940817+abhisht51@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials/publication_quality_figures.rst"
+      ]
+    },
+    {
+      "sha": "62204e9c36e304e736cabaf2f42df26e68bb6fad",
+      "date": "2020-10-01T14:58:34Z",
+      "author_login": "abhisht51",
+      "author_name": "Abhisht Singh",
+      "author_email": "39940817+abhisht51@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials/publication_quality_figures.rst"
+      ]
+    },
+    {
+      "sha": "3ae368346572211a1e57e793d0b4cfe21d3635da",
+      "date": "2020-10-01T14:42:09Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz.telenczuk@gmail.com",
+      "files": [
+        "CONTRIBUTING.rst"
+      ]
+    },
+    {
+      "sha": "1ba68a73a318711330add838ee89484bf06dee31",
+      "date": "2020-10-01T11:23:08Z",
+      "author_login": "abhisht51",
+      "author_name": "Abhisht Singh",
+      "author_email": "39940817+abhisht51@users.noreply.github.com",
+      "files": [
+        "docs/source/tutorials/publication_quality_figures.rst"
+      ]
+    },
+    {
+      "sha": "64bc21b0c6d24f48ba0f5294f3d4aa190891310e",
+      "date": "2020-09-23T10:54:56Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "5a664cc1c8f5ae9e69d39a626fa544d464d51771",
+      "date": "2020-09-23T10:52:49Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "986586607530df3a98029fddfe0595fd706dc8a7",
+      "date": "2020-07-14T17:19:39Z",
+      "author_login": "CSCreator",
+      "author_name": "CSCreator",
+      "author_email": "charactersheetcreator@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "94fbba69d4283122a33dde96ee6c8af4ab8a7d7b",
+      "date": "2020-06-18T19:06:54Z",
+      "author_login": "malfatti",
+      "author_name": "Thawann Malfatti",
+      "author_email": "malfatti@disroot.org",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "e780d9917295b2433f14fbe46a30af02c8cf59e5",
+      "date": "2020-04-07T19:58:09Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/templates.py"
+      ]
+    },
+    {
+      "sha": "d3ef5004d534b7c9c5200435c188658d9fc1bd16",
+      "date": "2020-04-07T19:56:08Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "1d7c75d0de22287f90d20249fb5d8d7f8eb0e16c",
+      "date": "2020-04-07T08:46:55Z",
+      "author_login": "fkrecinic",
+      "author_name": "furii",
+      "author_email": "153158+furii@users.noreply.github.com",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "47800ffd84fd74d2e0af2584290063304281d89a",
+      "date": "2019-05-11T20:41:18Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "b9e563e1794b953342012f70626ce95d2b9676bf",
+      "date": "2019-05-11T20:37:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        ".gitignore"
+      ]
+    },
+    {
+      "sha": "30683a7eb7712f26b9cc1ab00085b6e8968b6b58",
+      "date": "2019-05-11T20:36:04Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "9ddfa8cd279c6eafd7c91dd65532a47ac8773ab4",
+      "date": "2019-03-27T13:15:29Z",
+      "author_login": "ziererf",
+      "author_name": "Florian Zierer",
+      "author_email": "florian.zierer@moticon.de",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "66d7c72dfb138b41d2a0eea01fc91e6f7a19ddf2",
+      "date": "2019-03-27T13:14:56Z",
+      "author_login": "ziererf",
+      "author_name": "Florian Zierer",
+      "author_email": "florian.zierer@moticon.de",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "ee00726ebed1bd97fd496b15b6a8e7f233ebb5e3",
+      "date": "2019-03-21T13:21:25Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "ec632094e4c5e45adbebaeae3030919fa013ac7a",
+      "date": "2019-03-21T13:16:59Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "03ccb3b074bd87a49ee573060b7f6bd879fc57da",
+      "date": "2019-03-21T13:16:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "4a6a63d2292f75a4c0829ebdd5b044e592af84d0",
+      "date": "2019-03-21T13:15:07Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/publication_quality_figures.rst"
+      ]
+    },
+    {
+      "sha": "11e7c11fdd95b2df3e8d279bf26fcb87d7faa830",
+      "date": "2019-03-21T11:47:10Z",
+      "author_login": "technic",
+      "author_name": "Alex Maystrenko",
+      "author_email": "alexeytech@gmail.com",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "a7cedcbbd7df48da0966f4bbe0b04b7017b394c9",
+      "date": "2019-03-21T11:35:28Z",
+      "author_login": "technic",
+      "author_name": "Alex Maystrenko",
+      "author_email": "alexeytech@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "f9aabc9be1912c33a52bc059e3dac8bf33037279",
+      "date": "2019-03-21T11:25:54Z",
+      "author_login": "technic",
+      "author_name": "Alex Maystrenko",
+      "author_email": "alexeytech@gmail.com",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "7c8e511d8a7a049f4629e03e1fc73ef5867eccea",
+      "date": "2019-02-12T23:06:06Z",
+      "author_login": "schlpbch",
+      "author_name": "Andreas Schlapbach",
+      "author_email": "schlpbch@gmail.com",
+      "files": [
+        "docs/source/tutorials/publication_quality_figures.rst"
+      ]
+    },
+    {
+      "sha": "1f26b6ff84fbe01bd8e09ab1f45f3d497fbd32f7",
+      "date": "2018-09-04T07:11:10Z",
+      "author_login": "ErickMR19",
+      "author_name": "Erick Madrigal R\u00edos",
+      "author_email": "erickmadrigalrios@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "9f94dc0722f118d80eb8d71759ba9939a3e05295",
+      "date": "2018-09-04T05:25:02Z",
+      "author_login": "ErickMR19",
+      "author_name": "Erick Madrigal R\u00edos",
+      "author_email": "erickmadrigalrios@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "3e5f8617d12e478d963843311e8e3e6b27b1ec50",
+      "date": "2018-04-18T07:48:32Z",
+      "author_login": null,
+      "author_name": "Nicolas Tolazzi",
+      "author_email": "nicolas.tolazzi@mpq.mpg.de",
+      "files": [
+        ".gitignore"
+      ]
+    },
+    {
+      "sha": "83040d6623c0bf7455b4aaffcb19926d2d670880",
+      "date": "2018-04-18T07:45:33Z",
+      "author_login": null,
+      "author_name": "Nicolas Tolazzi",
+      "author_email": "nicolas.tolazzi@mpq.mpg.de",
+      "files": [
+        "src/svgutils/templates.py"
+      ]
+    },
+    {
+      "sha": "5381b82aa5e35eca1bc6e4d2a075c0a433d65efd",
+      "date": "2018-01-26T10:40:10Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "72e73d03379f27341870a0c453d4ca313334950e",
+      "date": "2018-01-23T10:37:48Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "d909b5bed292625ad1ffa4ce0b52098d8fbe32c4",
+      "date": "2018-01-23T10:36:40Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "71bc73a6fb8c87a57416394a85edee777d52ec74",
+      "date": "2018-01-23T10:28:24Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "52237f94685a3f7eebe5b3296d847b81b8e4a7fa",
+      "date": "2017-10-25T13:50:18Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "RELEASE.rst"
+      ]
+    },
+    {
+      "sha": "812a39e2e5df346212c0fe04fb6ca3c31a593453",
+      "date": "2017-10-25T13:35:11Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "68cd27b23d759ec615e89ef77be0f3c4b2048f75",
+      "date": "2017-10-25T13:20:49Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "b15be5e35c7bf9b068b881d68f3b0a86f0081628",
+      "date": "2017-10-25T11:38:21Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "739ce9a20de1213f7496bd5f11ddf9031229c96b",
+      "date": "2017-10-25T11:30:09Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py",
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "4022657adbcb6d534c7b6f9e2bd21b4cde2e4061",
+      "date": "2017-06-30T22:34:16Z",
+      "author_login": null,
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "telenczuk@unic.cnrs-gif.fr",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "46ec3bb1079ca6c91d213fabde9f90a396a99b56",
+      "date": "2017-06-23T21:56:30Z",
+      "author_login": "sjmf",
+      "author_name": "Sam Mitchell Finnigan",
+      "author_email": "s.j.finnigan@ncl.ac.uk",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "d9a9961062ed3d73ff09930a315d8c1bcdc5cd91",
+      "date": "2017-06-23T15:34:33Z",
+      "author_login": "sjmf",
+      "author_name": "Sam Mitchell Finnigan",
+      "author_email": "s.j.finnigan@ncl.ac.uk",
+      "files": [
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "c0303973bfc7f797b9045a4943f85f095d162aac",
+      "date": "2017-06-23T13:20:19Z",
+      "author_login": "sjmf",
+      "author_name": "Sam Mitchell Finnigan",
+      "author_email": "s.j.finnigan@ncl.ac.uk",
+      "files": [
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "0fab5e331e7a49763d62cfb2fe3d95b05edaca2a",
+      "date": "2017-06-23T10:57:37Z",
+      "author_login": "sjmf",
+      "author_name": "Sam Mitchell Finnigan",
+      "author_email": "s.j.finnigan@ncl.ac.uk",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "35acf960e2d3f7face7985225a7a747d4d4d3780",
+      "date": "2017-06-23T10:36:27Z",
+      "author_login": "sjmf",
+      "author_name": "Sam Mitchell Finnigan",
+      "author_email": "s.j.finnigan@ncl.ac.uk",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "70656a319057d712efaf364686bb30b76ddcb903",
+      "date": "2017-06-23T10:35:54Z",
+      "author_login": "sjmf",
+      "author_name": "Sam Mitchell Finnigan",
+      "author_email": "s.j.finnigan@ncl.ac.uk",
+      "files": [
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "632e66461b24f35871dfb3010b6c325cf8f95d45",
+      "date": "2017-06-21T09:00:53Z",
+      "author_login": null,
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "telenczuk@unic.cnrs-gif.fr",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "5876d42ff8c3219ca35cdf46a33d4133831bb615",
+      "date": "2017-06-21T08:59:11Z",
+      "author_login": null,
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "telenczuk@unic.cnrs-gif.fr",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "adb74e58acbc19f248d41ffccbcfe2b09cae4b92",
+      "date": "2017-06-20T18:12:46Z",
+      "author_login": "CrazyPython",
+      "author_name": "James",
+      "author_email": "Jamtlu@gmail.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "595b9e832c8583861fc5cfa50615069c6abcf132",
+      "date": "2017-06-19T13:18:25Z",
+      "author_login": null,
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "telenczuk@unic.cnrs-gif.fr",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "ee14e01c9e8b88f9ccfa8765c495cf3dcaa69f09",
+      "date": "2017-06-17T00:16:10Z",
+      "author_login": "CrazyPython",
+      "author_name": "CrazyPython",
+      "author_email": "CrazyPython@users.noreply.github.com",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "0f3eb9660402066e203b2099d482ff345b60521d",
+      "date": "2017-02-01T13:50:00Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "bce7380ec0c784d5deb89c46146edfc300d6d634",
+      "date": "2017-02-01T13:27:28Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        ".travis.yml"
+      ]
+    },
+    {
+      "sha": "4a43fec780593dfffc02a3d646f55aa5348d7b8b",
+      "date": "2017-02-01T13:15:05Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "48fc4942113785993bdaa68345bc4b341b9aa69a",
+      "date": "2017-02-01T13:08:10Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "15a7d8780dd08f15bc5d125d90755fe269e727e0",
+      "date": "2017-02-01T12:58:54Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        ".travis.yml"
+      ]
+    },
+    {
+      "sha": "c75989550526be1735302b505b41281f53bf9c5b",
+      "date": "2017-02-01T12:18:39Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "docs/source/conf.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "519400d958e5059d1f9dd6e064764bc0e0232c41",
+      "date": "2016-09-16T14:12:50Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "9c065d5c7ad15f548a043651432441d30492ee82",
+      "date": "2016-09-09T09:32:33Z",
+      "author_login": null,
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "telenczuk@unic.cnrs-gif.fr",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "718610b4008a0a8b75d77aba95aeda6e9be5d306",
+      "date": "2016-09-09T09:04:49Z",
+      "author_login": "samuelba",
+      "author_name": "Sam",
+      "author_email": "samuel.bachmann@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "1e9d7ab62b2b697878e97b492b1d30c231ba2cbd",
+      "date": "2016-09-08T13:40:03Z",
+      "author_login": "samuelba",
+      "author_name": "Samuel Bachmann",
+      "author_email": "samuel.bachmann@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "13e0710e3bd5ba83f30118b52532a84e1a91cfa6",
+      "date": "2016-08-26T11:14:53Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "5fe0dc65aa537e4b68bef9b700547cb4d7e1fe7a",
+      "date": "2016-08-26T11:13:26Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "fdf38bf5c5334c7b05ce48e0debfe9784da2a929",
+      "date": "2016-08-26T11:07:59Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        ".travis.yml",
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "fcdab6383216d0d026c812c954485dd83ebf19a9",
+      "date": "2016-08-26T11:00:51Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        ".travis.yml"
+      ]
+    },
+    {
+      "sha": "28c021a9566813e9ad0cde25e9a18f3c554355e2",
+      "date": "2016-08-26T10:49:43Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "e36de0bf835f9112c57d0219fb1e9ebfa69a23b7",
+      "date": "2016-08-26T10:30:23Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "c72d2750ee7cd79b1354de4852cdad817b3cbb0a",
+      "date": "2016-08-26T10:18:04Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        ".gitignore",
+        "docs/source/compose.rst",
+        "docs/source/conf.py",
+        "docs/source/index.rst",
+        "docs/source/reference.rst",
+        "docs/source/transform.rst",
+        "docs/source/tutorial/anscombe.png",
+        "docs/source/tutorial/sigmoid_fit.png",
+        "docs/source/tutorials.rst",
+        "docs/source/tutorials/composing_multipanel_figures.rst",
+        "docs/source/tutorials/figures/Makefile",
+        "docs/source/tutorials/figures/anscombe.png",
+        "docs/source/tutorials/figures/anscombe.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figure_ex1.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex1.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex1a.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex1b.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex2.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex3.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex3b.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex4.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex5.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex6.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex7.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex8.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures_ex1.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures_ex2.svg",
+        "docs/source/tutorials/figures/fig_final.png",
+        "docs/source/tutorials/figures/fig_final.svg",
+        "docs/source/tutorials/figures/fig_final_compose.svg",
+        "docs/source/tutorials/figures/pyplot_publication.svg",
+        "docs/source/tutorials/figures/sigmoid_fit.png",
+        "docs/source/tutorials/figures/sigmoid_fit.svg",
+        "docs/source/tutorials/publication_quality_figures.rst",
+        "docs/source/tutorials/scripts/anscombe.py",
+        "docs/source/tutorials/scripts/composing_multipanel_figures_examples.py",
+        "docs/source/tutorials/scripts/fig_compose.py",
+        "docs/source/tutorials/scripts/fig_final.py",
+        "docs/source/tutorials/scripts/sigmoid_fit.py",
+        "examples/compose_example.py",
+        "examples/files/lion.jpeg",
+        "examples/files/svg_logo.svg",
+        "requirements.txt",
+        "src/svgutils/__init__.py",
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py",
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "e074c057d368dbe911beb07c89f3a1835dda0086",
+      "date": "2016-03-24T10:25:30Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/composing_multipanel_figures.rst",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex1a.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex1b.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex3.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex3b.svg",
+        "docs/source/tutorials/scripts/composing_multipanel_figures_examples.py"
+      ]
+    },
+    {
+      "sha": "d247452a589ae8386ee28f0c36f1f120c40bccd4",
+      "date": "2016-03-24T01:39:51Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "a0928d307727be744655a95499083a069a5f5321",
+      "date": "2016-03-24T01:39:34Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/composing_multipanel_figures.rst",
+        "docs/source/tutorials/figures/anscombe.png",
+        "docs/source/tutorials/figures/anscombe.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex1.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex2.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex3.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex4.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex5.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex6.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex7.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures/ex8.svg",
+        "docs/source/tutorials/figures/fig_final.svg",
+        "docs/source/tutorials/figures/fig_final_compose.svg",
+        "docs/source/tutorials/figures/sigmoid_fit.png",
+        "docs/source/tutorials/figures/sigmoid_fit.svg",
+        "docs/source/tutorials/scripts/anscombe.py",
+        "docs/source/tutorials/scripts/composing_multipanel_figures_examples.py",
+        "docs/source/tutorials/scripts/sigmoid_fit.py"
+      ]
+    },
+    {
+      "sha": "6bd55866537b419a83a7a3770e6a9f7725804b25",
+      "date": "2016-03-24T00:38:16Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/anscombe.png",
+        "docs/source/tutorials/composing_multipanel_figures.rst",
+        "docs/source/tutorials/figures/Makefile",
+        "docs/source/tutorials/figures/anscombe.png",
+        "docs/source/tutorials/figures/anscombe.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figure_ex1.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures_ex1.svg",
+        "docs/source/tutorials/figures/composing_multipanel_figures_ex2.svg",
+        "docs/source/tutorials/figures/fig_final.png",
+        "docs/source/tutorials/figures/fig_final.svg",
+        "docs/source/tutorials/figures/fig_final_compose.svg",
+        "docs/source/tutorials/figures/pyplot_publication.svg",
+        "docs/source/tutorials/figures/sigmoid_fit.png",
+        "docs/source/tutorials/figures/sigmoid_fit.svg",
+        "docs/source/tutorials/publication_quality_figures.rst",
+        "docs/source/tutorials/scripts/anscombe.py",
+        "docs/source/tutorials/scripts/composing_multipanel_figures_examples.py",
+        "docs/source/tutorials/scripts/fig_compose.py",
+        "docs/source/tutorials/scripts/fig_final.py",
+        "docs/source/tutorials/scripts/sigmoid_fit.py"
+      ]
+    },
+    {
+      "sha": "94a7e6efcadf5706daa2e7d9962fdf45db577af7",
+      "date": "2016-03-24T00:00:30Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "697776f7d65fa66684d4dd01de29a3d7f9af807f",
+      "date": "2016-03-23T09:27:23Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/composing_multipanel_figures.rst"
+      ]
+    },
+    {
+      "sha": "dc4d6f06746bf0aa9611211d93264cd281a7d5ea",
+      "date": "2016-03-23T00:57:08Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/anscombe.png",
+        "docs/source/tutorials/composing_multipanel_figures.rst",
+        "docs/source/tutorials/fig_compose.py",
+        "docs/source/tutorials/publication_quality_figures.rst",
+        "docs/source/tutorials/sigmoid_fit.png"
+      ]
+    },
+    {
+      "sha": "2b78397572264437870dd04064b90f09435f19ad",
+      "date": "2016-03-21T23:45:19Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/compose.rst",
+        "docs/source/tutorials.rst",
+        "docs/source/tutorials/anscombe.py",
+        "docs/source/tutorials/composing_multipanel_figures.rst",
+        "docs/source/tutorials/fig_compose.py"
+      ]
+    },
+    {
+      "sha": "9f9cb5e3d0408d5c949e517e7e697a71fc80f13e",
+      "date": "2016-03-21T23:39:47Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/tutorials/anscombe.svg",
+        "docs/source/tutorials/composing_multipanel_figures.rst",
+        "docs/source/tutorials/pyplot_publication.svg",
+        "src/svgutils/compose.py",
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "2ae4b203cbc73a7382bf8010703ea2490e7ea728",
+      "date": "2016-03-19T00:30:18Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "82714e02f7c1e1306762f7a32712b3719ba4bb36",
+      "date": "2016-03-19T00:12:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        ".gitignore",
+        "docs/source/compose.rst",
+        "docs/source/reference.rst",
+        "docs/source/transform.rst",
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "46cb3b6328bc975f87552318d66424948b86eb69",
+      "date": "2016-01-23T23:46:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "e64ce4db1d699faa54787fa3048d0ce56629611c",
+      "date": "2016-01-23T01:43:20Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "3567080f718fc6b944f0561ae666fd46db33f823",
+      "date": "2016-01-22T01:40:39Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/conf.py",
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "377e46693b029effe8051c544901d9244dd719c5",
+      "date": "2016-01-21T23:56:03Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/reference.rst",
+        "docs/source/tutorials.rst"
+      ]
+    },
+    {
+      "sha": "3863d27e8766d2b9780ce35c3dbfe3f0369ff65b",
+      "date": "2016-01-21T23:50:04Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/conf.py"
+      ]
+    },
+    {
+      "sha": "2efc808036130318c1d606fbed7a499715a25605",
+      "date": "2016-01-21T23:19:34Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "requirements.txt"
+      ]
+    },
+    {
+      "sha": "f0fe74e717ac5bb92596f749429447dd92182668",
+      "date": "2016-01-21T23:16:12Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/index.rst"
+      ]
+    },
+    {
+      "sha": "3ddd08db934d64791bcc5abe0f57c6febb7d5e0d",
+      "date": "2016-01-21T22:54:04Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "docs/source/conf.py",
+        "docs/source/index.rst",
+        "docs/source/tutorials/anscombe.png",
+        "docs/source/tutorials/anscombe.py",
+        "docs/source/tutorials/fig_final.png",
+        "docs/source/tutorials/fig_final.py",
+        "docs/source/tutorials/publication_quality_figures.rst",
+        "docs/source/tutorials/sigmoid_fit.png",
+        "docs/source/tutorials/sigmoid_fit.py",
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "04886513c2eb53ef69c9f82983319c184574eead",
+      "date": "2016-01-21T22:05:30Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "3ab69d8655bfdab7531b2e6308753d507c7f5b5f",
+      "date": "2016-01-21T21:54:11Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "c8af4b547b8908d084ec349170418376a108cfbc",
+      "date": "2015-11-24T16:22:49Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "0c7c08bfe08637e687265334ffbed84dd3e9fbcf",
+      "date": "2015-11-05T01:20:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz T",
+      "author_email": "bartosz@telenczuk.pl",
+      "files": [
+        "tests/test_compose.py"
+      ]
+    },
+    {
+      "sha": "2221ae6784a70826a7593ce7f14249d7841d7f66",
+      "date": "2015-11-04T23:48:09Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "145502d680744274dea66ae0d19da4e4c62d77e4",
+      "date": "2014-10-20T17:50:11Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "f4b99e5b69bdc102ec144c7210ae672f5c7bcb37",
+      "date": "2014-10-19T20:38:19Z",
+      "author_login": "brghena",
+      "author_name": "Branden Ghena",
+      "author_email": "brghena@umich.edu",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "d22a93a40098d99c0f3f55207ab255fb874c317e",
+      "date": "2014-06-13T16:09:57Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "cb1866d519ba112d8eae1687e3d1e19cdfcee291",
+      "date": "2014-06-13T14:22:24Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/.circle.svg.swp",
+        "tests/circle.svg",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "16067ccdbbba8c2a50954ed4d8cb673871fe469c",
+      "date": "2014-06-13T14:08:34Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "examples/compose_example.py",
+        "src/svgutils/compose.py"
+      ]
+    },
+    {
+      "sha": "7a2caf432a177571ecfeae8a153c09847c80e89e",
+      "date": "2014-06-09T11:45:55Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "examples/compose_example.py",
+        "examples/files/lion.jpeg",
+        "examples/files/svg_logo.svg",
+        "src/svgutils/__init__.py",
+        "src/svgutils/compose.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "c906a9b90f037d33d22a31430d61e48b6105702d",
+      "date": "2014-06-05T15:43:36Z",
+      "author_login": "btel",
+      "author_name": "Bartosz EITN",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "389d806b38fa33ded6c327a900ba2b9efad4b7d1",
+      "date": "2014-04-14T18:09:12Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "8e1189fbfcb10b2f7e2b2817a486365b37bad7e4",
+      "date": "2014-04-10T16:24:49Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/.circle.svg.swp",
+        "tests/circle.svg",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "62c641d30ccc4f14555d799cfe27a5f9d53c8af3",
+      "date": "2014-04-10T15:42:28Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/.circle.svg.swp"
+      ]
+    },
+    {
+      "sha": "4da3270d298c958aaf7d69e6a6d4a771254d2613",
+      "date": "2014-04-10T15:34:00Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "tests/circle.svg",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "6d03ca5f6e7c2e1f9370d3cc8d9fd8373a4fa35c",
+      "date": "2013-10-24T13:40:53Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/letter_spacing.py"
+      ]
+    },
+    {
+      "sha": "32760f6d25af45042fdc9a90b246bd2e27e77a37",
+      "date": "2013-10-18T04:24:34Z",
+      "author_login": "bradjc",
+      "author_name": "Brad Campbell",
+      "author_email": "bradjc5@gmail.com",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/letter_spacing.py"
+      ]
+    },
+    {
+      "sha": "7ad9f5505fa9f5a95a9d77e8ce0f2da096c0711b",
+      "date": "2013-09-27T16:50:20Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/templates.py"
+      ]
+    },
+    {
+      "sha": "5099a721458c21a8eeac0b1dfc83943a3dee4306",
+      "date": "2013-09-26T06:19:11Z",
+      "author_login": null,
+      "author_name": "Henrik Johansson",
+      "author_email": "henrik.johansson@kisel.com",
+      "files": [
+        "src/svgutils/templates.py"
+      ]
+    },
+    {
+      "sha": "fb54509945a810755728605d76632d5cfb6319af",
+      "date": "2013-08-19T07:34:18Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/__init__.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "1b0c02706f3a0d02d6782e7d1617c99a9c2b465f",
+      "date": "2013-08-16T16:47:04Z",
+      "author_login": "neurodroid",
+      "author_name": "Christoph Schmidt-Hieber",
+      "author_email": "christoph.schmidthieber@googlemail.com",
+      "files": [
+        "src/svgutils/__init__.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "47507a1c014068303ba83614ff6866c89ee786a2",
+      "date": "2013-07-23T10:35:10Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "f11e3c8480bec970648733273ed5750ba52a64c5",
+      "date": "2013-07-22T15:49:04Z",
+      "author_login": "willwade",
+      "author_name": "will wade",
+      "author_email": "willwade@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "6fabed158d6385fd3ea1ec9582211d09ec712fc8",
+      "date": "2013-07-20T10:30:21Z",
+      "author_login": "willwade",
+      "author_name": "will wade",
+      "author_email": "willwade@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "c8bd5b007d8b09a4287c07f938565a725bd3e034",
+      "date": "2013-01-29T13:34:36Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "setup.py"
+      ]
+    },
+    {
+      "sha": "018c087606b62f1fe56236500a85d3d64beffa43",
+      "date": "2013-01-29T13:03:59Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "8c870c60403c9fa679f6090d950c305b923810e8",
+      "date": "2013-01-29T12:54:55Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "5bd5816143672a285d4dedace6fee15516772c18",
+      "date": "2013-01-29T12:52:51Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README"
+      ]
+    },
+    {
+      "sha": "be33caff2e53b9069cbaf7f2a1d0bf56212b3517",
+      "date": "2013-01-29T12:39:53Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "402a7a3606647051a86dd65808a9eb22ddf071c8",
+      "date": "2013-01-16T23:46:23Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "63fbbd198a79f7fcbc185bed734291176814bf03",
+      "date": "2013-01-14T13:50:03Z",
+      "author_login": "esc",
+      "author_name": "Valentin Haenel",
+      "author_email": "valentin.haenel@gmx.de",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "8d1e4e876d317bece115bceaa1b5c3631a6e5127",
+      "date": "2012-11-19T12:08:51Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        ".gitignore"
+      ]
+    },
+    {
+      "sha": "480ff2e1f247e92af7290a13356204b4b6f70a7b",
+      "date": "2012-11-19T12:07:49Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py",
+        "tests/.test_transform.py.swp"
+      ]
+    },
+    {
+      "sha": "0483489b0cf0583f683405b1deca3884c9ecdec4",
+      "date": "2012-11-18T22:57:12Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "14a8746d1195d597399e446a8f017a561cb97de7",
+      "date": "2012-11-17T17:23:04Z",
+      "author_login": "technic",
+      "author_name": "Alex Maystrenko",
+      "author_email": "alexeytech@gmail.com",
+      "files": [
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "95858269f7426c4b6c413919867ee56520178914",
+      "date": "2012-02-03T17:36:28Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "examples/stack_plots.py",
+        "examples/stack_svg.py",
+        "src/svgutils/templates.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "1214a95beb6946ee13b86646a959e2d6fea7d63b",
+      "date": "2012-02-03T15:23:17Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "tests/.circle.svg.swp",
+        "tests/.test_transform.py.swp",
+        "tests/circle.svg",
+        "tests/test_transform.py"
+      ]
+    },
+    {
+      "sha": "4153cad29f0e418a095422f185b0c079a8b032cf",
+      "date": "2011-09-13T01:04:34Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "docs/source/tutorial/anscombe.png",
+        "docs/source/tutorial/fig_final.png",
+        "docs/source/tutorial/sigmoid_fit.png"
+      ]
+    },
+    {
+      "sha": "52cfde953dcaf42ceaf7d66ed87dc6c84e09f535",
+      "date": "2011-08-30T10:08:25Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "f060d363b43dab5a8d4e790952bdab3020192628",
+      "date": "2011-08-30T10:05:14Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README.rst"
+      ]
+    },
+    {
+      "sha": "b797cf1eaf1ceab43b8718f7891009c17a05a055",
+      "date": "2011-08-30T10:04:47Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "LICENSE",
+        "README",
+        "docs/source/conf.py",
+        "docs/source/tutorial/tutorial.rst"
+      ]
+    },
+    {
+      "sha": "7592b5454634e8ea565e363e0d9095bec1e36804",
+      "date": "2011-04-12T20:25:42Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README",
+        "docs/Makefile",
+        "docs/source/conf.py",
+        "docs/source/index.rst",
+        "docs/source/tutorial/anscombe.py",
+        "docs/source/tutorial/fig_final.py",
+        "docs/source/tutorial/sigmoid_fit.py",
+        "docs/source/tutorial/tutorial.rst",
+        "setup.py",
+        "src/svgutils/__init__.py",
+        "src/svgutils/transform.py"
+      ]
+    },
+    {
+      "sha": "2421afc18731a0c19c9f0d493312c6b05298d8f7",
+      "date": "2011-04-12T15:43:47Z",
+      "author_login": "btel",
+      "author_name": "Bartosz Telenczuk",
+      "author_email": "muchatel@poczta.fm",
+      "files": [
+        "README",
+        "src/__init__.py",
+        "src/transform.py"
+      ]
+    }
+  ]
+}
