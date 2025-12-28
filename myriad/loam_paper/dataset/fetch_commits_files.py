@@ -17,7 +17,13 @@ HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 def github_get(url, params=None):
     """Make authenticated GitHub API request"""
     while True:
-        r = requests.get(url, headers=HEADERS, params=params, timeout=10)
+        try:
+            r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+        except requests.exceptions.RequestException as e:
+            print(f"  Network error: {e}, retrying in 10s...")
+            time.sleep(10)
+            continue
+            
         if r.status_code == 200:
             remaining = int(r.headers.get("X-RateLimit-Remaining", "0"))
             reset = int(r.headers.get("X-RateLimit-Reset", "0"))
@@ -35,16 +41,21 @@ def github_get(url, params=None):
         elif r.status_code == 404:
             print(f"  Repository not found (404)")
             return None, r.headers
+        elif r.status_code == 409:
+            # Empty repository
+            print(f"  Empty repository (409)")
+            return None, r.headers
         else:
             print(f"  GitHub API error {r.status_code}: {r.text[:200]}")
             return None, r.headers
 
 def fetch_commits_for_repo(owner, repo, out_path, max_commits=None):
+    """Fetch all commits and their file lists for a single repository"""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     
     if out_path.exists():
         print(f"  Skipping {owner}/{repo} (output exists)")
-        return
+        return "skipped"
     
     print(f"Fetching commits for {owner}/{repo}")
     commits = []
@@ -88,6 +99,10 @@ def fetch_commits_for_repo(owner, repo, out_path, max_commits=None):
             commits.append(commit_obj)
             total_fetched += 1
             
+            # Progress update every 50 commits
+            if total_fetched % 50 == 0:
+                print(f"    Fetched {total_fetched} commits...")
+            
             if max_commits and total_fetched >= max_commits:
                 break
         
@@ -98,19 +113,24 @@ def fetch_commits_for_repo(owner, repo, out_path, max_commits=None):
             break
         
         page += 1
-        time.sleep(0.3)
+        time.sleep(0.2)
+    
     if commits:
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({"repo": f"{owner}/{repo}", "commits": commits}, f, indent=2)
         print(f"  Wrote {len(commits)} commits to {out_path}")
+        return "fetched"
     else:
         print(f"  No commits fetched for {owner}/{repo}")
+        return "empty"
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset-dir", required=True)
-    parser.add_argument("--category", required=False, help="Filter by category")
-    parser.add_argument("--max-commits-per-repo", type=int, default=None)
+    parser.add_argument("--dataset-dir", required=True, help="Path to dataset directory")
+    parser.add_argument("--categories", nargs="+", required=False, 
+                        help="Filter by categories (e.g., --categories visual sound/music)")
+    parser.add_argument("--max-commits-per-repo", type=int, default=None,
+                        help="Limit commits per repo (for testing)")
     args = parser.parse_args()
 
     dataset = Path(args.dataset_dir)
@@ -123,45 +143,68 @@ def main():
     with open(repos_info_path, "r", encoding="utf-8") as f:
         repos = json.load(f)
 
+    # Filter by categories if specified
     allowed = None
-    if args.category:
+    if args.categories:
         if not categories_path.exists():
             raise SystemExit(f"categories_info.json not found: {categories_path}")
         with open(categories_path, "r", encoding="utf-8") as f:
             cats = json.load(f)
-        for c in cats:
-            if c.get("category") == args.category:
-                allowed = set(c.get("repos", []))
-                break
-        if allowed is None:
-            raise SystemExit(f"Category '{args.category}' not found")
-        print(f"Filtering to {len(allowed)} repos in category '{args.category}'")
+        
+        allowed = set()
+        for category_name in args.categories:
+            found = False
+            for c in cats:
+                if c.get("category") == category_name:
+                    allowed.update(c.get("repos", []))
+                    found = True
+                    break
+            if not found:
+                raise SystemExit(f"Category '{category_name}' not found")
+        
+        print(f"Filtering to {len(allowed)} repos in categories: {', '.join(args.categories)}")
 
     out_dir = dataset / "fetched_commits"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Starting fetch for {len(repos)} repos\n")
-    fetched = 0
+    # Count repos to process
+    repos_to_process = []
     for r in repos:
         name = r.get("name")
         if not name:
             continue
         if allowed and name not in allowed:
             continue
+        repos_to_process.append(r)
+    
+    print(f"\nWill process {len(repos_to_process)} repos\n")
+    
+    stats = {"fetched": 0, "skipped": 0, "empty": 0, "error": 0}
+    
+    for i, r in enumerate(repos_to_process, 1):
+        name = r.get("name")
         owner, repo = name.split("/", 1)
         out_name = f"{owner}&{repo}.json"
         out_path = out_dir / out_name
         
+        print(f"[{i}/{len(repos_to_process)}] ", end="")
+        
         try:
-            fetch_commits_for_repo(owner, repo, out_path, max_commits=args.max_commits_per_repo)
-            fetched += 1
-            time.sleep(0.5)
+            result = fetch_commits_for_repo(owner, repo, out_path, max_commits=args.max_commits_per_repo)
+            stats[result] += 1
+            time.sleep(0.3)
         except Exception as e:
             print(f"  Error fetching {name}: {e}")
+            stats["error"] += 1
     
-    print(f"\nFetch complete. Processed {fetched} repos.")
+    print(f"\n{'='*50}")
+    print(f"Fetch complete!")
+    print(f"  Fetched: {stats['fetched']}")
+    print(f"  Skipped (already exists): {stats['skipped']}")
+    print(f"  Empty repos: {stats['empty']}")
+    print(f"  Errors: {stats['error']}")
 
 if __name__ == "__main__":
     if not TOKEN:
-        print("GITHUB_TOKEN not set.\n")
+        print("WARNING: GITHUB_TOKEN not set. You will hit rate limits quickly.\n")
     main()
