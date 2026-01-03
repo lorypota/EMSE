@@ -1,0 +1,268 @@
+{
+ "repo_name": "electro-smith/libDaisy",
+ "collected_at": "2026-01-03T11:54:28.849825+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 1301,
+ "contributors": [
+  {
+   "type": "Anonymous",
+   "contributions": 426,
+   "id": "40f1d2a6c6aea0df"
+  },
+  {
+   "type": "User",
+   "contributions": 314,
+   "id": "stephenhensley"
+  },
+  {
+   "type": "User",
+   "contributions": 123,
+   "id": "beserge"
+  },
+  {
+   "type": "User",
+   "contributions": 108,
+   "id": "andrewikenberry"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 84,
+   "id": "40f1d2a6c6aea0df"
+  },
+  {
+   "type": "User",
+   "contributions": 44,
+   "id": "TheSlowGrowth"
+  },
+  {
+   "type": "User",
+   "contributions": 28,
+   "id": "CorvusPrudens"
+  },
+  {
+   "type": "User",
+   "contributions": 25,
+   "id": "stellar-aria"
+  },
+  {
+   "type": "User",
+   "contributions": 21,
+   "id": "GregBurns"
+  },
+  {
+   "type": "User",
+   "contributions": 15,
+   "id": "AXP"
+  },
+  {
+   "type": "User",
+   "contributions": 15,
+   "id": "Stephenmccaul"
+  },
+  {
+   "type": "User",
+   "contributions": 12,
+   "id": "PaulBatchelor"
+  },
+  {
+   "type": "User",
+   "contributions": 7,
+   "id": "ndonald2"
+  },
+  {
+   "type": "User",
+   "contributions": 7,
+   "id": "o5akafeeva"
+  },
+  {
+   "type": "User",
+   "contributions": 6,
+   "id": "recursinging"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "jcolicchio"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 4,
+   "id": "26db57987936a3de"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "AndrewCapon"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "SSteve"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "AvAars"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "jbeda"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "mhetrick"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 3,
+   "id": "1ee005a4f6c19af9"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "brbrr"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "eh2k"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "Tom97531"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "scolsen"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "kisielk"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "jeremybernstein"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "3a8862b670376203"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "cvpines"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "claudiocabral"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "willemOH"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "takumi-ogata"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "zeroisnan"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "atoav"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "schult"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "StaffanMelin"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "kylestetz"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "nullobject"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "jacobvosmaer"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "ifranco"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "grawlinson"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "efairbanks"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "danielkinahan"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Anstapen"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "a7v7"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Alloyed"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "asavartsov"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "benishor"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 50,
+  "n_identified": 45,
+  "core_n": 10,
+  "peripheral_n": 40,
+  "core_peripheral_ratio": 0.25,
+  "core_top_fraction": 0.2
+ }
+}

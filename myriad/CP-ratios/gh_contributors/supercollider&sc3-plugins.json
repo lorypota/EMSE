@@ -1,0 +1,383 @@
+{
+ "repo_name": "supercollider/sc3-plugins",
+ "collected_at": "2026-01-03T11:57:42.153675+01:00",
+ "categories": [
+  "sound/music"
+ ],
+ "total_contributions": 1408,
+ "contributors": [
+  {
+   "type": "Anonymous",
+   "contributions": 234,
+   "id": "06b8a675f7c7d33f"
+  },
+  {
+   "type": "User",
+   "contributions": 205,
+   "id": "danstowell"
+  },
+  {
+   "type": "User",
+   "contributions": 91,
+   "id": "timblechmann"
+  },
+  {
+   "type": "User",
+   "contributions": 77,
+   "id": "mossheim"
+  },
+  {
+   "type": "User",
+   "contributions": 71,
+   "id": "dyfer"
+  },
+  {
+   "type": "User",
+   "contributions": 62,
+   "id": "joslloand"
+  },
+  {
+   "type": "User",
+   "contributions": 56,
+   "id": "sonoro1234"
+  },
+  {
+   "type": "User",
+   "contributions": 54,
+   "id": "LFSaw"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 47,
+   "id": "5f9b9674c0d684f6"
+  },
+  {
+   "type": "User",
+   "contributions": 38,
+   "id": "telephon"
+  },
+  {
+   "type": "Bot",
+   "contributions": 35,
+   "id": "dependabot[bot]"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 28,
+   "id": "2f093819d92b18a4"
+  },
+  {
+   "type": "User",
+   "contributions": 26,
+   "id": "joshpar"
+  },
+  {
+   "type": "User",
+   "contributions": 26,
+   "id": "gusano"
+  },
+  {
+   "type": "User",
+   "contributions": 25,
+   "id": "florian-grond"
+  },
+  {
+   "type": "User",
+   "contributions": 25,
+   "id": "patrickdupuis"
+  },
+  {
+   "type": "User",
+   "contributions": 25,
+   "id": "scztt"
+  },
+  {
+   "type": "User",
+   "contributions": 22,
+   "id": "sicklincoln"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 22,
+   "id": "5094dd4bbc6dbde8"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 21,
+   "id": "0924256176b6ff3f"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 18,
+   "id": "3fa6e24a6130ce1a"
+  },
+  {
+   "type": "User",
+   "contributions": 18,
+   "id": "hzulla"
+  },
+  {
+   "type": "User",
+   "contributions": 16,
+   "id": "redFrik"
+  },
+  {
+   "type": "User",
+   "contributions": 15,
+   "id": "dvzrv"
+  },
+  {
+   "type": "User",
+   "contributions": 15,
+   "id": "lijon"
+  },
+  {
+   "type": "User",
+   "contributions": 12,
+   "id": "dotinspace"
+  },
+  {
+   "type": "User",
+   "contributions": 11,
+   "id": "llloret"
+  },
+  {
+   "type": "User",
+   "contributions": 9,
+   "id": "bagong"
+  },
+  {
+   "type": "User",
+   "contributions": 9,
+   "id": "jngpng"
+  },
+  {
+   "type": "User",
+   "contributions": 9,
+   "id": "jleben"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 7,
+   "id": "4cbdae9e36531320"
+  },
+  {
+   "type": "User",
+   "contributions": 7,
+   "id": "yvol"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 5,
+   "id": "4305146d4ccdded2"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 5,
+   "id": "5571fd377249132e"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "crucialfelix"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "mtmccrea"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "tdug"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "kisielk"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 3,
+   "id": "7eb5164a813e0f2f"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "capital-G"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 3,
+   "id": "6f1b1d4d6a8e3d2f"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "678fca162a730a58"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "61edbef66be7a821"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "muellmusik"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "yurivict"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "snappizz"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "4dcb9c0e6a4372f4"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "jamshark70"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mlang"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "miczac"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "miguel-negrao"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "gantz-giraffe"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "460be207dfc1bb1e"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "lisongx"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "simonvanderveldt"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "0a5dc1afaab7aaf5"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "timsutton"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "TristanCacqueray"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "defaultxr"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "6fefe999b8363773"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "vivid-synth"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "madskjeldgaard"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "6c47ef710ef47aff"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "hectorgonzalezo"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "giuliomoro"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "35ec0a1c27071a50"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "ethancrawford"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "edwardloveall"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "5e11eecaaf1bb619"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "celesteh"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "yaxu"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "AdrianBunk"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "8c6794b6"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 73,
+  "n_identified": 53,
+  "core_n": 15,
+  "peripheral_n": 58,
+  "core_peripheral_ratio": 0.25862068965517243,
+  "core_top_fraction": 0.2
+ }
+}

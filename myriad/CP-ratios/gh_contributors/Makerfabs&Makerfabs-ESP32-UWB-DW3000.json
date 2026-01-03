@@ -1,0 +1,28 @@
+{
+ "repo_name": "Makerfabs/Makerfabs-ESP32-UWB-DW3000",
+ "collected_at": "2026-01-03T11:54:02.576089+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 7,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 6,
+   "id": "195cn"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Makerfabs"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 2,
+  "n_identified": 2,
+  "core_n": 1,
+  "peripheral_n": 1,
+  "core_peripheral_ratio": 1.0,
+  "core_top_fraction": 0.2
+ }
+}

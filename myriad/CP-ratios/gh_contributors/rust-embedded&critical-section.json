@@ -1,0 +1,103 @@
+{
+ "repo_name": "rust-embedded/critical-section",
+ "collected_at": "2026-01-03T11:57:26.207602+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 135,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 75,
+   "id": "Dirbaio"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 11,
+   "id": "76d433bec89f2fba"
+  },
+  {
+   "type": "Bot",
+   "contributions": 11,
+   "id": "bors[bot]"
+  },
+  {
+   "type": "User",
+   "contributions": 9,
+   "id": "adamgreig"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 5,
+   "id": "45f63426be5b7aa7"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "eldruin"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "jannic"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "reitermarkus"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "lulf"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "chrysn"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Catamantaloedis"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "therealprof"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "jessebraham"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "MabezDev"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "torrancew"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "vi"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "datdenkikniet"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 17,
+  "n_identified": 15,
+  "core_n": 4,
+  "peripheral_n": 13,
+  "core_peripheral_ratio": 0.3076923076923077,
+  "core_top_fraction": 0.2
+ }
+}

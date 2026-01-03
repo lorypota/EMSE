@@ -1,0 +1,138 @@
+{
+ "repo_name": "probe-rs/rtt-target",
+ "collected_at": "2026-01-03T11:56:50.163008+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 128,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 52,
+   "id": "mvirkkunen"
+  },
+  {
+   "type": "User",
+   "contributions": 25,
+   "id": "bugadani"
+  },
+  {
+   "type": "User",
+   "contributions": 20,
+   "id": "Yatekii"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "Dirbaio"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "t-moe"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "tgross35"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "tpilt"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "eZioPan"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "xoac"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "fg-cfh"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "diondokter"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "vpochapuis"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Disasm"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "xobs"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "MabezDev"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "romixlab"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "robamu"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "perlindgren"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "NickeZ"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mattico"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "noppej"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "IsaacDynamo"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "danc86"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "atouchet"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 24,
+  "n_identified": 24,
+  "core_n": 5,
+  "peripheral_n": 19,
+  "core_peripheral_ratio": 0.2631578947368421,
+  "core_top_fraction": 0.2
+ }
+}

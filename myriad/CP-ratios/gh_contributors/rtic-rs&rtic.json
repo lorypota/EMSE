@@ -1,0 +1,558 @@
+{
+ "repo_name": "rtic-rs/rtic",
+ "collected_at": "2026-01-03T11:57:19.620557+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 1971,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 377,
+   "id": "AfoHT"
+  },
+  {
+   "type": "Bot",
+   "contributions": 323,
+   "id": "bors[bot]"
+  },
+  {
+   "type": "User",
+   "contributions": 317,
+   "id": "japaric"
+  },
+  {
+   "type": "User",
+   "contributions": 298,
+   "id": "korken89"
+  },
+  {
+   "type": "User",
+   "contributions": 150,
+   "id": "datdenkikniet"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 67,
+   "id": "4a95118199fc2890"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 54,
+   "id": "2d5d796b22c57826"
+  },
+  {
+   "type": "User",
+   "contributions": 40,
+   "id": "perlindgren"
+  },
+  {
+   "type": "User",
+   "contributions": 38,
+   "id": "Ddystopia"
+  },
+  {
+   "type": "Bot",
+   "contributions": 36,
+   "id": "dependabot[bot]"
+  },
+  {
+   "type": "User",
+   "contributions": 16,
+   "id": "Finomnis"
+  },
+  {
+   "type": "User",
+   "contributions": 13,
+   "id": "jonas-schievink"
+  },
+  {
+   "type": "User",
+   "contributions": 12,
+   "id": "homunkulus"
+  },
+  {
+   "type": "User",
+   "contributions": 10,
+   "id": "burrbull"
+  },
+  {
+   "type": "User",
+   "contributions": 10,
+   "id": "romancardenas"
+  },
+  {
+   "type": "User",
+   "contributions": 9,
+   "id": "n8tlarsen"
+  },
+  {
+   "type": "User",
+   "contributions": 8,
+   "id": "nilfit"
+  },
+  {
+   "type": "User",
+   "contributions": 8,
+   "id": "tshakah"
+  },
+  {
+   "type": "User",
+   "contributions": 7,
+   "id": "andresv"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 7,
+   "id": "515db8b58a38656e"
+  },
+  {
+   "type": "User",
+   "contributions": 7,
+   "id": "onsdagens"
+  },
+  {
+   "type": "User",
+   "contributions": 6,
+   "id": "dcarosone"
+  },
+  {
+   "type": "User",
+   "contributions": 6,
+   "id": "thejpster"
+  },
+  {
+   "type": "User",
+   "contributions": 6,
+   "id": "Wassasin"
+  },
+  {
+   "type": "User",
+   "contributions": 6,
+   "id": "Yandrik"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "CuriouslyCurious"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "jorgeig-space"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "robamu"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "rxwb"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "cyril-marpaud"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "glaeqen"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "regexident"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "snorkman88"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 3,
+   "id": "070ba47a76c4e275"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "nickray"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "jordens"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "tmplt"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "Sympatron"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "37daf70589ad05a8"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "5bc675d32395705a"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "wiktorwieclaw"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "rursprung"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "PTaylor-us"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "kraai"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "mareq"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "lonesometraveler"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "6296e2d8e20c50fb"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "newAM"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "andrewgazelka"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "antonok-edm"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "etrombly"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "fwolter"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "01joja"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "jessebraham"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "Chocol4te"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "jhillyerd"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "yutannihilation"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "kolen"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mpasternacki"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "martinsp"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mattico"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mike-kfed"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "taunusflieger"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "MikeGstefan"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "fuchsnj"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "pebender"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "37daf70589ad05a8"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "RCasatta"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "russell"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "MabezDev"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "SebKuzminsky"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "tim-seoss"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Cat-Ion"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "vladinator1000"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "GHF"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "broke"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "chrysn"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "cschuhen"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "xieren58"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "dalegaard"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mriise"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "shueja"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "adamhott"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "AdinAck"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "crawford"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "ansg191"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "barnabywalters"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "513f540b8b058dd5"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "becomingwisest"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "conorpp"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "kyp44"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "dbrgn"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Dirbaio"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "neonquill"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "diondokter"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "eddyp"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "GreenPenguino"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "fooooooooooooooo"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "enaut"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "orsinium"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "hegza"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "hugwijst"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mciantyre"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "keadwen"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "jannic"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "jvanderk"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "ottojo"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "ojob"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 108,
+  "n_identified": 99,
+  "core_n": 22,
+  "peripheral_n": 86,
+  "core_peripheral_ratio": 0.2558139534883721,
+  "core_top_fraction": 0.2
+ }
+}

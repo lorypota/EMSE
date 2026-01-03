@@ -1,0 +1,78 @@
+{
+ "repo_name": "rust-embedded/nb",
+ "collected_at": "2026-01-03T11:57:32.640683+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 65,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 18,
+   "id": "eldruin"
+  },
+  {
+   "type": "User",
+   "contributions": 16,
+   "id": "japaric"
+  },
+  {
+   "type": "Bot",
+   "contributions": 11,
+   "id": "bors[bot]"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "elpiel"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "therealprof"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "Dirbaio"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "vitiral"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "Nemo157"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "homunkulus"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Beanow"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "hannobraun"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "reitermarkus"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 12,
+  "n_identified": 12,
+  "core_n": 3,
+  "peripheral_n": 9,
+  "core_peripheral_ratio": 0.3333333333333333,
+  "core_top_fraction": 0.2
+ }
+}

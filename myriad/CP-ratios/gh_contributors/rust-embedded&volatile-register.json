@@ -1,0 +1,58 @@
+{
+ "repo_name": "rust-embedded/volatile-register",
+ "collected_at": "2026-01-03T11:57:34.145588+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 28,
+ "contributors": [
+  {
+   "type": "Anonymous",
+   "contributions": 17,
+   "id": "2d5d796b22c57826"
+  },
+  {
+   "type": "User",
+   "contributions": 5,
+   "id": "newAM"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "adamgreig"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Dirbaio"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "thejpster"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "japaric"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "robyoung"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "homunkulus"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 8,
+  "n_identified": 7,
+  "core_n": 2,
+  "peripheral_n": 6,
+  "core_peripheral_ratio": 0.3333333333333333,
+  "core_top_fraction": 0.2
+ }
+}

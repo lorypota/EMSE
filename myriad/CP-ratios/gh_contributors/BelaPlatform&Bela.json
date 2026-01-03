@@ -1,0 +1,223 @@
+{
+ "repo_name": "BelaPlatform/Bela",
+ "collected_at": "2026-01-03T11:53:43.791349+01:00",
+ "categories": [
+  "sound/music"
+ ],
+ "total_contributions": 3376,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 1934,
+   "id": "giuliomoro"
+  },
+  {
+   "type": "User",
+   "contributions": 429,
+   "id": "LBDonovan"
+  },
+  {
+   "type": "User",
+   "contributions": 282,
+   "id": "adanlbenito"
+  },
+  {
+   "type": "User",
+   "contributions": 237,
+   "id": "Flowdeeps"
+  },
+  {
+   "type": "User",
+   "contributions": 225,
+   "id": "disastrid"
+  },
+  {
+   "type": "User",
+   "contributions": 127,
+   "id": "roberthjack"
+  },
+  {
+   "type": "User",
+   "contributions": 37,
+   "id": "henrix"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 29,
+   "id": "14923821fe3795da"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 9,
+   "id": "52e65cb362b4acef"
+  },
+  {
+   "type": "User",
+   "contributions": 8,
+   "id": "jarmitage"
+  },
+  {
+   "type": "User",
+   "contributions": 7,
+   "id": "krighxz"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "AndrewCapon"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 4,
+   "id": "71c4366561946024"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "TheTechnobear"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "berntisak"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "ebai101"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "ketchupok"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "transmogrifox"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "teo523"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "jpburstrom"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "hemretez"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "5c55b346c96bc854"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "DhruvaG2000"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "apmcpherson"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "vlazzarini"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "01626b280cbd45f4"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "himanshu007-creator"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "elgiano"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "pelinski"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Richsl"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "mlang"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "ldo-ableton"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "kr-ish"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "juhakivekas"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "62c1d61de914a2e3"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "7ed42a580aee64cf"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "musicalentropy"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "dathinaios"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "davemeckin"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "240ceb2b1c944f24"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "1de0f7a246ef3718"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 41,
+  "n_identified": 32,
+  "core_n": 9,
+  "peripheral_n": 32,
+  "core_peripheral_ratio": 0.28125,
+  "core_top_fraction": 0.2
+ }
+}

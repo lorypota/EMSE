@@ -1,0 +1,23 @@
+{
+ "repo_name": "mossblaser/plottie",
+ "collected_at": "2026-01-03T11:55:45.139850+01:00",
+ "categories": [
+  "visual"
+ ],
+ "total_contributions": 29,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 29,
+   "id": "mossblaser"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 1,
+  "n_identified": 1,
+  "core_n": 1,
+  "peripheral_n": 0,
+  "core_peripheral_ratio": Infinity,
+  "core_top_fraction": 0.2
+ }
+}

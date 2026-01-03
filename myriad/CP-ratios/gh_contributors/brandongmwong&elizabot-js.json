@@ -1,0 +1,28 @@
+{
+ "repo_name": "brandongmwong/elizabot-js",
+ "collected_at": "2026-01-03T11:54:20.561410+01:00",
+ "categories": [
+  "text/speech"
+ ],
+ "total_contributions": 4,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "brandongmwong"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "21d2cec7b569fe38"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 2,
+  "n_identified": 1,
+  "core_n": 1,
+  "peripheral_n": 1,
+  "core_peripheral_ratio": 1.0,
+  "core_top_fraction": 0.2
+ }
+}

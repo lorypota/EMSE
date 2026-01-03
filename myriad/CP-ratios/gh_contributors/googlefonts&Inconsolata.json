@@ -1,0 +1,63 @@
+{
+ "repo_name": "googlefonts/Inconsolata",
+ "collected_at": "2026-01-03T11:54:49.546276+01:00",
+ "categories": [
+  "text/speech"
+ ],
+ "total_contributions": 171,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 74,
+   "id": "alexeiva"
+  },
+  {
+   "type": "User",
+   "contributions": 45,
+   "id": "m4rc1e"
+  },
+  {
+   "type": "User",
+   "contributions": 39,
+   "id": "raphlinus"
+  },
+  {
+   "type": "User",
+   "contributions": 8,
+   "id": "appsforartists"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "crystaltype"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "davelab6"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "eliheuer"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "marekjez86"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "3cbcf45f2d1b136c"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 9,
+  "n_identified": 8,
+  "core_n": 2,
+  "peripheral_n": 7,
+  "core_peripheral_ratio": 0.2857142857142857,
+  "core_top_fraction": 0.2
+ }
+}

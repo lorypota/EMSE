@@ -1,0 +1,48 @@
+{
+ "repo_name": "otuva/handwriting-synthesis",
+ "collected_at": "2026-01-03T11:56:48.592833+01:00",
+ "categories": [
+  "text/speech"
+ ],
+ "total_contributions": 87,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 63,
+   "id": "otuva"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 12,
+   "id": "4867b74574dcaf2e"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 6,
+   "id": "3d8781775eb977e5"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 4,
+   "id": "4867b74574dcaf2e"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "bryandam"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "netcarver"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 6,
+  "n_identified": 3,
+  "core_n": 2,
+  "peripheral_n": 4,
+  "core_peripheral_ratio": 0.5,
+  "core_top_fraction": 0.2
+ }
+}

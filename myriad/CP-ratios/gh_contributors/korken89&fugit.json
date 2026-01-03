@@ -1,0 +1,68 @@
+{
+ "repo_name": "korken89/fugit",
+ "collected_at": "2026-01-03T11:55:04.896145+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 132,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 93,
+   "id": "korken89"
+  },
+  {
+   "type": "Bot",
+   "contributions": 12,
+   "id": "bors[bot]"
+  },
+  {
+   "type": "User",
+   "contributions": 9,
+   "id": "burrbull"
+  },
+  {
+   "type": "Bot",
+   "contributions": 8,
+   "id": "dependabot[bot]"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "adamgreig"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "TDHolmes"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "andresv"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "haata"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "jannic"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "qiuchengxuan"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 10,
+  "n_identified": 10,
+  "core_n": 2,
+  "peripheral_n": 8,
+  "core_peripheral_ratio": 0.25,
+  "core_top_fraction": 0.2
+ }
+}

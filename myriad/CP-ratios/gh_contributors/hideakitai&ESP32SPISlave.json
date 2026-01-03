@@ -1,0 +1,33 @@
+{
+ "repo_name": "hideakitai/ESP32SPISlave",
+ "collected_at": "2026-01-03T11:54:51.050554+01:00",
+ "categories": [
+  "electronics"
+ ],
+ "total_contributions": 83,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 81,
+   "id": "hideakitai"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "Erhannis"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "simondlevy"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 3,
+  "n_identified": 3,
+  "core_n": 1,
+  "peripheral_n": 2,
+  "core_peripheral_ratio": 0.5,
+  "core_top_fraction": 0.2
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "repo_name": "sjvasquez/handwriting-synthesis",
+ "collected_at": "2026-01-03T11:57:37.343288+01:00",
+ "categories": [
+  "text/speech"
+ ],
+ "total_contributions": 22,
+ "contributors": [
+  {
+   "type": "Anonymous",
+   "contributions": 12,
+   "id": "4867b74574dcaf2e"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 6,
+   "id": "3d8781775eb977e5"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 4,
+   "id": "4867b74574dcaf2e"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 3,
+  "n_identified": 0,
+  "core_n": 1,
+  "peripheral_n": 2,
+  "core_peripheral_ratio": 0.5,
+  "core_top_fraction": 0.2
+ }
+}

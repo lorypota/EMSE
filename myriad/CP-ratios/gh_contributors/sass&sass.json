@@ -1,0 +1,158 @@
+{
+ "repo_name": "sass/sass",
+ "collected_at": "2026-01-03T11:57:35.706507+01:00",
+ "categories": [
+  "visual"
+ ],
+ "total_contributions": 958,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 636,
+   "id": "nex3"
+  },
+  {
+   "type": "Bot",
+   "contributions": 131,
+   "id": "dependabot[bot]"
+  },
+  {
+   "type": "User",
+   "contributions": 32,
+   "id": "stof"
+  },
+  {
+   "type": "User",
+   "contributions": 29,
+   "id": "jamesnw"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 23,
+   "id": "4a85f4e8cf15fbd5"
+  },
+  {
+   "type": "User",
+   "contributions": 19,
+   "id": "jathak"
+  },
+  {
+   "type": "User",
+   "contributions": 18,
+   "id": "ntkme"
+  },
+  {
+   "type": "User",
+   "contributions": 14,
+   "id": "jgerigmeyer"
+  },
+  {
+   "type": "User",
+   "contributions": 9,
+   "id": "Goodwine"
+  },
+  {
+   "type": "User",
+   "contributions": 8,
+   "id": "mirisuzanne"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 5,
+   "id": "063fa6aeab467984"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "connorskees"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "jerivas"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "Awjin"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "pamelalozano16"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "dvdherron"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "asottile"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "larsgrefer"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "TeresaPartidaS"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "Rafer45"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "adamhooper"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "ahmdtalat"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "bramus"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "duncansmart"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "jlosito"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "codemacabre"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "nschonni"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "xnuk"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 28,
+  "n_identified": 26,
+  "core_n": 6,
+  "peripheral_n": 22,
+  "core_peripheral_ratio": 0.2727272727272727,
+  "core_top_fraction": 0.2
+ }
+}

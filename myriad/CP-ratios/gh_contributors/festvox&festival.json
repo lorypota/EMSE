@@ -1,0 +1,53 @@
+{
+ "repo_name": "festvox/festival",
+ "collected_at": "2026-01-03T11:54:47.932175+01:00",
+ "categories": [
+  "text/speech"
+ ],
+ "total_contributions": 81,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 37,
+   "id": "zeehio"
+  },
+  {
+   "type": "User",
+   "contributions": 23,
+   "id": "awbcmu"
+  },
+  {
+   "type": "User",
+   "contributions": 13,
+   "id": "lenzo-ka"
+  },
+  {
+   "type": "User",
+   "contributions": 4,
+   "id": "saikrishnarallabandi"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "VZIKL"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "festvox"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "G10DRAS"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 7,
+  "n_identified": 7,
+  "core_n": 2,
+  "peripheral_n": 5,
+  "core_peripheral_ratio": 0.4,
+  "core_top_fraction": 0.2
+ }
+}

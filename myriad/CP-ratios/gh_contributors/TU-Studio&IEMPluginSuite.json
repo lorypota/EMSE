@@ -1,0 +1,108 @@
+{
+ "repo_name": "TU-Studio/IEMPluginSuite",
+ "collected_at": "2026-01-03T11:54:04.148376+01:00",
+ "categories": [
+  "sound/music"
+ ],
+ "total_contributions": 1489,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 917,
+   "id": "DanielRudrich"
+  },
+  {
+   "type": "User",
+   "contributions": 216,
+   "id": "umlaeute"
+  },
+  {
+   "type": "User",
+   "contributions": 117,
+   "id": "fholzm"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 70,
+   "id": "7eb675bb399674f1"
+  },
+  {
+   "type": "User",
+   "contributions": 69,
+   "id": "stefanriedel"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 33,
+   "id": "0cecb710fa8ecc53"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 24,
+   "id": "7d84179e7603e4c8"
+  },
+  {
+   "type": "User",
+   "contributions": 13,
+   "id": "yetyetanotherusername"
+  },
+  {
+   "type": "User",
+   "contributions": 6,
+   "id": "chschoerk"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 5,
+   "id": "28f94eba22008526"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 4,
+   "id": "3fb25d1039c672fa"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 4,
+   "id": "03a78aa6f8b90f5a"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "fzotter"
+  },
+  {
+   "type": "User",
+   "contributions": 2,
+   "id": "faressc"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "74fdac9e107053f4"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 2,
+   "id": "24e77a4b90ae78f0"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "7170e4a92fb0418f"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "28f94eba22008526"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 18,
+  "n_identified": 8,
+  "core_n": 4,
+  "peripheral_n": 14,
+  "core_peripheral_ratio": 0.2857142857142857,
+  "core_top_fraction": 0.2
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "repo_name": "EnvelopSound/EnvelopForLive",
+ "collected_at": "2026-01-03T11:53:45.374735+01:00",
+ "categories": [
+  "sound/music"
+ ],
+ "total_contributions": 616,
+ "contributors": [
+  {
+   "type": "User",
+   "contributions": 334,
+   "id": "mcslee"
+  },
+  {
+   "type": "User",
+   "contributions": 206,
+   "id": "ramagottfried"
+  },
+  {
+   "type": "User",
+   "contributions": 55,
+   "id": "roddylindsay"
+  },
+  {
+   "type": "User",
+   "contributions": 14,
+   "id": "willits"
+  },
+  {
+   "type": "User",
+   "contributions": 3,
+   "id": "gmolabs"
+  },
+  {
+   "type": "Anonymous",
+   "contributions": 1,
+   "id": "2475097cadda3b5e"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "alessiomastrorillo"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "calebrau"
+  },
+  {
+   "type": "User",
+   "contributions": 1,
+   "id": "tuchella"
+  }
+ ],
+ "derived_metrics": {
+  "n_contributors_total": 9,
+  "n_identified": 8,
+  "core_n": 2,
+  "peripheral_n": 7,
+  "core_peripheral_ratio": 0.2857142857142857,
+  "core_top_fraction": 0.2
+ }
+}
