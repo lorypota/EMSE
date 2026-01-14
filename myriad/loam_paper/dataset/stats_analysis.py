@@ -10,6 +10,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from scipy.stats import chi2_contingency, mannwhitneyu
+import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -121,7 +122,7 @@ def compute_proportions(df):
 def compare_proportions(df):
     """
     Compare task type proportions between core and peripheral contributors.
-    Uses Mann-Whitney U test for comparing distributions.
+    Uses Mann-Whitney U test for comparing distributions with Bonferroni correction.
     
     Unit of analysis: contributor-repo pairs
     """
@@ -150,13 +151,15 @@ def compare_proportions(df):
     
     # Mann-Whitney U tests for each task type
     print("\n" + "="*70)
-    print("MANN-WHITNEY U TESTS")
+    print("MANN-WHITNEY U TESTS (with Bonferroni correction)")
     print("="*70)
     print("\nComparing proportion distributions between core and peripheral contributors:")
     print("-" * 70)
     
     core_df = contrib_df[contrib_df['core_status'] == 'core']
     periph_df = contrib_df[contrib_df['core_status'] == 'peripheral']
+    
+    n_tests = len(task_cols) 
     
     results = []
     for task in task_cols:
@@ -167,21 +170,35 @@ def compare_proportions(df):
         
         if len(core_vals) > 0 and len(periph_vals) > 0:
             stat, p_val = mannwhitneyu(core_vals, periph_vals, alternative='two-sided')
+            
+            # Bonferroni correction
+            p_val_corrected = min(p_val * n_tests, 1.0)
+            
+            # Rank-biserial correlation (effect size for Mann-Whitney U)
+            n1, n2 = len(core_vals), len(periph_vals)
+            effect_size = 2 * stat / (n1 * n2) - 1
+            
             results.append({
                 'task': task,
                 'statistic': stat,
                 'p_value': p_val,
+                'p_value_corrected': p_val_corrected,
+                'effect_size': effect_size,
                 'core_median': np.median(core_vals),
                 'periph_median': np.median(periph_vals)
             })
     
-    print(f"{'Task Type':<15} {'U Statistic':<15} {'p-value':<15} {'Core Median':<15} {'Periph Median':<15}")
-    print("-" * 75)
-    for r in results:
-        sig = "***" if r['p_value'] < 0.001 else "**" if r['p_value'] < 0.01 else "*" if r['p_value'] < 0.05 else ""
-        print(f"{r['task']:<15} {r['statistic']:<15.2f} {r['p_value']:<15.6f} {r['core_median']:<15.4f} {r['periph_median']:<15.4f} {sig}")
+    print(f"{'Task':<12} {'U':<14} {'p':<12} {'p (corr.)':<12} {'r':<10} {'Core Med':<10} {'Periph Med':<12}")
+    print("-" * 95)
     
-    print("\nSignificance: *** p<0.001, ** p<0.01, * p<0.05")
+    for r in results:
+        sig = "***" if r['p_value_corrected'] < 0.001 else "**" if r['p_value_corrected'] < 0.01 else "*" if r['p_value_corrected'] < 0.05 else ""
+        print(f"{r['task']:<12} {r['statistic']:<14.2f} {r['p_value']:<12.6f} {r['p_value_corrected']:<12.6f} {r['effect_size']:<10.3f} {r['core_median']:<10.4f} {r['periph_median']:<12.4f} {sig}")
+    
+    print(f"\nBonferroni correction applied (n = {n_tests} tests)")
+    print("Effect size r: rank-biserial correlation")
+    print("  |r| < 0.1: negligible, 0.1-0.3: small, 0.3-0.5: medium, > 0.5: large")
+    print("\nSignificance (corrected): *** p<0.001, ** p<0.01, * p<0.05")
     
     return results
 
@@ -378,10 +395,139 @@ def logistic_regression_analysis(df):
         return None
 
 
+def generate_figure(df, output_path):
+    """
+    Generate grouped box plots comparing proportion distributions
+    for all task types between core and peripheral contributors.
+    """
+    print("\n" + "="*70)
+    print("GENERATING FIGURE")
+    print("="*70)
+    
+    # Task types in display order
+    task_types = ['source', 'other', 'documentation', 'config', 'test']
+    task_labels = ['Source', 'Other', 'Docs', 'Config', 'Test']
+    
+    # Pivot to get file counts per task type
+    contributor_tasks = df.pivot_table(
+        index=['repo', 'contributor_id', 'core_status'],
+        columns='task_type',
+        values='file_count',
+        fill_value=0
+    ).reset_index()
+    
+    # Calculate total files per contributor-repo pair
+    contributor_tasks['total'] = contributor_tasks[task_types].sum(axis=1)
+    
+    # Calculate proportions for each task type
+    for task in task_types:
+        contributor_tasks[f'{task}_prop'] = (
+            contributor_tasks[task] / contributor_tasks['total'] * 100
+        )
+    
+    # Split by core status
+    core_df = contributor_tasks[contributor_tasks['core_status'] == 'core']
+    periph_df = contributor_tasks[contributor_tasks['core_status'] == 'peripheral']
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(10, 6))
+    
+    # Position settings
+    n_tasks = len(task_types)
+    positions_core = np.arange(n_tasks) * 2.5
+    positions_periph = positions_core + 0.8
+    width = 0.7
+    
+    # Colors
+    color_core = '#2ecc71'
+    color_periph = '#3498db'
+    
+    # Collect data for box plots
+    core_data = [core_df[f'{task}_prop'] for task in task_types]
+    periph_data = [periph_df[f'{task}_prop'] for task in task_types]
+    
+    # Create box plots
+    bp_core = ax.boxplot(
+        core_data,
+        positions=positions_core,
+        widths=width,
+        patch_artist=True,
+        showfliers=False
+    )
+    
+    bp_periph = ax.boxplot(
+        periph_data,
+        positions=positions_periph,
+        widths=width,
+        patch_artist=True,
+        showfliers=False
+    )
+    
+    # Style core boxes
+    for patch in bp_core['boxes']:
+        patch.set_facecolor(color_core)
+        patch.set_alpha(0.7)
+    for median in bp_core['medians']:
+        median.set_color('black')
+        median.set_linewidth(1.5)
+    
+    # Style peripheral boxes
+    for patch in bp_periph['boxes']:
+        patch.set_facecolor(color_periph)
+        patch.set_alpha(0.7)
+    for median in bp_periph['medians']:
+        median.set_color('black')
+        median.set_linewidth(1.5)
+    
+    # Add median annotations above boxes
+    for i, task in enumerate(task_types):
+        core_median = core_df[f'{task}_prop'].median()
+        periph_median = periph_df[f'{task}_prop'].median()
+        
+        # Get box heights for positioning
+        core_q75 = core_df[f'{task}_prop'].quantile(0.75)
+        periph_q75 = periph_df[f'{task}_prop'].quantile(0.75)
+        
+        ax.annotate(f'{core_median:.1f}%', 
+                    xy=(positions_core[i], core_q75 + 3),
+                    ha='center', va='bottom', fontsize=9, color='#1a8a4c')
+        ax.annotate(f'{periph_median:.1f}%', 
+                    xy=(positions_periph[i], periph_q75 + 3),
+                    ha='center', va='bottom', fontsize=9, color='#2074a8')
+
+    # X-axis
+    ax.set_xticks((positions_core + positions_periph) / 2)
+    ax.set_xticklabels(task_labels, fontsize=11)
+    ax.set_xlabel('Task Type', fontsize=12)
+    
+    # Y-axis
+    ax.set_ylabel('Proportion of File Modifications (%)', fontsize=12)
+    ax.set_ylim(-5, 110)
+    
+    # Legend
+    ax.legend(
+        [bp_core['boxes'][0], bp_periph['boxes'][0]], 
+        [f'Core (n={len(core_df)})', f'Peripheral (n={len(periph_df)})'],
+        loc='upper right',
+        fontsize=10
+    )
+    
+    # Grid
+    ax.yaxis.grid(True, linestyle='--', alpha=0.7)
+    ax.set_axisbelow(True)
+    
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    print(f"Saved figure to {output_path}")
+    
+    return fig
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('--csv', required=True, help='Path to contributors_tasks.csv')
+    parser.add_argument('--figure', default='rq2_boxplot.png', help='Output path for figure')
     args = parser.parse_args()
     
     print("="*70)
@@ -395,6 +541,7 @@ def main():
     compare_proportions(df)
     contingency_analysis(df)
     logistic_regression_analysis(df)
+    generate_figure(df, args.figure)
     
     print("\n" + "="*70)
     print("Analysis complete.")
